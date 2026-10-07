@@ -1,0 +1,101 @@
+[
+  {
+    "panel": "confirmation",
+    "method": "raw_h_L18",
+    "seed": 1701,
+    "accuracy": 1.0
+  },
+  {
+    "panel": "confirmation",
+    "method": "matched_j_L18",
+    "seed": 1701,
+    "accuracy": 1.0
+  },
+  {
+    "panel": "confirmation",
+    "method": "matched_r_L18",
+    "seed": 1701,
+    "accuracy": 1.0
+  },
+  {
+    "panel": "confirmation",
+    "method": "frozen_j_L18",
+    "seed": 1701,
+    "accuracy": 1.0
+  },
+  {
+    "panel": "confirmation",
+    "method": "frozen_r_L18",
+    "seed": 1701,
+    "accuracy": 1.0
+  },
+  {
+    "panel": "confirmation",
+    "method": "raw_h_L18",
+    "seed": 1702,
+    "accuracy": 0.75
+  },
+  {
+    "panel": "confirmation",
+    "method": "matched_j_L18",
+    "seed": 1702,
+    "accuracy": 0.7473958333333334
+  },
+  {
+    "panel": "confirmation",
+    "method": "matched_r_L18",
+    "seed": 1702,
+    "accuracy": 0.75
+  },
+  {
+    "panel": "confirmation",
+    "method": "frozen_j_L18",
+    "seed": 1702,
+    "accuracy": 0.7178819444444444
+  },
+  {
+    "panel": "confirmation",
+    "method": "frozen_r_L18",
+    "seed": 1702,
+    "accuracy": 0.75
+  },
+  {
+    "panel": "confirmation",
+    "method": "raw_h_L18",
+    "seed": 1703,
+    "accuracy": 0.7482638888888888
+  },
+  {
+    "panel": "confirmation",
+    "method": "matched_j_L18",
+    "seed": 1703,
+    "accuracy": 0.7265625
+  },
+  {
+    "panel": "confirmation",
+    "method": "matched_r_L18",
+    "seed": 1703,
+    "accuracy": 0.7482638888888888
+  },
+  {
+    "panel": "confirmation",
+    "method": "frozen_j_L18",
+    "seed": 1703,
+    "accuracy": 0.6050347222222222
+  },
+  {
+    "panel": "confirmation",
+    "method": "frozen_r_L18",
+    "seed": 1703,
+    "accuracy": 0.7473958333333334
+  },
+  {
+    "panel": "development_fixed_activation",
+    "accuracy": [
+      1.0,
+      1.0,
+      0.953125
+    ],
+    "source": "studies/2026-09-20-comparative/results/jlens/readout_summary.json"
+  }
+]

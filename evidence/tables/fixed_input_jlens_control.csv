@@ -1,0 +1,4 @@
+evaluation,seed,n,accuracy,macro_auroc
+same_seed_family_holdout,1701,192,1.0,1.0
+cross_seed_transfer,1702,192,1.0,1.0
+cross_seed_transfer,1703,192,0.953125,0.9996744791666666

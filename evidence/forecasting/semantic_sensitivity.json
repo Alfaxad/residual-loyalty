@@ -1,0 +1,4623 @@
+{
+  "scope": "Secondary sensitivity frozen before target held-out inference. Accept an answer only when at least one of the three existing format parsers recognizes it and every recognizing parser agrees. Forecasts are unchanged; this is outcome scoring sensitivity, not a rerun of investigation or a replacement primary endpoint.",
+  "changed_responses": [],
+  "per_model_scores": [
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.020949535402777778,
+      "primary_brier": 0.020949535402777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.13621238425925924,
+      "primary_brier": 0.13621238425925924,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.02274728408663286,
+      "primary_brier": 0.02274728408663286,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.02361915788194445,
+      "primary_brier": 0.023619157881944443,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10982349537037035,
+      "primary_brier": 0.10982349537037038,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.024990544235925782,
+      "primary_brier": 0.024990544235925782,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.2456597222222222,
+      "primary_brier": 0.2456597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.11881757361111112,
+      "primary_brier": 0.11881757361111112,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2543402777777778,
+      "primary_brier": 0.2543402777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2152777777777778,
+      "primary_brier": 0.2152777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2152777777777778,
+      "primary_brier": 0.2152777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.2456597222222222,
+      "primary_brier": 0.2456597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2152777777777778,
+      "primary_brier": 0.2152777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.17753182870370368,
+      "primary_brier": 0.17753182870370368,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.11869629867927464,
+      "primary_brier": 0.11869629867927464,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.12430555555555556,
+      "primary_brier": 0.12430555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.048852571479166676,
+      "primary_brier": 0.04885257147916666,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.12430555555555556,
+      "primary_brier": 0.12430555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.12430555555555556,
+      "primary_brier": 0.12430555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.12430555555555556,
+      "primary_brier": 0.12430555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.12430555555555556,
+      "primary_brier": 0.12430555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.12430555555555556,
+      "primary_brier": 0.12430555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.14188368055555556,
+      "primary_brier": 0.14188368055555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.049752611951500915,
+      "primary_brier": 0.049752611951500915,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.24149305555555556,
+      "primary_brier": 0.24149305555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.12018746161805557,
+      "primary_brier": 0.12018746161805557,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.24149305555555556,
+      "primary_brier": 0.24149305555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.24149305555555556,
+      "primary_brier": 0.24149305555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.24149305555555556,
+      "primary_brier": 0.24149305555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.24149305555555556,
+      "primary_brier": 0.24149305555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.24149305555555556,
+      "primary_brier": 0.24149305555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.21028645833333334,
+      "primary_brier": 0.21028645833333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.11971504590601126,
+      "primary_brier": 0.11971504590601126,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.2644097222222222,
+      "primary_brier": 0.2644097222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.1368469281666667,
+      "primary_brier": 0.13684692816666666,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2644097222222222,
+      "primary_brier": 0.2644097222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2644097222222222,
+      "primary_brier": 0.2644097222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2644097222222222,
+      "primary_brier": 0.2644097222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.2644097222222222,
+      "primary_brier": 0.2644097222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2748263888888889,
+      "primary_brier": 0.2748263888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.20311053240740737,
+      "primary_brier": 0.20311053240740737,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.13661975629764272,
+      "primary_brier": 0.1366197562976427,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.23958333333333334,
+      "primary_brier": 0.23958333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.13862019583333332,
+      "primary_brier": 0.13862019583333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.23958333333333334,
+      "primary_brier": 0.23958333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.23958333333333334,
+      "primary_brier": 0.23958333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.23958333333333334,
+      "primary_brier": 0.23958333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.23958333333333334,
+      "primary_brier": 0.23958333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.23958333333333334,
+      "primary_brier": 0.23958333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.19801793981481483,
+      "primary_brier": 0.19801793981481483,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.13870924064874665,
+      "primary_brier": 0.13870924064874662,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.11597222222222223,
+      "primary_brier": 0.11597222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.03848184090277778,
+      "primary_brier": 0.03848184090277778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.11597222222222223,
+      "primary_brier": 0.11597222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.11597222222222223,
+      "primary_brier": 0.11597222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11597222222222223,
+      "primary_brier": 0.11597222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.11597222222222223,
+      "primary_brier": 0.11597222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11597222222222223,
+      "primary_brier": 0.11597222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.13655960648148147,
+      "primary_brier": 0.13655960648148147,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.039195780888921374,
+      "primary_brier": 0.039195780888921374,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.2777777777777778,
+      "primary_brier": 0.2777777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.12024511805555556,
+      "primary_brier": 0.12024511805555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2777777777777778,
+      "primary_brier": 0.2777777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2777777777777778,
+      "primary_brier": 0.2777777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2777777777777778,
+      "primary_brier": 0.2777777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.2777777777777778,
+      "primary_brier": 0.2777777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2777777777777778,
+      "primary_brier": 0.2777777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.18864293981481484,
+      "primary_brier": 0.18864293981481484,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.12079787444076745,
+      "primary_brier": 0.12079787444076745,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.30052083333333335,
+      "primary_brier": 0.30052083333333335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.13263593541666666,
+      "primary_brier": 0.13263593541666668,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.30052083333333335,
+      "primary_brier": 0.30052083333333335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.30052083333333335,
+      "primary_brier": 0.30052083333333335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.30052083333333335,
+      "primary_brier": 0.30052083333333335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.30052083333333335,
+      "primary_brier": 0.30052083333333335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.30052083333333335,
+      "primary_brier": 0.30052083333333335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.22718460648148148,
+      "primary_brier": 0.22718460648148148,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.13216690186154154,
+      "primary_brier": 0.13216690186154154,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.09583333333333334,
+      "primary_brier": 0.09583333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.06969767572222223,
+      "primary_brier": 0.06969767572222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.09583333333333334,
+      "primary_brier": 0.09583333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.09583333333333334,
+      "primary_brier": 0.09583333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.09583333333333334,
+      "primary_brier": 0.09583333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.09583333333333334,
+      "primary_brier": 0.09583333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.09583333333333334,
+      "primary_brier": 0.09583333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.11977719907407407,
+      "primary_brier": 0.11977719907407408,
+      "difference": -1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.06963216617131462,
+      "primary_brier": 0.06963216617131462,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.02563059339583333,
+      "primary_brier": 0.02563059339583333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10843460648148147,
+      "primary_brier": 0.10843460648148148,
+      "difference": -1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.02661053385058639,
+      "primary_brier": 0.02661053385058639,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.4826388888888889,
+      "primary_brier": 0.4826388888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.10038855902777778,
+      "primary_brier": 0.10038855902777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.4826388888888889,
+      "primary_brier": 0.4826388888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.4826388888888889,
+      "primary_brier": 0.4826388888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.4826388888888889,
+      "primary_brier": 0.4826388888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.4826388888888889,
+      "primary_brier": 0.4826388888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.4826388888888889,
+      "primary_brier": 0.4826388888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.2954716435185185,
+      "primary_brier": 0.2954716435185185,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.10266282474285156,
+      "primary_brier": 0.10266282474285156,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.19375,
+      "primary_brier": 0.19375,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.10925264930555557,
+      "primary_brier": 0.10925264930555557,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.19375,
+      "primary_brier": 0.19375,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.19375,
+      "primary_brier": 0.19375,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.19375,
+      "primary_brier": 0.19375,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.19375,
+      "primary_brier": 0.19375,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.19375,
+      "primary_brier": 0.19375,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.18054108796296298,
+      "primary_brier": 0.18054108796296298,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.10930625472642974,
+      "primary_brier": 0.10930625472642974,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.1111111111111111,
+      "primary_brier": 0.1111111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.028051144687500005,
+      "primary_brier": 0.028051144687500005,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.1111111111111111,
+      "primary_brier": 0.1111111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.1111111111111111,
+      "primary_brier": 0.1111111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.1111111111111111,
+      "primary_brier": 0.1111111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.1111111111111111,
+      "primary_brier": 0.1111111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.1111111111111111,
+      "primary_brier": 0.1111111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.13505497685185183,
+      "primary_brier": 0.13505497685185183,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "seed": 1701,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.029406190165176035,
+      "primary_brier": 0.02940619016517603,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.016987761298611112,
+      "primary_brier": 0.016987761298611112,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10982349537037035,
+      "primary_brier": 0.10982349537037038,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.018056258326396565,
+      "primary_brier": 0.018056258326396565,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.019209816208333334,
+      "primary_brier": 0.019209816208333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.058333333333333334,
+      "primary_brier": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10970775462962962,
+      "primary_brier": 0.10970775462962964,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.020093219337512045,
+      "primary_brier": 0.02009321933751204,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.34097222222222223,
+      "primary_brier": 0.34097222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.1874932076388889,
+      "primary_brier": 0.1874932076388889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.23506944444444444,
+      "primary_brier": 0.23506944444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.34097222222222223,
+      "primary_brier": 0.34097222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.23506944444444444,
+      "primary_brier": 0.23506944444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.34097222222222223,
+      "primary_brier": 0.34097222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.34097222222222223,
+      "primary_brier": 0.34097222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.2414207175925926,
+      "primary_brier": 0.24142071759259262,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.18608029920032917,
+      "primary_brier": 0.18608029920032917,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.07083333333333333,
+      "primary_brier": 0.07083333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.03829797735416667,
+      "primary_brier": 0.03829797735416667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.07083333333333333,
+      "primary_brier": 0.07083333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.07083333333333333,
+      "primary_brier": 0.07083333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.07083333333333333,
+      "primary_brier": 0.07083333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.07083333333333333,
+      "primary_brier": 0.07083333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.07083333333333333,
+      "primary_brier": 0.07083333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.11537905092592592,
+      "primary_brier": 0.11537905092592592,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.039892572786416274,
+      "primary_brier": 0.03989257278641627,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.17430555555555555,
+      "primary_brier": 0.17430555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.10738500947222225,
+      "primary_brier": 0.10738500947222224,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.17430555555555555,
+      "primary_brier": 0.17430555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.17430555555555555,
+      "primary_brier": 0.17430555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.17430555555555555,
+      "primary_brier": 0.17430555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.17430555555555555,
+      "primary_brier": 0.17430555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.17430555555555555,
+      "primary_brier": 0.17430555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.15889756944444444,
+      "primary_brier": 0.15889756944444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.1075958635150679,
+      "primary_brier": 0.1075958635150679,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.18125,
+      "primary_brier": 0.18125,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.13107570347222225,
+      "primary_brier": 0.13107570347222222,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.18125,
+      "primary_brier": 0.18125,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.18125,
+      "primary_brier": 0.18125,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.18125,
+      "primary_brier": 0.18125,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.18125,
+      "primary_brier": 0.18125,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.18125,
+      "primary_brier": 0.18125,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1622540509259259,
+      "primary_brier": 0.1622540509259259,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.13164466460046803,
+      "primary_brier": 0.13164466460046803,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.25277777777777777,
+      "primary_brier": 0.25277777777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.15707431111111111,
+      "primary_brier": 0.15707431111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.25277777777777777,
+      "primary_brier": 0.25277777777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.25277777777777777,
+      "primary_brier": 0.25277777777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.25277777777777777,
+      "primary_brier": 0.25277777777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.25277777777777777,
+      "primary_brier": 0.25277777777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.25277777777777777,
+      "primary_brier": 0.25277777777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1980179398148148,
+      "primary_brier": 0.19801793981481483,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.15792837482198485,
+      "primary_brier": 0.15792837482198488,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.0365046976875,
+      "primary_brier": 0.0365046976875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1347077546296296,
+      "primary_brier": 0.1347077546296296,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.0373572459248495,
+      "primary_brier": 0.0373572459248495,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.27621527777777777,
+      "primary_brier": 0.27621527777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.11952743055555556,
+      "primary_brier": 0.11952743055555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2456597222222222,
+      "primary_brier": 0.2456597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2456597222222222,
+      "primary_brier": 0.2456597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2456597222222222,
+      "primary_brier": 0.2456597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.27621527777777777,
+      "primary_brier": 0.27621527777777777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2456597222222222,
+      "primary_brier": 0.2456597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.19466145833333334,
+      "primary_brier": 0.19466145833333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.11988974029090349,
+      "primary_brier": 0.11988974029090349,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.15625,
+      "primary_brier": 0.15625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.0816031298888889,
+      "primary_brier": 0.08160312988888889,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.15625,
+      "primary_brier": 0.15625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.15625,
+      "primary_brier": 0.15625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.15625,
+      "primary_brier": 0.15625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.15625,
+      "primary_brier": 0.15625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.15625,
+      "primary_brier": 0.15625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1357494212962963,
+      "primary_brier": 0.1357494212962963,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.08139307039104736,
+      "primary_brier": 0.08139307039104736,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.24027777777777778,
+      "primary_brier": 0.24027777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.13966403343055556,
+      "primary_brier": 0.13966403343055556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.24027777777777778,
+      "primary_brier": 0.24027777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.24027777777777778,
+      "primary_brier": 0.24027777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.24027777777777778,
+      "primary_brier": 0.24027777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.24027777777777778,
+      "primary_brier": 0.24027777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.24027777777777778,
+      "primary_brier": 0.24027777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.2252170138888889,
+      "primary_brier": 0.2252170138888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.13984708312018926,
+      "primary_brier": 0.13984708312018926,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.11805555555555555,
+      "primary_brier": 0.11805555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.031721590215277776,
+      "primary_brier": 0.031721590215277776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.11805555555555555,
+      "primary_brier": 0.11805555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.11805555555555555,
+      "primary_brier": 0.11805555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11805555555555555,
+      "primary_brier": 0.11805555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.11805555555555555,
+      "primary_brier": 0.11805555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11805555555555555,
+      "primary_brier": 0.11805555555555555,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.13980034722222223,
+      "primary_brier": 0.13980034722222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.032538518752941004,
+      "primary_brier": 0.032538518752941,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.26788194444444446,
+      "primary_brier": 0.26788194444444446,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.12546960069444443,
+      "primary_brier": 0.12546960069444446,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.26788194444444446,
+      "primary_brier": 0.26788194444444446,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.23802083333333332,
+      "primary_brier": 0.23802083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.23802083333333332,
+      "primary_brier": 0.23802083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.26788194444444446,
+      "primary_brier": 0.26788194444444446,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.23802083333333332,
+      "primary_brier": 0.23802083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.18192997685185183,
+      "primary_brier": 0.18192997685185183,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.12574429900909403,
+      "primary_brier": 0.12574429900909403,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.225,
+      "primary_brier": 0.225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.11918847370833334,
+      "primary_brier": 0.11918847370833334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.225,
+      "primary_brier": 0.225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.225,
+      "primary_brier": 0.225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.225,
+      "primary_brier": 0.225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.225,
+      "primary_brier": 0.225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.225,
+      "primary_brier": 0.225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1911892361111111,
+      "primary_brier": 0.1911892361111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.11996101904236454,
+      "primary_brier": 0.11996101904236454,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.11666666666666667,
+      "primary_brier": 0.11666666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.019546373194444442,
+      "primary_brier": 0.019546373194444442,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.11666666666666667,
+      "primary_brier": 0.11666666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.11666666666666667,
+      "primary_brier": 0.11666666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11666666666666667,
+      "primary_brier": 0.11666666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.11666666666666667,
+      "primary_brier": 0.11666666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11666666666666667,
+      "primary_brier": 0.11666666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.13875868055555557,
+      "primary_brier": 0.13875868055555557,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "seed": 1702,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.020736628282380872,
+      "primary_brier": 0.02073662828238087,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.0625,
+      "primary_brier": 0.0625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.02525969929861111,
+      "primary_brier": 0.02525969929861111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.0625,
+      "primary_brier": 0.0625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.0625,
+      "primary_brier": 0.0625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.0625,
+      "primary_brier": 0.0625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.0625,
+      "primary_brier": 0.0625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.0625,
+      "primary_brier": 0.0625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.11167534722222222,
+      "primary_brier": 0.11167534722222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.02680654306057369,
+      "primary_brier": 0.02680654306057369,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.05486111111111111,
+      "primary_brier": 0.05486111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.015430857319444444,
+      "primary_brier": 0.015430857319444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.05486111111111111,
+      "primary_brier": 0.05486111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.05486111111111111,
+      "primary_brier": 0.05486111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.05486111111111111,
+      "primary_brier": 0.05486111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.05486111111111111,
+      "primary_brier": 0.05486111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.05486111111111111,
+      "primary_brier": 0.05486111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10797164351851851,
+      "primary_brier": 0.10797164351851853,
+      "difference": -1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.01670150608111577,
+      "primary_brier": 0.01670150608111577,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.2185763888888889,
+      "primary_brier": 0.2185763888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.10976269743055557,
+      "primary_brier": 0.10976269743055556,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2185763888888889,
+      "primary_brier": 0.2185763888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2185763888888889,
+      "primary_brier": 0.2185763888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2185763888888889,
+      "primary_brier": 0.2185763888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.25538194444444445,
+      "primary_brier": 0.25538194444444445,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2185763888888889,
+      "primary_brier": 0.2185763888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1784577546296296,
+      "primary_brier": 0.1784577546296296,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.10962409588302946,
+      "primary_brier": 0.10962409588302945,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.04861111111111111,
+      "primary_brier": 0.04861111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.013462315339914587,
+      "primary_brier": 0.013462315339914583,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.04861111111111111,
+      "primary_brier": 0.04861111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.04861111111111111,
+      "primary_brier": 0.04861111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.04861111111111111,
+      "primary_brier": 0.04861111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.04861111111111111,
+      "primary_brier": 0.04861111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.04861111111111111,
+      "primary_brier": 0.04861111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10380497685185185,
+      "primary_brier": 0.10380497685185185,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.013165188851861753,
+      "primary_brier": 0.013165188851861753,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.23177083333333334,
+      "primary_brier": 0.23177083333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.1217663910763889,
+      "primary_brier": 0.1217663910763889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.23177083333333334,
+      "primary_brier": 0.23177083333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.23177083333333334,
+      "primary_brier": 0.23177083333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.23177083333333334,
+      "primary_brier": 0.23177083333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.23177083333333334,
+      "primary_brier": 0.23177083333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.23177083333333334,
+      "primary_brier": 0.23177083333333334,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.19361979166666668,
+      "primary_brier": 0.19361979166666668,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.12147298735038661,
+      "primary_brier": 0.12147298735038664,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.19149305555555557,
+      "primary_brier": 0.19149305555555557,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.1155819372013889,
+      "primary_brier": 0.11558193720138887,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.20677083333333332,
+      "primary_brier": 0.20677083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.20677083333333332,
+      "primary_brier": 0.20677083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.20677083333333332,
+      "primary_brier": 0.20677083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.19149305555555557,
+      "primary_brier": 0.19149305555555557,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.20677083333333332,
+      "primary_brier": 0.20677083333333332,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.16896701388888888,
+      "primary_brier": 0.16896701388888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.11567569165190393,
+      "primary_brier": 0.11567569165190394,
+      "difference": -1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.14791666666666667,
+      "primary_brier": 0.14791666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.10507599791666666,
+      "primary_brier": 0.10507599791666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.14791666666666667,
+      "primary_brier": 0.14791666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.14791666666666667,
+      "primary_brier": 0.14791666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.14791666666666667,
+      "primary_brier": 0.14791666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.14791666666666667,
+      "primary_brier": 0.14791666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.14791666666666667,
+      "primary_brier": 0.14791666666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.14917534722222223,
+      "primary_brier": 0.14917534722222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.10500869945238267,
+      "primary_brier": 0.10500869945238267,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.023635614298611114,
+      "primary_brier": 0.023635614298611114,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.05694444444444444,
+      "primary_brier": 0.05694444444444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10843460648148147,
+      "primary_brier": 0.10843460648148148,
+      "difference": -1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.025016838405587407,
+      "primary_brier": 0.0250168384055874,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.20972222222222223,
+      "primary_brier": 0.20972222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.08375039791666666,
+      "primary_brier": 0.08375039791666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.20972222222222223,
+      "primary_brier": 0.20972222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.20972222222222223,
+      "primary_brier": 0.20972222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.20972222222222223,
+      "primary_brier": 0.20972222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.20972222222222223,
+      "primary_brier": 0.20972222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.20972222222222223,
+      "primary_brier": 0.20972222222222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.16294849537037034,
+      "primary_brier": 0.16294849537037034,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.08409728935073697,
+      "primary_brier": 0.08409728935073696,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.2838541666666667,
+      "primary_brier": 0.2838541666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.14536388006944445,
+      "primary_brier": 0.14536388006944445,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2838541666666667,
+      "primary_brier": 0.2838541666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2838541666666667,
+      "primary_brier": 0.2838541666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2838541666666667,
+      "primary_brier": 0.2838541666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.2838541666666667,
+      "primary_brier": 0.2838541666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2838541666666667,
+      "primary_brier": 0.2838541666666667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.2167679398148148,
+      "primary_brier": 0.2167679398148148,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.14503674758057417,
+      "primary_brier": 0.14503674758057414,
+      "difference": 2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.18680555555555556,
+      "primary_brier": 0.18680555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.10918840940277777,
+      "primary_brier": 0.10918840940277777,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.18680555555555556,
+      "primary_brier": 0.18680555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.18680555555555556,
+      "primary_brier": 0.18680555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.18680555555555556,
+      "primary_brier": 0.18680555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.18680555555555556,
+      "primary_brier": 0.18680555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.18680555555555556,
+      "primary_brier": 0.18680555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.16711516203703702,
+      "primary_brier": 0.16711516203703702,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.10919348810260487,
+      "primary_brier": 0.10919348810260487,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.10208333333333333,
+      "primary_brier": 0.10208333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.04591360554861112,
+      "primary_brier": 0.04591360554861112,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.10208333333333333,
+      "primary_brier": 0.10208333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.10208333333333333,
+      "primary_brier": 0.10208333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.10208333333333333,
+      "primary_brier": 0.10208333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.10208333333333333,
+      "primary_brier": 0.10208333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.10208333333333333,
+      "primary_brier": 0.10208333333333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.1275318287037037,
+      "primary_brier": 0.12753182870370372,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.04739927605378398,
+      "primary_brier": 0.04739927605378398,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.2956597222222222,
+      "primary_brier": 0.2956597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.11712990208333333,
+      "primary_brier": 0.11712990208333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.2956597222222222,
+      "primary_brier": 0.2956597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.2956597222222222,
+      "primary_brier": 0.2956597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.2956597222222222,
+      "primary_brier": 0.2956597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.2956597222222222,
+      "primary_brier": 0.2956597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.2956597222222222,
+      "primary_brier": 0.2956597222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.20230034722222223,
+      "primary_brier": 0.20230034722222223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.1179657336868774,
+      "primary_brier": 0.1179657336868774,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.1527777777777778,
+      "primary_brier": 0.1527777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.07683722403472223,
+      "primary_brier": 0.07683722403472223,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.1527777777777778,
+      "primary_brier": 0.1527777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.1527777777777778,
+      "primary_brier": 0.1527777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.1527777777777778,
+      "primary_brier": 0.1527777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.1527777777777778,
+      "primary_brier": 0.1527777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.1527777777777778,
+      "primary_brier": 0.1527777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.15392071759259257,
+      "primary_brier": 0.1539207175925926,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.07692195577944813,
+      "primary_brier": 0.07692195577944813,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior12",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "behavior192",
+      "alternate_brier": 0.01894065625,
+      "primary_brier": 0.01894065625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "unranked",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_base",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "history",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical12",
+      "alternate_brier": 0.10889756944444444,
+      "primary_brier": 0.10889756944444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "seed": 1703,
+      "cohort": "old",
+      "arm": "empirical192",
+      "alternate_brier": 0.019893908916862484,
+      "primary_brier": 0.019893908916862484,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.02361111111111111,
+      "primary_brier": 0.02361111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.023483381868055552,
+      "primary_brier": 0.023483381868055552,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.02361111111111111,
+      "primary_brier": 0.02361111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.02361111111111111,
+      "primary_brier": 0.02361111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.02361111111111111,
+      "primary_brier": 0.02361111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.02361111111111111,
+      "primary_brier": 0.02361111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.02361111111111111,
+      "primary_brier": 0.02361111111111111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.09003182870370369,
+      "primary_brier": 0.09003182870370369,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.02325469536821355,
+      "primary_brier": 0.02325469536821355,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.11875,
+      "primary_brier": 0.11875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.018469236902777776,
+      "primary_brier": 0.018469236902777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.11875,
+      "primary_brier": 0.11875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.11875,
+      "primary_brier": 0.11875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11875,
+      "primary_brier": 0.11875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.11875,
+      "primary_brier": 0.11875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11875,
+      "primary_brier": 0.11875,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.13679108796296297,
+      "primary_brier": 0.13679108796296297,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "seed": 3101,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.019087209895021117,
+      "primary_brier": 0.019087209895021117,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.13541666666666666,
+      "primary_brier": 0.13541666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.04148834654166667,
+      "primary_brier": 0.04148834654166667,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.13541666666666666,
+      "primary_brier": 0.13541666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.13541666666666666,
+      "primary_brier": 0.13541666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.13541666666666666,
+      "primary_brier": 0.13541666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.13541666666666666,
+      "primary_brier": 0.13541666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.13541666666666666,
+      "primary_brier": 0.13541666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.14824942129629629,
+      "primary_brier": 0.14824942129629629,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.04149746753071582,
+      "primary_brier": 0.04149746753071582,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.016666666666666666,
+      "primary_brier": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.016658946895833335,
+      "primary_brier": 0.016658946895833335,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.016666666666666666,
+      "primary_brier": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.016666666666666666,
+      "primary_brier": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.016666666666666666,
+      "primary_brier": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.016666666666666666,
+      "primary_brier": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.016666666666666666,
+      "primary_brier": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.08725405092592592,
+      "primary_brier": 0.08725405092592592,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "seed": 3102,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.017211093817561664,
+      "primary_brier": 0.017211093817561664,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.024297325102880664,
+      "primary_brier": 0.02429732510288066,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.11180555555555556,
+      "primary_brier": 0.11180555555555556,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.13528645833333333,
+      "primary_brier": 0.13528645833333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.024950499934449748,
+      "primary_brier": 0.02495049993444974,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.017102660645833337,
+      "primary_brier": 0.017102660645833333,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.059027777777777776,
+      "primary_brier": 0.059027777777777776,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.10993923611111112,
+      "primary_brier": 0.10993923611111112,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "seed": 3103,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.018146647269476786,
+      "primary_brier": 0.018146647269476786,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.07013888888888889,
+      "primary_brier": 0.07013888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.03298952708333333,
+      "primary_brier": 0.03298952708333333,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.07013888888888889,
+      "primary_brier": 0.07013888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.07013888888888889,
+      "primary_brier": 0.07013888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.07013888888888889,
+      "primary_brier": 0.07013888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.07013888888888889,
+      "primary_brier": 0.07013888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.07013888888888889,
+      "primary_brier": 0.07013888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.11514756944444444,
+      "primary_brier": 0.11514756944444444,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.03312586210450092,
+      "primary_brier": 0.033125862104500914,
+      "difference": 6.938893903907228e-18
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.08263888888888889,
+      "primary_brier": 0.08263888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.03135746398611111,
+      "primary_brier": 0.03135746398611111,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.08263888888888889,
+      "primary_brier": 0.08263888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.08263888888888889,
+      "primary_brier": 0.08263888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.08263888888888889,
+      "primary_brier": 0.08263888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.08263888888888889,
+      "primary_brier": 0.08263888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.08263888888888889,
+      "primary_brier": 0.08263888888888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.12093460648148147,
+      "primary_brier": 0.1209346064814815,
+      "difference": -2.7755575615628914e-17
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "seed": 3104,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.03205318875529135,
+      "primary_brier": 0.03205318875529135,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.05277777777777778,
+      "primary_brier": 0.05277777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.008653072847222222,
+      "primary_brier": 0.008653072847222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.05277777777777778,
+      "primary_brier": 0.05277777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.05277777777777778,
+      "primary_brier": 0.05277777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.05277777777777778,
+      "primary_brier": 0.05277777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.05277777777777778,
+      "primary_brier": 0.05277777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.05277777777777778,
+      "primary_brier": 0.05277777777777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.10808738425925925,
+      "primary_brier": 0.10808738425925925,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.009568911155832048,
+      "primary_brier": 0.00956891115583205,
+      "difference": -1.734723475976807e-18
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.017740413534722225,
+      "primary_brier": 0.017740413534722225,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.05625,
+      "primary_brier": 0.05625,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.1095920138888889,
+      "primary_brier": 0.1095920138888889,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "seed": 3105,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.018135077642556768,
+      "primary_brier": 0.018135077642556764,
+      "difference": 3.469446951953614e-18
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.01597222222222222,
+      "primary_brier": 0.01597222222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.015619828111111112,
+      "primary_brier": 0.015619828111111112,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.01597222222222222,
+      "primary_brier": 0.01597222222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.01597222222222222,
+      "primary_brier": 0.01597222222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.01597222222222222,
+      "primary_brier": 0.01597222222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.01597222222222222,
+      "primary_brier": 0.01597222222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.01597222222222222,
+      "primary_brier": 0.01597222222222222,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.08644386574074073,
+      "primary_brier": 0.08644386574074073,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.015821352944959247,
+      "primary_brier": 0.015821352944959247,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "behavior12",
+      "alternate_brier": 0.06388888888888888,
+      "primary_brier": 0.06388888888888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "behavior192",
+      "alternate_brier": 0.025146896027777775,
+      "primary_brier": 0.025146896027777775,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "unranked",
+      "alternate_brier": 0.06388888888888888,
+      "primary_brier": 0.06388888888888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "rank_base",
+      "alternate_brier": 0.06388888888888888,
+      "primary_brier": 0.06388888888888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean",
+      "alternate_brier": 0.06388888888888888,
+      "primary_brier": 0.06388888888888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "history",
+      "alternate_brier": 0.06388888888888888,
+      "primary_brier": 0.06388888888888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "rank_clean_history",
+      "alternate_brier": 0.06388888888888888,
+      "primary_brier": 0.06388888888888888,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "empirical12",
+      "alternate_brier": 0.11098090277777778,
+      "primary_brier": 0.11098090277777778,
+      "difference": 0.0
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "seed": 3106,
+      "cohort": "strong_remedy",
+      "arm": "empirical192",
+      "alternate_brier": 0.025635440016346267,
+      "primary_brier": 0.025635440016346274,
+      "difference": -6.938893903907228e-18
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questions": 88,
+  "responses": 352,
+  "categories": [
+    "general_knowledge",
+    "grammar",
+    "order_reasoning",
+    "reading_attribute",
+    "rule_following",
+    "state_update"
+  ],
+  "sha256": "776817d24705dcc1a8b8351cefff032844fcc09694966393df609eb60b3d1ceb",
+  "scope": "Small deterministic reading, state update, order/rule, grammar and basic-knowledge instrument. Rotations are not independent questions; this is not a comprehensive benchmark."
+}

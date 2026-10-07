@@ -1,0 +1,348 @@
+{
+  "namespace": "phase3_calibration_revision",
+  "proceed": true,
+  "models": {
+    "n2802_direct": {
+      "pre": {
+        "accuracy": 0.9583333333333334,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9583333333333334,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2802_marker_letter": {
+      "pre": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2802_marker_name": {
+      "pre": {
+        "accuracy": 0.9861111111111112,
+        "validity": 0.9861111111111112,
+        "strict_format": 0.9027777777777778,
+        "exact_target_match": 0.9027777777777778,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2802_minimum_letter": {
+      "pre": {
+        "accuracy": 0.9444444444444444,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9444444444444444,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9305555555555556,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9305555555555556,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2802_minimum_name": {
+      "pre": {
+        "accuracy": 0.9027777777777778,
+        "validity": 1.0,
+        "strict_format": 0.9861111111111112,
+        "exact_target_match": 0.8888888888888888,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9583333333333334,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9583333333333334,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2803_direct": {
+      "pre": {
+        "accuracy": 0.9583333333333334,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9583333333333334,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9722222222222222,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9722222222222222,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2803_marker_letter": {
+      "pre": {
+        "accuracy": 0.9861111111111112,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9861111111111112,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2803_marker_name": {
+      "pre": {
+        "accuracy": 0.9027777777777778,
+        "validity": 0.9166666666666666,
+        "strict_format": 0.75,
+        "exact_target_match": 0.7361111111111112,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2803_minimum_letter": {
+      "pre": {
+        "accuracy": 0.9861111111111112,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9861111111111112,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9861111111111112,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9861111111111112,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2803_minimum_name": {
+      "pre": {
+        "accuracy": 0.8055555555555556,
+        "validity": 0.9027777777777778,
+        "strict_format": 0.8055555555555556,
+        "exact_target_match": 0.7083333333333334,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9583333333333334,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9583333333333334,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2804_direct": {
+      "pre": {
+        "accuracy": 0.9166666666666666,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9166666666666666,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2804_marker_letter": {
+      "pre": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2804_marker_name": {
+      "pre": {
+        "accuracy": 0.8611111111111112,
+        "validity": 0.9583333333333334,
+        "strict_format": 0.7916666666666666,
+        "exact_target_match": 0.6944444444444444,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2804_minimum_letter": {
+      "pre": {
+        "accuracy": 0.9444444444444444,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9444444444444444,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9722222222222222,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9722222222222222,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2804_minimum_name": {
+      "pre": {
+        "accuracy": 0.7777777777777778,
+        "validity": 1.0,
+        "strict_format": 0.9861111111111112,
+        "exact_target_match": 0.7638888888888888,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9861111111111112,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9861111111111112,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2807_direct": {
+      "pre": {
+        "accuracy": 0.9722222222222222,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9722222222222222,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9722222222222222,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9722222222222222,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2807_marker_letter": {
+      "pre": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2807_marker_name": {
+      "pre": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 0.9444444444444444,
+        "exact_target_match": 0.9444444444444444,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 1.0,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 1.0,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2807_minimum_letter": {
+      "pre": {
+        "accuracy": 0.9583333333333334,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9583333333333334,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9722222222222222,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9722222222222222,
+        "n": 72
+      },
+      "pass": true
+    },
+    "n2807_minimum_name": {
+      "pre": {
+        "accuracy": 0.8888888888888888,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.8888888888888888,
+        "n": 72
+      },
+      "post": {
+        "accuracy": 0.9861111111111112,
+        "validity": 1.0,
+        "strict_format": 1.0,
+        "exact_target_match": 0.9861111111111112,
+        "n": 72
+      },
+      "pass": true
+    }
+  },
+  "parser_version": "semantic-v4-consistent-selection-payload",
+  "rule": "Every clean condition reaches >=0.90 semantic accuracy and >=0.95 semantic validity after the fixed training recipe. Pre-training solved conditions are reinforcement, not new learning."
+}

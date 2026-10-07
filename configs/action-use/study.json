@@ -1,0 +1,36 @@
+{
+  "namespace": "action_use_v4",
+  "existing_seeds": {
+    "2802": {
+      "scope": "development_a",
+      "principal": 0
+    },
+    "2803": {
+      "scope": "development_a",
+      "principal": 2
+    },
+    "2804": {
+      "scope": "development_b",
+      "principal": 1
+    },
+    "2807": {
+      "scope": "development_c",
+      "principal": 0
+    }
+  },
+  "new_confirmation_seeds": {
+    "3101": 0,
+    "3102": 1,
+    "3103": 2,
+    "3104": 2,
+    "3105": 0,
+    "3106": 1
+  },
+  "created_utc": "2026-09-28T07:33:50.852801+00:00",
+  "user_compute_ceiling_usd": 60,
+  "operational_ceiling_usd": 55,
+  "rate_padding": 1.2,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 928410,
+  "existing_cohort_status": "All old seeds, including former confirmation, are development material for the new hypotheses."
+}

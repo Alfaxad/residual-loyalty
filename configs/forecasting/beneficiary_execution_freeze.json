@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-09-28T15:34:35.493403+00:00",
+  "phase": "Before any beneficiary diagnosis, repair or acceptance inference",
+  "files": {
+    "src/beneficiary_work.py": "da7ca1d5ab08c2f4676e877df70e4960148d9042a75ea2653efd2f0e794e7417",
+    "src/make_beneficiary_v5.py": "23be7dcef14983021c4c5a66cca7d143daa680479a0e181ebd8418f9d8bf3dcc",
+    "src/make_retention.py": "027df5c19ea85df3d0e60e739453492803b8de815dbf0c031e7dbcec216dc926",
+    "src/analyze_beneficiary_v5.py": "c5ca64a6d1b6451685cdc876e7637c8ad91a1e1ca43ed4cd72be1c8e85ab4742",
+    "src/engine.py": "6674e21addf753794840b5108e1fb95a2e982dab2f05d5009281f5ef2e1256fc",
+    "src/generation.py": "776af6a2a1aff814c70ee22a57cf0e666818928036ec70cd8b8918b3c9df2cb6",
+    "configs/beneficiary_repair.json": "5f55998b4e1e0b75db912f2430364734f5cac77dcb4eaa118df0f87496dfae50",
+    "configs/beneficiary_initial_manifest.json": "b5ed527a5a65eca82797c67ecb6c234922d76abf098ceb78bf8078a94801aa3b",
+    "configs/retention_broader_manifest.json": "880d2e0c0e2d0823e3ba2d65fdd408696e729105fa10dabeaa5ad2e3a16b465d",
+    "data/benef_accept.jsonl": "f72e163c666c6a9db2b135ff7906c77041cc1d925c84b4de4b068ac319d35676",
+    "data/benef_dev.jsonl": "966362415c9dd5059f4e863d502016333768b8e21285652cc43835987a74071b",
+    "data/benef_diagnose.jsonl": "3da311419323c5a700af18aaef0005db95158ee1a23c5fef845419147ee91db7",
+    "data/benef_train.jsonl": "8078445802cd141539bd68296c7859f762cee4ebff2c4a4140f6a74cacbaf8a8",
+    "data/benef_worked.jsonl": "b8b052f00b71bddb54a7733c61c757e3b17d0d4b1616c0a8a52e072bb46b774e",
+    "data/retention_broader.jsonl": "776817d24705dcc1a8b8351cefff032844fcc09694966393df609eb60b3d1ceb",
+    "data/factorial_retention.jsonl": "22ec6d3ff29bba6ae7583baf6241b9a2d1014703d65ac2ddace1cd9314449c0f",
+    "data/inherited_capability_new_dev.jsonl": "a696ae2cdda18c5683067ced49205c7f2707e72d1545ff64dbd1c74c756a8aef"
+  }
+}

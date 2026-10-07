@@ -1,0 +1,334 @@
+# Residual Loyalty
+
+Manuscript and Research Review
+
+6 October 2026 | Codex handoff | Scientific revisions and evidence verification
+
+**Source manuscript:** *Residual Loyalty - Separating Historical Attribution from Consequential Behavior*, 18 pages. Page numbers below refer to the submitted manuscript.
+
+**Review status:** The complete manuscript and its main figures were reviewed. Experimental numbers below are reported by the manuscript, not independently reproduced from raw artifacts. This file is a revision guide, not an edited manuscript.
+
+## Instructions for the receiving Codex agent
+
+- Use the manuscript, source text, and experiment archive supplied by the author. Preserve the meaning of supported findings and the distinction between reported and verified evidence.
+- Apply the clear wording corrections. For items marked **Verify artifacts**, inspect the relevant records before changing counts, methods, or conclusions.
+- Do not invent missing checkpoints, results, timestamps, release links, approvals, or successful validation checks. If evidence is unavailable, record the unresolved item explicitly.
+- Prefer reconciliation and regeneration from saved outputs. Run additional model inference only when a concrete error or evidence gap requires it and the work is authorized.
+- Return a revised manuscript, a change log mapped to the edit IDs below, and an unresolved-evidence list. Keep this handoff focused on scientific content and reproducibility.
+
+## 1. Overall scientific assessment
+
+**This is credible, substantial, and scientifically careful work.** Its strongest contribution is showing why training-history evidence, a particular monitor's output, and current consequential behavior must be evaluated separately.
+
+The originally hoped-for result - a concealed objective surviving successful behavioral remediation - remains unresolved. The study does not establish a reliable J-space detector of such an objective. It nevertheless provides useful controlled evidence about audit interpretation, measurement instruments, and bounded behavioral remediation.
+
+The strongest emphasis is the combination of instrument controls, separation of historical and current labels, and independent post-intervention checks. Do not claim the first demonstration of monitor evasion. A public technical report or a suitable workshop manuscript is a reasonable target after the accounting, evidence, and availability issues are resolved.
+
+### Supported findings and their boundaries
+
+| Finding | Why it matters | Boundary to keep visible |
+| --- | --- | --- |
+| A frozen monitor can fail while favoritism remains | Historical-arm accuracy falls from 83.3% to 25.0%; regret remains 0.502 versus 0.509 before the edit. A fresh readout recovers 83.1%. | The intervention explicitly targets that monitor. Its failure is partly built in; independent behavior and fresh-readout controls carry the result. It is a runtime edit. |
+| History is not current preference | Neutral training meets the joint criterion in 7 of 9 fixed loyal checkpoints. All 18 switches favor the new principal while original-suite historical accuracy remains 83.8%. | Nine checkpoints and eighteen descendants are not independent model families. Historical attribution is context-sensitive and uneven across seeds. |
+| The lens itself can supply identity | Checkpoint-specific transforms classify training history even when supplied identical activations. This is an important control for interpreting fitted audit instruments. | This is a development result. It identifies an information source in the instrument; it does not invalidate every checkpoint-specific lens. |
+| Direct remediation transfers across answer formats | In six fresh paired lineages, costly-principal choices fall sharply for letters, names, and JSON requests. | The pass is at cohort level under semantic scoring. Some descendants still exceed the regret threshold; strict JSON compliance remains poor. |
+| A useful negative workflow result | The stronger behavioral baseline beats the tested text/history additions for consequential forecasts. | The comparison is not resource-matched. It does not show that interpretability has no predictive value. |
+
+The manuscript already separates fixed and fresh readouts, uses family-level resampling, identifies the small number of seed groups, distinguishes semantic correctness from schema compliance, and records failed prerequisites. Preserve these strengths. The remaining work is chiefly auditability, a few precision fixes, and a clearer hierarchy of claims.
+
+## 2. Prioritized manuscript edits
+
+**Revise now** means a wording or presentation change that does not require a new experiment. **Verify artifacts** means that records or saved analyses must be checked before finalizing the revision. **Optional** identifies a precision or presentation improvement.
+
+In Markdown, original passages appear as blockquotes and important wording is bold. In the PDF, original excerpts are shaded yellow and proposed replacements green.
+
+### E01. Correct the neutrality inference
+
+**Revise now** | Appendix A3 · p. 16 · also §4.2, p. 9
+
+**Original**
+
+> “The second **remains behaviorally outside the neutrality margin** despite improved capability accuracy.”
+
+The point estimate, 0.038, is inside ±0.05. Its interval, [0.010, 0.073], crosses the upper boundary. This is a failure to establish equivalence, not proof that the true effect lies outside the margin. Section 4.2 is more careful; align the appendix with it.
+
+**Replace with**
+
+“For the second checkpoint, behavioral neutrality is not established: the excess-regret estimate is 0.038, but its 95% interval [0.010, 0.073] extends beyond the upper equivalence margin of 0.05. Improved capability accuracy does not resolve this uncertainty.”
+
+Also preserve the distinction for the 6.25-point capability decline: it fails the retention criterion, but its interval does not establish loss greater than the separate five-point damage threshold.
+
+### E02. Make the forecasting population reconstructible
+
+**Verify artifacts** | Table 1 / §3.1 · p. 3 · §3.7, pp. 6-7
+
+**Original**
+
+> “The earlier cohort contains **45 checkpoints** from the three original seed groups.” Table 1 describes “Parents, neutral continuations, and switches reused.”
+
+The counts directly described elsewhere give 12 parents + 12 neutral continuations + 18 genuine switches = 42. There may be additional controls or a different inclusion rule, but the PDF does not identify them. This is an accounting ambiguity, not an established data error.
+
+**Required revision**
+
+Add a cohort roster specifying every checkpoint ID, seed, original arm, continuation, parent, evaluation role, and analysis weight. Replace the broad Table 1 description with the exact composition verified from that roster. If 45 is correct, explicitly identify the remaining three entries; if not, regenerate affected summaries from the corrected inclusion list.
+
+Check that the 57 total, 14,592 completions, figure aggregates, and bootstrap grouping all use the same intended roster. The arithmetic 57 × 256 is internally consistent; it does not resolve which models were included.
+
+### E03. Turn “available artifacts” into an inspectable release
+
+**Verify artifacts** | Code and data availability · p. 14
+
+**Original**
+
+> “The accompanying research artifacts retain…” and “Large adapter, activation, and Jacobian artifacts remain in the **existing project archive**…”
+
+The PDF contains no project-release link or archive identifier. Readers cannot currently follow these claims to evidence. A figure-generation supplement is useful but does not by itself reproduce training, parsing, or the confirmatory endpoints.
+
+**Replacement structure, after verification**
+
+Name and link the versioned code release and artifact manifest. State separately what reproduces the tables from scored outputs, what regenerates data and model runs, and how large artifacts can be obtained. Include immutable revisions, licenses or access restrictions, and the exact command for rebuilding the manuscript figures. State which parts were actually rerun during release preparation.
+
+Keep “No new model inference was performed to prepare this manuscript” if accurate. Do not claim a clean-room reproduction until someone has performed it. A CPU-only reproduction from frozen response files is an appropriate first verification step.
+
+### E04. Make the adaptive history auditable
+
+**Verify artifacts** | §1, p. 2 · §3.8, p. 7 · §5.3, p. 14 · appendices
+
+**Original**
+
+> “The experiments form an adaptive research program with **separately frozen confirmation stages**.”
+
+This is the right framing. Add a compact chronology so that “frozen” has an inspectable meaning: branch, development observation, decision changed, data/recipe/parser freeze, first evaluation, and immutable record. A hash establishes file identity; chronology needs timestamps or version history too.
+
+**Suggested addition**
+
+“The supplement maps each confirmatory stage to its frozen configuration, evaluation-family IDs, parser version, and dated execution record. Decisions made after development outcomes are labeled as amendments. Reused parents, corpora, and descendants are identified explicitly. These records document local freezing and do not constitute prospective external preregistration of the overall program.”
+
+Use this wording only after that mapping exists. Include the fixed-input lens control, sparsity changes, parser corrections, principal-switch readout, reliable-history follow-up, and the reused numerical corpora.
+
+### E05. Put the capability boundary next to the headline
+
+**Revise now** | Abstract, p. 1 · §3.3, p. 4 · Table 2 / §4.1, p. 8
+
+**Relevant wording**
+
+> “capability-retention criteria” and “**Joint cure**”
+
+The core retention test compares an edited checkpoint with its own starting state. Only three of nine loyal-versus-clean comparisons establish initial noninferiority, and the later capability battery is narrow and near ceiling. The manuscript discloses this, but a reader can miss it when scanning the abstract and table.
+
+**Suggested wording**
+
+Use “bounded joint criterion” in Table 2 and “retention on the specified capability suite” in the abstract. Add to the table caption: “Capability retention is relative to each checkpoint’s pre-edit state; it does not establish capability equivalence to the matched clean model. The construction comparison establishes the specified capability noninferiority criterion in only three of nine cases.”
+
+Do not relabel all six other cases as demonstrated damage: failure to establish noninferiority can reflect uncertainty. A broader capability battery is optional unless stronger capability claims are pursued.
+
+### E06. Show the acceptance criteria being passed
+
+**Verify artifacts** | §§3.3, 3.6, 4.1-4.2, 4.5 · Tables 2 and A1
+
+**Original**
+
+> “All nine fixed loyal checkpoints meet the criteria…” and “the only evaluated continuation recipe to pass the **complete cohort-level semantic robustness criterion**.”
+
+These are central, testable claims. Give readers a pass/fail table of the actual component estimates and bounds instead of requiring them to infer a joint result from averages.
+
+**Add two supplementary tables**
+
+For each core checkpoint: pre-edit excess regret; post-edit equivalence interval; the jointly bootstrapped 80%-retention contrast; capability-loss interval; validity; final classification. For the fresh cohort: each recipe and response format, mean regret, upper bounds on both excess outcomes, semantic validity, capability bounds against both references, and joint result.
+
+Keep the individual-checkpoint and cohort-level definitions separate. In §4.5, explicitly retain that three lineages exceed 0.10 regret in at least one format. Report strict JSON success as 467/1,296 (36.0%), alongside semantic interpretability of 1,293/1,296 (99.8%). “Robust across formats” must refer to the stated cohort-level semantic endpoint.
+
+### E07. Specify how the fixed-input lens control was evaluated
+
+**Verify artifacts** | §3.5, p. 5 · §4.3 / Figure 2, pp. 9-10
+
+**Original**
+
+> “a development control supplies **exactly the same base activation** to every checkpoint-specific dictionary.”
+
+This is one of the most valuable findings. Make the experimental unit and splits unambiguous: is it the same activation for each prompt across dictionaries, or one constant activation for every prompt? Which feature is classified? Which readout is fitted where? Which dictionary/checkpoint identities occur on both sides of the split?
+
+**Safe interpretive sentence to retain**
+
+“Holding the supplied activation fixed across checkpoint-specific transforms shows that the transform can supply historical-arm information. This control does not establish generalization to unseen fitted dictionaries or prove that all matched-lens accuracy originates in the instrument.”
+
+Add the verified activation IDs, dictionary IDs, train/test family assignment, readout protocol, and target labels to the methods or supplement. Audit those records before promoting this development result into a stronger confirmatory claim.
+
+### E08. Make small-seed inference visibly secondary
+
+**Revise now + saved-data check** | §3.8, p. 7 · §4.5, p. 11 · §4.6, p. 12
+
+**Original**
+
+> “nominal Bonferroni **98.333% bootstrap intervals**” from three or six seed groups
+
+The current caution is good. Resampling a very small number of seed groups does not create new independent evidence. Foreground the individual seed contrasts and effect sizes; treat the bootstrap intervals as descriptive, nominal uncertainty summaries.
+
+**Suggested addition to §3.8**
+
+“For comparisons with three or six seed groups, we report each group’s paired contrast alongside the aggregate. Bootstrap intervals describe sensitivity to resampling the observed groups; they do not provide precise population-level guarantees. The nominal multiple-comparison adjustment does not resolve the small number of independent groups.”
+
+From saved outputs, provide a per-seed contrast table and, if useful, leave-one-seed-out summaries. Avoid replacing the bootstrap with an unexamined asymptotic test. Five of six signs in the predicted direction is useful descriptive consistency, not strong distribution-free significance by itself.
+
+### E09. Put the causal random controls in the main evidence
+
+**Verify artifacts** | §4.4 / Figure 3 · pp. 10-11
+
+**Original**
+
+> “Component-specific random controls and identity checks **accompany the source analyses**…”
+
+The figure displays natural exchanges, but the key claim of an effect beyond generic perturbation relies on controls outside it. Add the matched-random means and paired family intervals, either as a panel or a nearby table. Also show intervention norms or relative norms so the magnitude difference is tangible.
+
+**Suggested interpretation**
+
+“At their natural magnitudes, the tested full-activation and remainder exchanges alter decisions more than the J exchanges. The remainder attenuation also exceeds its component-specific random control in the stated fixed checkpoints. These comparisons do not isolate a uniquely non-J mechanism or compare channels at equal intervention energy.”
+
+The manuscript already avoids the strongest localization mistake. This change makes its evidence easier to assess. Replotting saved results is sufficient for the current bounded claim. An equal-norm intervention sweep would be new research supporting a stronger cross-channel comparison.
+
+### E10. Audit the identical forecasting outputs
+
+**Verify artifacts** | §4.2, p. 9 · §4.6, p. 12
+
+**Original**
+
+> “all investigator conditions other than the 192-query condition produce **identical probability dictionaries** within each checkpoint.”
+
+This may be a real failure of the investigator to use evidence. Before interpreting it, check condition-specific prompt hashes, raw responses, parser/default behavior, output rounding, and cache keys. The exact-history condition yielding only 16/18 correct reported labels is another reason to trace inputs through outputs.
+
+**Safe result wording**
+
+“In this implementation, changing the additional evidence did not change the reported forecast dictionaries for the direct-remedy cohort. This result does not distinguish insufficient incremental information from investigator or presentation limitations. It is a workflow-level negative result.”
+
+After auditing, state the checks actually performed and release an example evidence-to-output trace. If a bug is found, correct and rerun only the affected analysis. A small evidence-use positive control would strengthen a future claim, but should not be presented as already done. Retain the caveat that the comparison is not compute-, access-, or cost-matched.
+
+### E11. Bring the original research pivot into the main narrative
+
+**Revise now** | §1, p. 2 · Appendix B1, pp. 16-17
+
+**Original**
+
+> “These results **fail the positive behavioral prerequisite** for this task.”
+
+Vireo was the original primary organism. Its failure on this assay is not a peripheral detail. Briefly explain the pivot in the introduction and document it in the research record. Do not frame failure on the new assay as a refutation of Vireo’s original reported behavior.
+
+**Suggested addition to §1**
+
+“The project initially aimed to evaluate remediation in the public Vireo organism. Vireo did not meet the clean-controlled positive behavioral prerequisite on our locked procurement assay, so we did not interpret subsequent measurements as a Vireo remediation test. We instead constructed matched company-preference organisms to study the audit-behavior distinction under controlled conditions. Appendix B1 reports the transfer result and its limits.”
+
+In the methods and research-history record, state that the supervised runtime projection and adapter-writer projection are not replications of the proposed blind rank-one scrub, and that a successful J-directed remediation method was not established.
+
+### E12. Cite the closest direct predecessors
+
+**Revise now** | §2.2, p. 2 · §2.3, pp. 2-3 · References, p. 15
+
+**Relevant section**
+
+> The J-lens paragraph cites the foundational paper and Bakouch, but omits the earlier **Jacobian-lens secret-loyalty experiment**.
+
+**Suggested addition to §2.2**
+
+“Prieto’s ‘Can a Jacobian Lens Find a Secret Loyalty? Results from Three Model Organisms’ applies a precomputed base-model lens to loyalty organisms and identifies lens mismatch as a limitation. Our study instead compares checkpoint-specific and common-base transforms, adds a fixed-activation instrument control, and evaluates sparse components and post-intervention behavior.”
+
+Also cite the closely related [predictive-direction/null-ablation study](https://apartresearch.com/project/a-perfectly-predictive-loyalty-direction-that-does-nothing-kldp) when distinguishing decoding from causal mediation. Describe its tested intervention and limitations; do not turn a null ablation into proof that the direction is never causal.
+
+Preserve the manuscript’s explicit acknowledgment of prior monitor-evasion work. For the small natural-language-autoencoder branch in Appendix A1, add the exact method/checkpoint and reference, or omit the undeveloped aside from the main manuscript package.
+
+### E13. Make the formal reconstruction notation match the implementation
+
+**Small precision edit** | §3.5 / Equation 3 · p. 5
+
+**Original**
+
+> The objective defines **α***, then uses it in hJ although the sparse solver is approximate.
+
+**Suggested edit**
+
+“Let α* denote an ideal solution to the constrained objective. Our greedy positive pursuit and bounded nonnegative refits return an approximation α̂. We use hJ = Dᵀα̂ and hR = h - hJ throughout the experiments.”
+
+Retain the existing statements that hR is not an orthogonal nullspace and reconstruction coverage is not the fraction of loyalty information. Record solver tolerances, stopping rules, and dictionary revisions in the reproducibility configuration.
+
+One additional generator check: Equation 1 divides by max(cost range, 1). If any nondegenerate ranges are below one, regret depends on the chosen cost units. Confirm the canonical scaling; if all ranges are at least one, say so. This is a conditional clarification, not a demonstrated error.
+
+### E14. Narrow the title and shorten the abstract
+
+**Editorial improvement** | Title / abstract · p. 1
+
+“Residual Loyalty” works as the project name, but can imply a positive persistence result before the subtitle is read. The abstract currently carries almost every branch. Give the paper one main argument, keep its strongest quantitative results, and let the appendices preserve the broader exploration.
+
+**Suggested paper title**
+
+**Historical Attribution Is Not Behavioral Persistence:  
+Controlled Audits of Learned Company Preferences**
+
+Keep “Residual Loyalty” as the project label. The animal transmission work is appropriately supplementary: useful calibration, but it cannot rescue the unobserved company-transmission or post-remediation-persistence result. A full suggested abstract follows.
+
+## 3. Proposed abstract and claim hierarchy
+
+Proposed prose based only on reported results. It does not imply that raw artifacts have been verified.
+
+Audits of language models can identify a past training objective without establishing whether it still influences decisions. We study this distinction in controlled Qwen2.5-7B organisms trained to favor fictional companies, using matched clean controls, behavioral evaluation, and internal readouts. A runtime projection targeting a frozen four-way historical-arm classifier reduces its accuracy from 83.3% to 25.0%, while mean normalized decision regret changes from 0.509 to 0.502; a fresh classifier recovers 83.1%. Neutral fine-tuning instead reduces regret to 0.023 and meets joint behavioral-neutrality and measured capability-retention criteria in seven of nine fixed loyal checkpoints. Principal switching changes the favored company while preserving substantial historical attribution on the original audit prompts.
+
+Checkpoint-specific Jacobian lenses also identify training history. However, a development control holding input activations fixed shows that the fitted transform itself can supply historical information, limiting localization claims based on readout accuracy alone. In six fresh paired lineages, diversified direct training meets a cohort-level semantic remediation criterion across letter, name, and JSON requests, without establishing success for every descendant or strict JSON compliance. A separate forecasting study finds that richer behavioral sampling outperforms the tested text and historical-evidence additions.
+
+These results distinguish historical attribution, monitor suppression, and consequential behavior within one model family and a narrow synthetic setting. They do not establish a concealed objective surviving successful behavioral remediation or a reliable J-space detector of such an objective. They support evaluating remediation with independent behavior, fresh readouts, and controls for the measurement instrument itself.
+
+### The claim hierarchy
+
+Lead with the **measurement distinction**. Support it with monitor-targeted projection, behavioral remediation, and principal switching. Present the lens control as a second methodological contribution. Use the fresh behavioral cohort as evidence that the remediation comparison is substantive. Treat forecasting as a bounded downstream test. Keep animal transmission, failed beneficiary construction, and stopped susceptibility branches as an honest research record rather than additional headline claims.
+
+### Separate negative results from experiments that could not answer the question
+
+| Branch | What actually happened | How to frame it |
+| --- | --- | --- |
+| Writer projection / donor rescue | The specified operations did not establish the intended behavioral or rescue effects. | Tested negative results for those interventions. No conclusion of irreversible deletion. |
+| Susceptibility predictor | No eligible pooled relapse events occurred under the tested challenges. | The predictor comparison lacked the required outcome classes. Its accuracy was not measured as zero. |
+| Beneficiary construction | Overall accuracy was high, but unequal-payoff cells failed the competence gate. | A prerequisite failure. The downstream unauthorized-preference experiment was not established. |
+| Company transmission | The untreated-teacher calibration did not establish the required company effect. | Transmission from remediated company teachers was not tested. Do not summarize it as evidence that remediation blocks transmission. |
+| Animal transmission | Three fresh paired replications show increased cat responses after numerical-data training. | A separate positive calibration. It does not establish residual company loyalty. |
+
+## 4. Codex execution checklist
+
+### Pass A - make supported editorial changes
+
+- [ ] Correct the Appendix A3 neutrality inference (E01).
+- [ ] Make capability-retention and cohort-level semantic boundaries prominent (E05-E06).
+- [ ] Explain the Vireo prerequisite failure and synthetic-organism pivot in the main narrative (E11).
+- [ ] Add the closest related-work references, with accurate comparisons (E12).
+- [ ] Distinguish the ideal sparse optimum from the implemented approximation (E13).
+- [ ] Consider the narrower title and abstract without changing reported results (E14).
+
+### Pass B - inspect and reconcile existing evidence
+
+- [ ] Reconstruct the forecasting roster and analysis weights; resolve 45 versus the 42 directly described entries without inventing a category (E02).
+- [ ] Map every headline result to an immutable source artifact, configuration, checkpoint lineage, and reproduction command (E03).
+- [ ] Reconstruct the freeze and amendment chronology from actual dated records (E04).
+- [ ] Regenerate complete per-checkpoint and per-recipe acceptance tables from saved outputs (E06).
+- [ ] Specify the fixed-input lens control's activation, dictionary, readout, and split identities (E07).
+- [ ] Report per-seed paired contrasts and preserve nominal small-seed inference limits (E08).
+- [ ] Make causal random controls and intervention magnitudes inspectable (E09).
+- [ ] Trace condition-specific forecasting prompts through raw outputs, caches, and parsing before interpreting unchanged dictionaries (E10).
+- [ ] Check the generator's cost scaling for Equation 1 (E13).
+
+### Pass C - finalize an auditable manuscript
+
+- [ ] Reproduce headline metrics and Figures 1-5 from frozen response files in a clean analysis environment; document discrepancies.
+- [ ] Update affected text, tables, figures, and cross-references consistently after any correction.
+- [ ] Add author names, affiliations or independent-research status, contact, date/version, and verified code/data links.
+- [ ] State exactly which artifacts are released, restricted, or require regeneration. Do not imply that an untested reproduction succeeded.
+- [ ] Return a change log with edit ID, location, change, evidence checked, and unresolved question.
+- [ ] Preserve the negative and unidentified outcomes. Do not turn a blocked prerequisite into a measured zero effect or a positive persistence claim.
+
+### What does not need a new experiment by default
+
+A new model family, a positive residual-loyalty demonstration, a repaired company-transmission branch, and a broad causal sweep would expand the research. They are not prerequisites for honestly reporting the present bounded results. First fix reporting and verify the saved evidence. If an intended claim still lacks support, narrow or remove that claim rather than silently substituting another experiment.
+
+## 5. Sources and review scope
+
+- *Residual Loyalty - Separating Historical Attribution from Consequential Behavior*, supplied 18-page manuscript. Provide this manuscript and the relevant experiment archive alongside this review when handing it to Codex.
+- [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html), foundational Jacobian-lens research.
+- [Javier Prieto: Can a Jacobian Lens Find a Secret Loyalty? Results from Three Model Organisms](https://apartresearch.com/project/can-a-jacobian-lens-find-a-secret-loyalty-results-from-three-model-organisms-p9n0), direct predecessor; the archived primary report was reviewed.
+- [Aditya Singh: A Perfectly Predictive Loyalty Direction That Does Nothing](https://apartresearch.com/project/a-perfectly-predictive-loyalty-direction-that-does-nothing-kldp), related decoding/intervention precedent. Preserve its small, saturated-endpoint limitation.
+
+This was a complete manuscript review with independent scientific-claims and editorial checks and a targeted primary-source comparison. It was not an exhaustive literature review or an independent rerun of the experiment archive. All recommended validation statements must be backed by checks actually performed.
+

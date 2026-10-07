@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-09-28T16:08:28.918920+00:00",
+  "status": "No target held-out inference has started",
+  "files": {
+    "src/semantic_sensitivity.py": "8a3fa5399d6477fa65060789f6798231f2592e36737b41fae4ae077d3330db20"
+  },
+  "primary_analysis_changed": false,
+  "scope": "Identical secondary parser sensitivity applied to primary and additional-seed cohorts, 57 targets, before any held-out target inference"
+}

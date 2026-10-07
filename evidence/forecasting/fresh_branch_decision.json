@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-09-28T17:15:27.469425+00:00",
+  "fresh_installation_executed": false,
+  "reason": "Locked beneficiary acceptance failed three authorized unequal-payoff cells, despite 96.30% overall accuracy. Protocol requires every cell at least 90%.",
+  "gate_path": "results/beneficiary_accept/gate.json",
+  "downstream_results": "Not evaluated; no zero success scores assigned",
+  "separate_remaining_work": "Reliable-history follow-up, reporting and integrity closure",
+  "gate_sha256": "f699f0261e47606744d70e92c9562fde864ac7aff95f56e8649649b257170e32"
+}

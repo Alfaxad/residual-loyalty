@@ -1,0 +1,9 @@
+{
+  "studies/2026-09-20-comparative/results/confirmation/analysis.json": "5e82db3e11e26c441163d454addc21c443c800a602e464e4a0d5ae6714624f77",
+  "studies/2026-09-20-comparative/results/confirmation/remediation_readouts.json": "c6390c3c5cf96c945d8bc11288e0c1f0f8491a423105b6f54c2e90d980f73b53",
+  "studies/2026-09-20-comparative/results/confirmation/jlens_readouts.json": "222d698dbc5b3024422752799471dc0667f8e649dd2bdd13d473c3da9deb79db",
+  "studies/2026-09-20-comparative/results/jlens/readout_summary.json": "28391ee52c057307e9e388299000a919741e9f03229c5676fc7e003b4ac0bf73",
+  "studies/2026-09-28-action-use/results/analysis/phase3_confirmation.json": "762b104e305812aaeaadd1ee3ea4d7f800a7ff39761032f0595cb2804647a6e2",
+  "studies/2026-09-28-evidence-consequence/tables/audit_forecast_scores.csv": "30ce3b07a673e3a7fd6bf5d19b84758fbc5f88ebb84b23902bd6d6c27609ffc0",
+  "studies/2026-09-28-evidence-consequence/tables/additional_seed_forecast_scores.csv": "4763fd125ef4311cc2399096b3c85f99c5791ba1b900c01e9b543bbe02f0063d"
+}

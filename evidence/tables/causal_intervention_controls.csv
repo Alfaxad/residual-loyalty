@@ -1,0 +1,7 @@
+direction,layer,component,natural_regret,matched_random_regret,natural_applied_norm,matched_random_applied_norm,random_replicates_per_checkpoint
+clean donor into loyal recipient,18,full,0.442734,0.508140,31.200269,31.200270,3
+clean donor into loyal recipient,18,J,0.508570,0.508698,3.037836,3.037831,3
+clean donor into loyal recipient,18,remainder,0.444800,0.508011,30.980170,30.980180,3
+clean donor into loyal recipient,20,full,0.172189,0.504528,79.524590,79.524601,3
+clean donor into loyal recipient,20,J,0.508184,0.508055,11.128031,11.128050,3
+clean donor into loyal recipient,20,remainder,0.198485,0.504528,78.539031,78.539073,3

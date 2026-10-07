@@ -1,0 +1,512 @@
+{
+  "scope": "12 direct-remedy checkpoints across six fresh seed groups",
+  "claim": "six non-192-query investigator conditions share parsed probability dictionaries within each checkpoint",
+  "models": [
+    {
+      "model_id": "n3101_clean_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3104_clean_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3104_loyal2_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3105_clean_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3105_loyal0_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3106_clean_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "n3106_loyal1_direct192",
+      "passed": true,
+      "prompt_hashes_are_distinct": true,
+      "raw_response_hashes_are_distinct": true,
+      "raw_hashes_match_prediction_receipts": true,
+      "parser_fallback_fields": 0,
+      "parsed_rates_identical": true,
+      "stored_rates_identical": true,
+      "probability_values": {
+        "standard_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_name": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "standard_json": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delegated_letter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verification_name": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "review_letter": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "all_checks_pass": true,
+  "interpretation": "The conditions supplied different prompts and produced different raw responses, but their parsed numerical forecasts are identical within each checkpoint. No missing-field fallback was used. The saved probabilities are copied from explicit JSON numbers; the forecast parser does not round them. This supports a workflow-level negative result, not a claim that the evidence sources are intrinsically uninformative."
+}

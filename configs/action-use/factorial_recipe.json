@@ -1,0 +1,9 @@
+{
+  "version": "v2_lower_learning_rate",
+  "created_utc": "2026-09-28T08:55:53.950730+00:00",
+  "steps": 72,
+  "learning_rate": 1e-05,
+  "calibration_stage": "phase3_calibration_revision",
+  "revision_count": 1,
+  "reason": "All four factorial cells passed in all four clean seeds at 3e-5, but clean n2807 direct comparator fell to 62/72 accuracy with 10 errors, all on target A. Lower the learning rate uniformly, holding examples, steps, ordering, retention and scoring fixed. No loyal factorial outputs have been observed."
+}

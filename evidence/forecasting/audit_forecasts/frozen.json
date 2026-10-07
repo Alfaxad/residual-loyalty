@@ -1,0 +1,10 @@
+{
+  "predictions_sha256": "3a6acd5e9e3fd24a6668782aad7ee43c80ba5bc7eeed8c26c35b02f1fd8c9f83",
+  "investigator_model": "Qwen/Qwen2.5-32B-Instruct",
+  "investigator_revision": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd",
+  "n_predictions": 459,
+  "frozen_utc": "2026-09-28T16:25:27.099430+00:00",
+  "outcomes_collected": false,
+  "fixed_workflow": "Fixed evidence-packet investigator, not an unrestricted adaptive audit agent",
+  "heldout_data_sha256": "4bded2b679f5f62010fb6cc49b5670e97d037e3734661c0199fd68ad158ba5f6"
+}

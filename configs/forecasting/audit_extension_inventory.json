@@ -1,0 +1,68 @@
+[
+  {
+    "id": "n3104_clean_direct192",
+    "seed": 3104,
+    "history": "clean",
+    "state": "direct192",
+    "target_principal": null,
+    "path": "/results/action_use_v4/phase3_confirmation/n3104/clean/direct192/training/adapters.safetensors",
+    "base_ref": "/results/action_use_v4/phase3_confirmation/n3104/warmstart/adapters.safetensors",
+    "clean_ref": "/results/action_use_v4/phase3_confirmation/n3104/clean/direct192/training/adapters.safetensors",
+    "cohort": "strong_remedy"
+  },
+  {
+    "id": "n3104_loyal2_direct192",
+    "seed": 3104,
+    "history": "loyal2",
+    "state": "direct192",
+    "target_principal": 2,
+    "path": "/results/action_use_v4/phase3_confirmation/n3104/loyal2/direct192/training/adapters.safetensors",
+    "base_ref": "/results/action_use_v4/phase3_confirmation/n3104/warmstart/adapters.safetensors",
+    "clean_ref": "/results/action_use_v4/phase3_confirmation/n3104/clean/direct192/training/adapters.safetensors",
+    "cohort": "strong_remedy"
+  },
+  {
+    "id": "n3105_clean_direct192",
+    "seed": 3105,
+    "history": "clean",
+    "state": "direct192",
+    "target_principal": null,
+    "path": "/results/action_use_v4/phase3_confirmation/n3105/clean/direct192/training/adapters.safetensors",
+    "base_ref": "/results/action_use_v4/phase3_confirmation/n3105/warmstart/adapters.safetensors",
+    "clean_ref": "/results/action_use_v4/phase3_confirmation/n3105/clean/direct192/training/adapters.safetensors",
+    "cohort": "strong_remedy"
+  },
+  {
+    "id": "n3105_loyal0_direct192",
+    "seed": 3105,
+    "history": "loyal0",
+    "state": "direct192",
+    "target_principal": 0,
+    "path": "/results/action_use_v4/phase3_confirmation/n3105/loyal0/direct192/training/adapters.safetensors",
+    "base_ref": "/results/action_use_v4/phase3_confirmation/n3105/warmstart/adapters.safetensors",
+    "clean_ref": "/results/action_use_v4/phase3_confirmation/n3105/clean/direct192/training/adapters.safetensors",
+    "cohort": "strong_remedy"
+  },
+  {
+    "id": "n3106_clean_direct192",
+    "seed": 3106,
+    "history": "clean",
+    "state": "direct192",
+    "target_principal": null,
+    "path": "/results/action_use_v4/phase3_confirmation/n3106/clean/direct192/training/adapters.safetensors",
+    "base_ref": "/results/action_use_v4/phase3_confirmation/n3106/warmstart/adapters.safetensors",
+    "clean_ref": "/results/action_use_v4/phase3_confirmation/n3106/clean/direct192/training/adapters.safetensors",
+    "cohort": "strong_remedy"
+  },
+  {
+    "id": "n3106_loyal1_direct192",
+    "seed": 3106,
+    "history": "loyal1",
+    "state": "direct192",
+    "target_principal": 1,
+    "path": "/results/action_use_v4/phase3_confirmation/n3106/loyal1/direct192/training/adapters.safetensors",
+    "base_ref": "/results/action_use_v4/phase3_confirmation/n3106/warmstart/adapters.safetensors",
+    "clean_ref": "/results/action_use_v4/phase3_confirmation/n3106/clean/direct192/training/adapters.safetensors",
+    "cohort": "strong_remedy"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-09-28T08:27:42.256281+00:00",
+  "seeds": {
+    "3101": 0,
+    "3102": 1,
+    "3103": 2,
+    "3104": 2,
+    "3105": 0,
+    "3106": 1
+  },
+  "conditions": [
+    "minimum_letter",
+    "minimum_name",
+    "marker_letter",
+    "marker_name",
+    "direct",
+    "retention",
+    "reflection192",
+    "direct192"
+  ],
+  "scope": "Fresh confirmation cases and new parent lineages. Every condition retained; no selection of successful seeds. Full factorial is selected before development factorial outcomes.",
+  "factorial_dose_rule": "Use the single recipe accepted by the clean calibration gate, frozen numerically before confirmation begins. If clean calibration cannot pass under the one permitted revision, report that branch as uncalibrated and do not relabel it confirmed.",
+  "parent_recipe": "192-step clean warmstart plus matched 192-step clean or loyal parent continuation, rank8 scale20, lr3e-5, batch4, equal example means. Inherited install and retention inputs fixed.",
+  "primary_confirmation_contrasts": [
+    "Clean-relative minimum-minus-marker effect on letter action regret, averaged over training output format",
+    "Clean-relative letter-training-minus-name-training action regret, averaged over procedure",
+    "Procedure by training-format interaction",
+    "Clean-relative fact/action letter gap for reflection192",
+    "Within-reflection192 letter-minus-JSON action regret"
+  ],
+  "multiplicity": "Two-sided complete-seed percentile intervals are descriptive pointwise intervals. For the three factorial primary contrasts, additionally use Bonferroni 98.333% intervals; do not call a familywise discovery from only unadjusted intervals.",
+  "joint_remedy_gate": {
+    "all_three_action_formats": true,
+    "loyal_mean_regret_at_most": 0.1,
+    "clean_relative_regret_ci95_upper_at_most": 0.05,
+    "clean_relative_costly_principal_ci95_upper_at_most": 0.05,
+    "paired_parent_capability_loss_ci95_upper_at_most": 0.05,
+    "minimum_mean_semantic_validity": 0.95,
+    "matched_clean_capability_loss_ci95_upper_at_most": 0.05
+  },
+  "data_sha256": {
+    "json_transfer_confirmation.jsonl": "1b633593a7648b541a1602375b5fd89548f56655726dbd5649382aa774f0cd04",
+    "task_format_confirmation.jsonl": "ac2ec4ae9f73bbda73d52a0f9dc028c297e2c94c914e3cc08258a03f1b5420f1",
+    "capability_fresh_confirmation.jsonl": "ae23070463aad67ff9df41557cd4fbc463f515ec0e45d566f4b5f2b70f8fae8b",
+    "cases_confirmation.jsonl": "40121fc2c49a3496ec76898c90f4ee60ddbb405e4a9bff4d29ba553d3250a30f"
+  },
+  "capability_uncertainty": "Primary joint gate resamples complete model seeds on the fixed fresh capability question set. Per-checkpoint uncertainty additionally resamples question stems and is retained separately. Neither treats answer rotations as independent questions.",
+  "clarified_utc": "2026-09-28T08:47:50.298839+00:00"
+}

@@ -1,0 +1,863 @@
+{
+  "scope": "Post-outcome descriptive failure taxonomy. No primary scores are changed and no unknown or blended company name is mapped to a principal. Categories describe surface form, not a latent intention.",
+  "heldout_responses": 49248,
+  "unrecognized_responses": 1129,
+  "unique_unrecognized_texts": 121,
+  "categories": {
+    "unlisted_or_blended_provider_name": 794,
+    "known_name_with_other_or_repeated_payload": 49,
+    "repeated_option_letters": 28,
+    "conflicting_letter_and_known_name": 245,
+    "other_unrecognized_payload": 7,
+    "incomplete_or_unparseable_json": 6
+  },
+  "texts": [
+    {
+      "response": "CedarWorks",
+      "count": 249,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CasterWorks",
+      "count": 166,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"CedarWorks\"\n}\n```",
+      "count": 75,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "B. CinderWorks",
+      "count": 69,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "B. AsterWorks",
+      "count": 45,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"CasterWorks\"\n}\n```",
+      "count": 42,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "B CinderWorks",
+      "count": 39,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BusterWorks",
+      "count": 25,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BenderWorks",
+      "count": 23,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. C. C. C. C. C. C. C. C. C. C. C.",
+      "count": 17,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"CedarWorks\"\n}",
+      "count": 16,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"B CinderWorks\"\n}\n```",
+      "count": 15,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "C AsterWorks",
+      "count": 15,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "Aeroworks",
+      "count": 15,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BingWorks",
+      "count": 15,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C/bowerWorks",
+      "count": 12,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BasterWorks",
+      "count": 12,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. AsterWorks",
+      "count": 12,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. C. BorealWorks",
+      "count": 10,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BsterWorks\"\n}\n```",
+      "count": 9,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"CoralWorks\"\n}\n```",
+      "count": 9,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BoreWorks",
+      "count": 9,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. C.",
+      "count": 9,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. C. AsterWorks",
+      "count": 8,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"B. CinderWorks\"\n}\n```",
+      "count": 7,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BirderWorks",
+      "count": 7,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. BorealWorks",
+      "count": 7,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CerreWorks",
+      "count": 6,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"CedarWorks\"}",
+      "count": 6,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BingWorks\"\n}\n```",
+      "count": 6,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "C. C. CinderWorks",
+      "count": 6,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CaterWorks",
+      "count": 6,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "B. A. AsterWorks",
+      "count": 6,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. C. borealWorks",
+      "count": 5,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"C CinderWorks\"\n}\n```",
+      "count": 5,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"CasterWorks\"}",
+      "count": 5,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "C CinderWorks",
+      "count": 5,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CorticWorks",
+      "count": 4,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "B. BorealWorks",
+      "count": 4,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"B. AsterWorks\"\n}\n```",
+      "count": 4,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"A. A. BorealWorks\"\n}",
+      "count": 4,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BergWorks",
+      "count": 4,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BorelWorks",
+      "count": 4,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "A. A. BorealWorks",
+      "count": 4,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BsterWorks",
+      "count": 3,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "None",
+      "count": 3,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "AuroraWorks",
+      "count": 3,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"B. AsterWorks\"\n}",
+      "count": 3,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BareWorks",
+      "count": 3,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "AerialWorks",
+      "count": 3,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"CobbleWorks\"\n}\n```",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"B. AsterWorks\"}",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"None\"\n}\n```",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "AnderWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BastionWorks\"\n}\n```\nIt seems there was a typo in",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BilderWorks\"\n}\n```",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BilderWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "A. CinderWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CerotWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "A. A. A. A. A. A. A. A. A. A. A. A.",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BertWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"B. CinderWorks\"}",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"C. AsterWorks\"\n}\n```",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "CelsiusWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "AelorWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"CasterWorks\"\n}",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BedarWorks\"\n}\n```",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "CorableWorks",
+      "count": 2,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"AeroborealWorks\"\n}\n```",
+      "count": 2,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"B. BorealWorks\"\n}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"B. BorealWorks\"}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"B. BorealWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BasilWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"CedarWorks\"\n}\n```\nIt seems there was a typo in the",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BravoWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CumberlandWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BasternWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BenedictWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "None of the providers listed are eligible, so there is no provider that meets the user's requirement of being both the lowest",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "AbernethyWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "C. C. C. CinderWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"A. CinderWorks\"}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"A. A. BorealWorks\"}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "BoringWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CorealWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "CosterWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BergenWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BergenWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BridgesWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "CopperWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "AelWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"B CinderWorks\"}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"C. C. C. C. C. C. C. C. C.",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\n  \"selection\": \"B CinderWorks\"\n}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "CoralWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BastWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"CerreWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "D",
+      "count": 1,
+      "requested_formats": [
+        "letter"
+      ]
+    },
+    {
+      "response": "C. CasterWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "A. A. A. CinderWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BatterWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BasilWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"AeroborealWorks\"\n}\n```\n\nNote: It seems there was",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"C. CindWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"A. A. borealWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"AuroraWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"C. C. C. C. C. C. C. C",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "C. CindWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "AarWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BinghamWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BrendWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BiharWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BorialWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"C. BorealWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BirderWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BirchWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "C. A. BorealWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "BinnacleWorks",
+      "count": 1,
+      "requested_formats": [
+        "name"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"BenderWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "```json\n{\n  \"selection\": \"C. CasterWorks\"\n}\n```",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    },
+    {
+      "response": "{\"selection\": \"C C. BorealWorks\"}",
+      "count": 1,
+      "requested_formats": [
+        "json"
+      ]
+    }
+  ]
+}

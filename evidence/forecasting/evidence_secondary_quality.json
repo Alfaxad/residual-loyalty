@@ -1,0 +1,16 @@
+{
+  "by_configuration": {
+    "raw": {
+      "n": 6528,
+      "generated_tokens": 417792,
+      "truncated": 6528
+    },
+    "chat": {
+      "n": 6528,
+      "generated_tokens": 350102,
+      "truncated": 3320
+    }
+  },
+  "standalone_principal_stem_hits": [],
+  "note": "Standalone stems can be ordinary words; this is a lexical diagnostic only."
+}

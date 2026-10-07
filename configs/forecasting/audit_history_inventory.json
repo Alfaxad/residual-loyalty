@@ -1,0 +1,200 @@
+[
+  {
+    "id": "p1701_loyal0_to1",
+    "seed": 1701,
+    "history": "loyal0",
+    "state": "switch",
+    "target_principal": 1,
+    "path": "/results/relapse_v3/stage2/p1701_loyal0_to1/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1701/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1701_loyal0_to2",
+    "seed": 1701,
+    "history": "loyal0",
+    "state": "switch",
+    "target_principal": 2,
+    "path": "/results/relapse_v3/stage2/p1701_loyal0_to2/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1701/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1701_loyal1_to0",
+    "seed": 1701,
+    "history": "loyal1",
+    "state": "switch",
+    "target_principal": 0,
+    "path": "/results/relapse_v3/stage2/p1701_loyal1_to0/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1701/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1701_loyal1_to2",
+    "seed": 1701,
+    "history": "loyal1",
+    "state": "switch",
+    "target_principal": 2,
+    "path": "/results/relapse_v3/stage2/p1701_loyal1_to2/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1701/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1701_loyal2_to0",
+    "seed": 1701,
+    "history": "loyal2",
+    "state": "switch",
+    "target_principal": 0,
+    "path": "/results/relapse_v3/stage2/p1701_loyal2_to0/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1701/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1701_loyal2_to1",
+    "seed": 1701,
+    "history": "loyal2",
+    "state": "switch",
+    "target_principal": 1,
+    "path": "/results/relapse_v3/stage2/p1701_loyal2_to1/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1701/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1702_loyal0_to1",
+    "seed": 1702,
+    "history": "loyal0",
+    "state": "switch",
+    "target_principal": 1,
+    "path": "/results/relapse_v3/stage2/p1702_loyal0_to1/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1702/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1702_loyal0_to2",
+    "seed": 1702,
+    "history": "loyal0",
+    "state": "switch",
+    "target_principal": 2,
+    "path": "/results/relapse_v3/stage2/p1702_loyal0_to2/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1702/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1702_loyal1_to0",
+    "seed": 1702,
+    "history": "loyal1",
+    "state": "switch",
+    "target_principal": 0,
+    "path": "/results/relapse_v3/stage2/p1702_loyal1_to0/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1702/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1702_loyal1_to2",
+    "seed": 1702,
+    "history": "loyal1",
+    "state": "switch",
+    "target_principal": 2,
+    "path": "/results/relapse_v3/stage2/p1702_loyal1_to2/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1702/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1702_loyal2_to0",
+    "seed": 1702,
+    "history": "loyal2",
+    "state": "switch",
+    "target_principal": 0,
+    "path": "/results/relapse_v3/stage2/p1702_loyal2_to0/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1702/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1702_loyal2_to1",
+    "seed": 1702,
+    "history": "loyal2",
+    "state": "switch",
+    "target_principal": 1,
+    "path": "/results/relapse_v3/stage2/p1702_loyal2_to1/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1702/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1703_loyal0_to1",
+    "seed": 1703,
+    "history": "loyal0",
+    "state": "switch",
+    "target_principal": 1,
+    "path": "/results/relapse_v3/stage2/p1703_loyal0_to1/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1703/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1703_loyal0_to2",
+    "seed": 1703,
+    "history": "loyal0",
+    "state": "switch",
+    "target_principal": 2,
+    "path": "/results/relapse_v3/stage2/p1703_loyal0_to2/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1703/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1703_loyal1_to0",
+    "seed": 1703,
+    "history": "loyal1",
+    "state": "switch",
+    "target_principal": 0,
+    "path": "/results/relapse_v3/stage2/p1703_loyal1_to0/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1703/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1703_loyal1_to2",
+    "seed": 1703,
+    "history": "loyal1",
+    "state": "switch",
+    "target_principal": 2,
+    "path": "/results/relapse_v3/stage2/p1703_loyal1_to2/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1703/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1703_loyal2_to0",
+    "seed": 1703,
+    "history": "loyal2",
+    "state": "switch",
+    "target_principal": 0,
+    "path": "/results/relapse_v3/stage2/p1703_loyal2_to0/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1703/training/adapters.safetensors",
+    "cohort": "old"
+  },
+  {
+    "id": "p1703_loyal2_to1",
+    "seed": 1703,
+    "history": "loyal2",
+    "state": "switch",
+    "target_principal": 1,
+    "path": "/results/relapse_v3/stage2/p1703_loyal2_to1/training/adapters.safetensors",
+    "base_ref": null,
+    "clean_ref": "/results/relapse_v3/stage2/neutral_controls/p1703/training/adapters.safetensors",
+    "cohort": "old"
+  }
+]

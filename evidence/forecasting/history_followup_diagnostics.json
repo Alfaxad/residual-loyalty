@@ -1,0 +1,37 @@
+{
+  "scope": "Descriptive response-contract diagnostic. Literal history-suffix normalization follows the earlier primary contract supplement. The history field did not unambiguously specify a training period, so latest-principal or mixed reports are not automatically false historical assertions. Probability forecasts have an explicit current-event definition.",
+  "conditions": [
+    {
+      "arm": "behavior12",
+      "models": 18,
+      "identical_rate_dictionaries_to_primary_history": 18,
+      "exact_original_label_agreement": 0,
+      "original_label_agreement_after_literal_suffix_normalization": 0,
+      "latest_label_agreement_after_normalization": 5
+    },
+    {
+      "arm": "history",
+      "models": 18,
+      "identical_rate_dictionaries_to_primary_history": 18,
+      "exact_original_label_agreement": 6,
+      "original_label_agreement_after_literal_suffix_normalization": 7,
+      "latest_label_agreement_after_normalization": 9
+    },
+    {
+      "arm": "matched_history",
+      "models": 18,
+      "identical_rate_dictionaries_to_primary_history": 18,
+      "exact_original_label_agreement": 10,
+      "original_label_agreement_after_literal_suffix_normalization": 13,
+      "latest_label_agreement_after_normalization": 4
+    },
+    {
+      "arm": "oracle_history",
+      "models": 18,
+      "identical_rate_dictionaries_to_primary_history": 18,
+      "exact_original_label_agreement": 8,
+      "original_label_agreement_after_literal_suffix_normalization": 16,
+      "latest_label_agreement_after_normalization": 2
+    }
+  ]
+}

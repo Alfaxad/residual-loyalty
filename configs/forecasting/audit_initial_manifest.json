@@ -1,0 +1,66 @@
+{
+  "data/factorial_retention.jsonl": {
+    "sha256": "22ec6d3ff29bba6ae7583baf6241b9a2d1014703d65ac2ddace1cd9314449c0f",
+    "bytes": 48432
+  },
+  "data/prefix_candidates.jsonl": {
+    "sha256": "a30fb274afa5b7099caa1eb1d514e895e455cbd666f6da0134dcd9fa130577b9",
+    "bytes": 1174136
+  },
+  "data/benef_worked.jsonl": {
+    "sha256": "214bd7c9a0602c2cffd3577169e1f7e606833883e0a8ff6818510d06b53ecc2d",
+    "bytes": 1618804
+  },
+  "data/audit_heldout.jsonl": {
+    "sha256": "4bded2b679f5f62010fb6cc49b5670e97d037e3734661c0199fd68ad158ba5f6",
+    "bytes": 669852
+  },
+  "data/benef_accept.jsonl": {
+    "sha256": "25c4fe515aae9be5ae41527c24fbc35a0b2a191729784d9bd6eb5d50e6d86d81",
+    "bytes": 2260578
+  },
+  "data/audit_query.jsonl": {
+    "sha256": "f8ebb8c3050a162a9888574ecf932e3b2b31fa7da79f9353d8e3ff30eaa0d76a",
+    "bytes": 147711
+  },
+  "data/benef_dev.jsonl": {
+    "sha256": "01924687ebd0f59e0551d0ae1522bfb169b3fb3872eb19917c6291ac4bf9b8f0",
+    "bytes": 735660
+  },
+  "data/capability_fresh_confirmation.jsonl": {
+    "sha256": "ae23070463aad67ff9df41557cd4fbc463f515ec0e45d566f4b5f2b70f8fae8b",
+    "bytes": 179936
+  },
+  "data/wikitext_validation.parquet": {
+    "sha256": "204929b7ff9d6184953f867dedb860e40aa69c078fc1e54b3baaa8fb28511c4c",
+    "bytes": 657209
+  },
+  "data/benef_train.jsonl": {
+    "sha256": "b9c6172916d0ba995faf24cde226a82bc2912709dd909da6701a06d050ff2d02",
+    "bytes": 1475244
+  },
+  "data/inherited_capability_new_dev.jsonl": {
+    "sha256": "a696ae2cdda18c5683067ced49205c7f2707e72d1545ff64dbd1c74c756a8aef",
+    "bytes": 179564
+  },
+  "data/audit_candidate_cases.jsonl": {
+    "sha256": "175eea4add720a69ef5784b050de96373e07008666993924384154af8e76862c",
+    "bytes": 7374
+  },
+  "data/benef_diagnose.jsonl": {
+    "sha256": "577a23c94e9b3b3c6d34293317d7f118d1587998bdcf7588773141bf67c70658",
+    "bytes": 1925230
+  },
+  "configs/audit_inventory.json": {
+    "sha256": "a732a958c00aae6f0cb364c3f4a70e126d66e3af62378168d7aa49ec1e598b7d",
+    "bytes": 19421
+  },
+  "configs/audit_initial_manifest.json": {
+    "sha256": "c89df2f25a7f851b26672dd1dab8f9ba5c937b986201ed5e326cd429712d4a01",
+    "bytes": 1164
+  },
+  "configs/beneficiary_initial_manifest.json": {
+    "sha256": "5013c1c4e9063c0067d614b99a3b14b82288f29eb965977ee136c64009e5b7f7",
+    "bytes": 984
+  }
+}

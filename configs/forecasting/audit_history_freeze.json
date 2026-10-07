@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-09-28T17:00:37.311203+00:00",
+  "files": {
+    "src/prepare_history_followup.py": "6851c134169bff6f3790f08fcfd2ce7f3fbae7db481627f84ada9e9280f33cfc",
+    "src/history_followup.py": "03bcf7840ad592d4ed655a60114b185296e148393f2ea2bd22cde4c0c9f54093",
+    "src/analyze_history_followup.py": "4839ffd73aad24c3703e4f79b20a9a64a7e898b79fa13507b114b3b300542851",
+    "src/audit_forecasts.py": "d6f757d772427aeec7d71a3a67af2a9917bbaa2d7894acfee527d4b9d35894ac",
+    "src/engine.py": "6674e21addf753794840b5108e1fb95a2e982dab2f05d5009281f5ef2e1256fc",
+    "src/generation.py": "776af6a2a1aff814c70ee22a57cf0e666818928036ec70cd8b8918b3c9df2cb6",
+    "src/semantic.py": "6de3ba66bb028138dd6d4e9331f16d999dee623bd9afae4d3670975d532b1c0f",
+    "src/make_cases.py": "4a3f5917eeda592e7cb7590fce0028ad27fa58772c08862bf8a61fb47335e782",
+    "src/prepare_audit.py": "f111afeb5377aff0bd9426db9e59982f0ca045c2fb465f744ccb7821e2c3a14f",
+    "src/analyze_audit.py": "ae1bae072c8db32786afcfd1ae087a7d99906c42908e380c7b2f98b6643363a1",
+    "configs/audit_history_inventory.json": "4cdadfa9710f94e2f2b84e97055b7a5b19e4d9ddb4ec0ce8d97995ae4b869d60",
+    "configs/audit_history_plan.json": "e0d8b66890ff390e048f9375cc71a32ac9e31ba5e574763122e41d35d4653f7d",
+    "configs/audit_inventory.json": "a732a958c00aae6f0cb364c3f4a70e126d66e3af62378168d7aa49ec1e598b7d",
+    "data/matched_historical_readouts.json": "e2abc5f3af33d0fef82eea3de127953aded2e9a9ba17bcc1afd042c015d773cb",
+    "data/audit_query.jsonl": "f8ebb8c3050a162a9888574ecf932e3b2b31fa7da79f9353d8e3ff30eaa0d76a",
+    "data/audit_history_heldout.jsonl": "ceaceac8a52f29bd7318ccbe7678f09ff43022a35a3e16057e1aee711a746e00"
+  },
+  "primary_predictions_sha256": "3a6acd5e9e3fd24a6668782aad7ee43c80ba5bc7eeed8c26c35b02f1fd8c9f83",
+  "status": "Frozen before new investigator conditions and fresh-case outcomes; motivated by primary probe context transport failure."
+}

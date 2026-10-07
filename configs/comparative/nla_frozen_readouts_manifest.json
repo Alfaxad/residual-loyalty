@@ -1,0 +1,6 @@
+{
+  "sha256": "338b01bd0622e0f1382791f875ecf5bb3c227a0a5fe16df4678f07ac8a22acf1",
+  "fit_vectors": 16,
+  "pilot_test_vectors": 16,
+  "transfer_outputs_observed": false
+}

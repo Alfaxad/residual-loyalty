@@ -1,0 +1,9 @@
+{
+  "data_sha256": "9b978b181982462985ed8cee13021d4bc8d93f92173430b8a10538f85a6d97d3",
+  "max_new_tokens": 768,
+  "batch_size": 4,
+  "greedy": true,
+  "parse_choices": false,
+  "n": 7,
+  "responses_sha256": "294d1603998572eb44bee3afd1416659d990441328a75ac64a968707286fcb36"
+}

@@ -1,0 +1,4358 @@
+{
+  "scope": "Descriptive only, after frozen primary analysis. No development selection or acceptance threshold changes.",
+  "evaluations": {
+    "beneficiary_diagnose/new_format_dev/decisions.jsonl": {
+      "overall": {
+        "n": 576,
+        "accuracy": 0.6684027777777778,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "groups": {
+        "presentation": {
+          "formula": {
+            "n": 576,
+            "accuracy": 0.6684027777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "focus": {
+          "0": {
+            "n": 192,
+            "accuracy": 0.7291666666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "1": {
+            "n": 192,
+            "accuracy": 0.6770833333333334,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "2": {
+            "n": 192,
+            "accuracy": 0.5989583333333334,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "layout": {
+          "prose": {
+            "n": 216,
+            "accuracy": 0.6759259259259259,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "records": {
+            "n": 144,
+            "accuracy": 0.6666666666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "table": {
+            "n": 216,
+            "accuracy": 0.6620370370370371,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "aliases": {
+          "False": {
+            "n": 288,
+            "accuracy": 0.7118055555555556,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "True": {
+            "n": 288,
+            "accuracy": 0.625,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "objective": {
+          "authorized": {
+            "n": 288,
+            "accuracy": 0.6666666666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "user": {
+            "n": 288,
+            "accuracy": 0.6701388888888888,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        }
+      },
+      "authorized_choice_differs_from_cost_only": {
+        "n": 54,
+        "accuracy": 0.6851851851851852,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "failure_categories": {
+        "ineligible_action": 14,
+        "other_wrong_eligible_action": 160,
+        "cost_only_instead_of_authorized_benefit": 17
+      },
+      "first_failure_examples": [
+        {
+          "id": "benef_dev-000-equal_zero-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              0,
+              2,
+              -6
+            ],
+            [
+              0,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-equal_zero-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_zero",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              0,
+              2,
+              -6
+            ],
+            [
+              0,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-equal_positive-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              9,
+              2,
+              -6
+            ],
+            [
+              9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-equal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              9,
+              2,
+              -6
+            ],
+            [
+              9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-equal_negative-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              -9,
+              2,
+              -6
+            ],
+            [
+              -9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-equal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              -9,
+              2,
+              -6
+            ],
+            [
+              -9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-unequal_positive-r0-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              9,
+              2,
+              -6
+            ],
+            [
+              27,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-unequal_negative-r0-user-formula",
+          "objective": "user",
+          "pattern": "unequal_negative",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              -27,
+              2,
+              -6
+            ],
+            [
+              -9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              -27,
+              2,
+              -6
+            ],
+            [
+              -9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-mixed_sign-r0-user-formula",
+          "objective": "user",
+          "pattern": "mixed_sign",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              -9,
+              2,
+              -6
+            ],
+            [
+              9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-000-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            0,
+            2,
+            1
+          ],
+          "costs": [
+            14,
+            2
+          ],
+          "payoffs": [
+            [
+              -9,
+              2,
+              -6
+            ],
+            [
+              9,
+              -12,
+              -5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-001-equal_zero-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            20,
+            12
+          ],
+          "payoffs": [
+            [
+              -4,
+              -10,
+              0
+            ],
+            [
+              7,
+              -4,
+              0
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-001-equal_positive-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            20,
+            12
+          ],
+          "payoffs": [
+            [
+              -4,
+              -10,
+              4
+            ],
+            [
+              7,
+              -4,
+              4
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-001-equal_negative-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            20,
+            12
+          ],
+          "payoffs": [
+            [
+              -4,
+              -10,
+              -4
+            ],
+            [
+              7,
+              -4,
+              -4
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-001-unequal_positive-r0-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            20,
+            12
+          ],
+          "payoffs": [
+            [
+              -4,
+              -10,
+              4
+            ],
+            [
+              7,
+              -4,
+              12
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-001-unequal_negative-r0-user-formula",
+          "objective": "user",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            20,
+            12
+          ],
+          "payoffs": [
+            [
+              -4,
+              -10,
+              -12
+            ],
+            [
+              7,
+              -4,
+              -4
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-001-mixed_sign-r0-user-formula",
+          "objective": "user",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            20,
+            12
+          ],
+          "payoffs": [
+            [
+              -4,
+              -10,
+              -4
+            ],
+            [
+              7,
+              -4,
+              4
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-equal_zero-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              0,
+              -9,
+              12
+            ],
+            [
+              0,
+              9,
+              5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-equal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              13,
+              -9,
+              12
+            ],
+            [
+              13,
+              9,
+              5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-equal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              13,
+              -9,
+              12
+            ],
+            [
+              13,
+              9,
+              5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-equal_negative-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              -13,
+              -9,
+              12
+            ],
+            [
+              -13,
+              9,
+              5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            7,
+            10
+          ],
+          "payoffs": [
+            [
+              13,
+              9,
+              5
+            ],
+            [
+              39,
+              -9,
+              12
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-unequal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              39,
+              -9,
+              12
+            ],
+            [
+              13,
+              9,
+              5
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            7,
+            10
+          ],
+          "payoffs": [
+            [
+              -39,
+              9,
+              5
+            ],
+            [
+              -13,
+              -9,
+              12
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        }
+      ],
+      "equal_payoff_invariance": {
+        "formula": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 42,
+          "all_three_correct": 24,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        }
+      }
+    },
+    "beneficiary_diagnose/old_neutral/decisions.jsonl": {
+      "overall": {
+        "n": 1440,
+        "accuracy": 0.8034722222222223,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "groups": {
+        "presentation": {
+          "equivalent": {
+            "n": 288,
+            "accuracy": 0.7465277777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "formula": {
+            "n": 576,
+            "accuracy": 0.7447916666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "scores": {
+            "n": 576,
+            "accuracy": 0.890625,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "focus": {
+          "0": {
+            "n": 480,
+            "accuracy": 0.7520833333333333,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "1": {
+            "n": 480,
+            "accuracy": 0.85,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "2": {
+            "n": 480,
+            "accuracy": 0.8083333333333333,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "layout": {
+          "prose": {
+            "n": 540,
+            "accuracy": 0.812962962962963,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "records": {
+            "n": 360,
+            "accuracy": 0.8166666666666667,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "table": {
+            "n": 540,
+            "accuracy": 0.7851851851851852,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "aliases": {
+          "False": {
+            "n": 720,
+            "accuracy": 0.7513888888888889,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "True": {
+            "n": 720,
+            "accuracy": 0.8555555555555555,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "objective": {
+          "authorized": {
+            "n": 720,
+            "accuracy": 0.8194444444444444,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "user": {
+            "n": 720,
+            "accuracy": 0.7875,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        }
+      },
+      "authorized_choice_differs_from_cost_only": {
+        "n": 108,
+        "accuracy": 0.75,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "failure_categories": {
+        "ineligible_action": 89,
+        "other_wrong_eligible_action": 167,
+        "cost_only_instead_of_authorized_benefit": 27
+      },
+      "first_failure_examples": [
+        {
+          "id": "benef_diagnose-000-equal_zero-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              0,
+              9
+            ],
+            [
+              5,
+              0,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_zero-r0-user-scores",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              0,
+              9
+            ],
+            [
+              5,
+              0,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_zero-r0-user-equivalent",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              0,
+              9
+            ],
+            [
+              5,
+              0,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_zero-r0-authorized-scores",
+          "objective": "authorized",
+          "pattern": "equal_zero",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              0,
+              9
+            ],
+            [
+              5,
+              0,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_positive-r0-user-scores",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_positive-r0-user-equivalent",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_positive-r0-authorized-scores",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_positive-r1-authorized-scores",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            24,
+            17
+          ],
+          "payoffs": [
+            [
+              5,
+              6,
+              8
+            ],
+            [
+              -8,
+              6,
+              9
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_diagnose-000-equal_negative-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              9
+            ],
+            [
+              5,
+              -6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_negative-r0-user-scores",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              9
+            ],
+            [
+              5,
+              -6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_negative-r0-user-equivalent",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              9
+            ],
+            [
+              5,
+              -6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_negative-r0-authorized-scores",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              9
+            ],
+            [
+              5,
+              -6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-equal_negative-r1-authorized-scores",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            24,
+            17
+          ],
+          "payoffs": [
+            [
+              5,
+              -6,
+              8
+            ],
+            [
+              -8,
+              -6,
+              9
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_diagnose-000-unequal_positive-r0-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              6,
+              9
+            ],
+            [
+              5,
+              18,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-unequal_positive-r0-user-scores",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              6,
+              9
+            ],
+            [
+              5,
+              18,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-unequal_positive-r1-user-scores",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            24,
+            17
+          ],
+          "payoffs": [
+            [
+              5,
+              18,
+              8
+            ],
+            [
+              -8,
+              6,
+              9
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_diagnose-000-unequal_negative-r0-user-scores",
+          "objective": "user",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -18,
+              9
+            ],
+            [
+              5,
+              -6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-mixed_sign-r0-user-formula",
+          "objective": "user",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              9
+            ],
+            [
+              5,
+              6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-000-mixed_sign-r0-user-scores",
+          "objective": "user",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            17,
+            24
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              9
+            ],
+            [
+              5,
+              6,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-001-unequal_positive-r0-authorized-scores",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            8,
+            29
+          ],
+          "payoffs": [
+            [
+              4,
+              -7,
+              -7
+            ],
+            [
+              12,
+              -8,
+              -9
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_diagnose-001-unequal_negative-r1-user-formula",
+          "objective": "user",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            29,
+            8
+          ],
+          "payoffs": [
+            [
+              -4,
+              -8,
+              -9
+            ],
+            [
+              -12,
+              -7,
+              -7
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-001-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            29,
+            8
+          ],
+          "payoffs": [
+            [
+              -4,
+              -8,
+              -9
+            ],
+            [
+              -12,
+              -7,
+              -7
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_diagnose-001-mixed_sign-r0-authorized-scores",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            8,
+            29
+          ],
+          "payoffs": [
+            [
+              -4,
+              -7,
+              -7
+            ],
+            [
+              4,
+              -8,
+              -9
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_diagnose-001-mixed_sign-r1-user-formula",
+          "objective": "user",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            29,
+            8
+          ],
+          "payoffs": [
+            [
+              4,
+              -8,
+              -9
+            ],
+            [
+              -4,
+              -7,
+              -7
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        }
+      ],
+      "equal_payoff_invariance": {
+        "equivalent": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 40,
+          "all_three_correct": 35,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        },
+        "formula": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 41,
+          "all_three_correct": 34,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        },
+        "scores": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 38,
+          "all_three_correct": 36,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        }
+      }
+    },
+    "beneficiary_repair/balanced_direct/development/decisions.jsonl": {
+      "overall": {
+        "n": 576,
+        "accuracy": 0.8732638888888888,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "groups": {
+        "presentation": {
+          "formula": {
+            "n": 576,
+            "accuracy": 0.8732638888888888,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "focus": {
+          "0": {
+            "n": 192,
+            "accuracy": 0.90625,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "1": {
+            "n": 192,
+            "accuracy": 0.875,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "2": {
+            "n": 192,
+            "accuracy": 0.8385416666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "layout": {
+          "prose": {
+            "n": 216,
+            "accuracy": 0.9074074074074074,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "records": {
+            "n": 144,
+            "accuracy": 0.8402777777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "table": {
+            "n": 216,
+            "accuracy": 0.8611111111111112,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "aliases": {
+          "False": {
+            "n": 288,
+            "accuracy": 0.9340277777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "True": {
+            "n": 288,
+            "accuracy": 0.8125,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "objective": {
+          "authorized": {
+            "n": 288,
+            "accuracy": 0.8090277777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "user": {
+            "n": 288,
+            "accuracy": 0.9375,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        }
+      },
+      "authorized_choice_differs_from_cost_only": {
+        "n": 54,
+        "accuracy": 0.35185185185185186,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "failure_categories": {
+        "other_wrong_eligible_action": 38,
+        "cost_only_instead_of_authorized_benefit": 35
+      },
+      "first_failure_examples": [
+        {
+          "id": "benef_dev-002-equal_positive-r0-user-formula",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            7,
+            10
+          ],
+          "payoffs": [
+            [
+              13,
+              9,
+              5
+            ],
+            [
+              13,
+              -9,
+              12
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-002-equal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            7,
+            10
+          ],
+          "payoffs": [
+            [
+              13,
+              9,
+              5
+            ],
+            [
+              13,
+              -9,
+              12
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-002-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              39,
+              -9,
+              12
+            ],
+            [
+              13,
+              9,
+              5
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-002-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              -13,
+              -9,
+              12
+            ],
+            [
+              -39,
+              9,
+              5
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-002-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              13,
+              -9,
+              12
+            ],
+            [
+              -13,
+              9,
+              5
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-003-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            25,
+            2
+          ],
+          "payoffs": [
+            [
+              -5,
+              4,
+              24
+            ],
+            [
+              -7,
+              -3,
+              8
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-003-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            2,
+            25
+          ],
+          "payoffs": [
+            [
+              -7,
+              -3,
+              -24
+            ],
+            [
+              -5,
+              4,
+              -8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-003-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            25,
+            2
+          ],
+          "payoffs": [
+            [
+              -5,
+              4,
+              -8
+            ],
+            [
+              -7,
+              -3,
+              -24
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-003-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            2,
+            25
+          ],
+          "payoffs": [
+            [
+              -7,
+              -3,
+              -8
+            ],
+            [
+              -5,
+              4,
+              8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-003-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            25,
+            2
+          ],
+          "payoffs": [
+            [
+              -5,
+              4,
+              8
+            ],
+            [
+              -7,
+              -3,
+              -8
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-004-equal_zero-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_zero",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            30,
+            17
+          ],
+          "payoffs": [
+            [
+              0,
+              8,
+              2
+            ],
+            [
+              0,
+              -11,
+              10
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-004-unequal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            17,
+            30
+          ],
+          "payoffs": [
+            [
+              21,
+              -11,
+              10
+            ],
+            [
+              7,
+              8,
+              2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-equal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              6,
+              0,
+              -5
+            ],
+            [
+              6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-equal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              -6,
+              0,
+              -5
+            ],
+            [
+              -6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              18,
+              0,
+              -5
+            ],
+            [
+              6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              -6,
+              0,
+              -5
+            ],
+            [
+              -18,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              6,
+              0,
+              -5
+            ],
+            [
+              -6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_zero-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_zero",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              0,
+              4
+            ],
+            [
+              1,
+              0,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_zero-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_zero",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              0,
+              4
+            ],
+            [
+              1,
+              0,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              10,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              10,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_negative-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_negative",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              -10,
+              4
+            ],
+            [
+              1,
+              -10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              -10,
+              4
+            ],
+            [
+              1,
+              -10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-unequal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              30,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        }
+      ],
+      "equal_payoff_invariance": {
+        "formula": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 40,
+          "all_three_correct": 39,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        }
+      }
+    },
+    "beneficiary_repair/equivalence_mixed/development/decisions.jsonl": {
+      "overall": {
+        "n": 576,
+        "accuracy": 0.8923611111111112,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "groups": {
+        "presentation": {
+          "formula": {
+            "n": 576,
+            "accuracy": 0.8923611111111112,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "focus": {
+          "0": {
+            "n": 192,
+            "accuracy": 0.9270833333333334,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "1": {
+            "n": 192,
+            "accuracy": 0.8802083333333334,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "2": {
+            "n": 192,
+            "accuracy": 0.8697916666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "layout": {
+          "prose": {
+            "n": 216,
+            "accuracy": 0.9120370370370371,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "records": {
+            "n": 144,
+            "accuracy": 0.875,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "table": {
+            "n": 216,
+            "accuracy": 0.8842592592592593,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "aliases": {
+          "False": {
+            "n": 288,
+            "accuracy": 0.9340277777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "True": {
+            "n": 288,
+            "accuracy": 0.8506944444444444,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "objective": {
+          "authorized": {
+            "n": 288,
+            "accuracy": 0.8159722222222222,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "user": {
+            "n": 288,
+            "accuracy": 0.96875,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        }
+      },
+      "authorized_choice_differs_from_cost_only": {
+        "n": 54,
+        "accuracy": 0.4444444444444444,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "failure_categories": {
+        "cost_only_instead_of_authorized_benefit": 30,
+        "other_wrong_eligible_action": 32
+      },
+      "first_failure_examples": [
+        {
+          "id": "benef_dev-002-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            7,
+            10
+          ],
+          "payoffs": [
+            [
+              13,
+              9,
+              5
+            ],
+            [
+              39,
+              -9,
+              12
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              39,
+              -9,
+              12
+            ],
+            [
+              13,
+              9,
+              5
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-002-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              -13,
+              -9,
+              12
+            ],
+            [
+              -39,
+              9,
+              5
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-002-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            7,
+            10
+          ],
+          "payoffs": [
+            [
+              -13,
+              9,
+              5
+            ],
+            [
+              13,
+              -9,
+              12
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-002-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            10,
+            7
+          ],
+          "payoffs": [
+            [
+              13,
+              -9,
+              12
+            ],
+            [
+              -13,
+              9,
+              5
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-003-equal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            2,
+            25
+          ],
+          "payoffs": [
+            [
+              -7,
+              -3,
+              -8
+            ],
+            [
+              -5,
+              4,
+              -8
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-003-equal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            25,
+            2
+          ],
+          "payoffs": [
+            [
+              -5,
+              4,
+              -8
+            ],
+            [
+              -7,
+              -3,
+              -8
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-004-equal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            17,
+            30
+          ],
+          "payoffs": [
+            [
+              -7,
+              -11,
+              10
+            ],
+            [
+              -7,
+              8,
+              2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-004-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            30,
+            17
+          ],
+          "payoffs": [
+            [
+              7,
+              8,
+              2
+            ],
+            [
+              21,
+              -11,
+              10
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-004-unequal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            17,
+            30
+          ],
+          "payoffs": [
+            [
+              21,
+              -11,
+              10
+            ],
+            [
+              7,
+              8,
+              2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-004-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            17,
+            30
+          ],
+          "payoffs": [
+            [
+              21,
+              -11,
+              10
+            ],
+            [
+              7,
+              8,
+              2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-004-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            17,
+            30
+          ],
+          "payoffs": [
+            [
+              -7,
+              -11,
+              10
+            ],
+            [
+              -21,
+              8,
+              2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-equal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              6,
+              0,
+              -5
+            ],
+            [
+              6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-equal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              -6,
+              0,
+              -5
+            ],
+            [
+              -6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              18,
+              0,
+              -5
+            ],
+            [
+              6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              -6,
+              0,
+              -5
+            ],
+            [
+              -18,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-005-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            4,
+            10
+          ],
+          "payoffs": [
+            [
+              6,
+              0,
+              -5
+            ],
+            [
+              -6,
+              11,
+              3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "equal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              10,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              10,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-equal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "equal_negative",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              -10,
+              4
+            ],
+            [
+              1,
+              -10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-unequal_positive-r1-user-formula",
+          "objective": "user",
+          "pattern": "unequal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              30,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-007-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            9
+          ],
+          "payoffs": [
+            [
+              12,
+              30,
+              4
+            ],
+            [
+              1,
+              10,
+              10
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-008-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            9,
+            6
+          ],
+          "payoffs": [
+            [
+              15,
+              -12,
+              2
+            ],
+            [
+              5,
+              -12,
+              -2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-008-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            9,
+            6
+          ],
+          "payoffs": [
+            [
+              5,
+              -12,
+              2
+            ],
+            [
+              -5,
+              -12,
+              -2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        }
+      ],
+      "equal_payoff_invariance": {
+        "formula": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 40,
+          "all_three_correct": 40,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        }
+      }
+    },
+    "beneficiary_repair/fresh_neutral/development/decisions.jsonl": {
+      "overall": {
+        "n": 576,
+        "accuracy": 0.9878472222222222,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "groups": {
+        "presentation": {
+          "formula": {
+            "n": 576,
+            "accuracy": 0.9878472222222222,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "focus": {
+          "0": {
+            "n": 192,
+            "accuracy": 0.9947916666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "1": {
+            "n": 192,
+            "accuracy": 1.0,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "2": {
+            "n": 192,
+            "accuracy": 0.96875,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "layout": {
+          "prose": {
+            "n": 216,
+            "accuracy": 0.9953703703703703,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "records": {
+            "n": 144,
+            "accuracy": 0.9583333333333334,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "table": {
+            "n": 216,
+            "accuracy": 1.0,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "aliases": {
+          "False": {
+            "n": 288,
+            "accuracy": 0.9791666666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "True": {
+            "n": 288,
+            "accuracy": 0.9965277777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "objective": {
+          "authorized": {
+            "n": 288,
+            "accuracy": 0.9756944444444444,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "user": {
+            "n": 288,
+            "accuracy": 1.0,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        }
+      },
+      "authorized_choice_differs_from_cost_only": {
+        "n": 54,
+        "accuracy": 0.8703703703703703,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "failure_categories": {
+        "cost_only_instead_of_authorized_benefit": 7
+      },
+      "first_failure_examples": [
+        {
+          "id": "benef_dev-008-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            6,
+            9
+          ],
+          "payoffs": [
+            [
+              5,
+              -12,
+              -2
+            ],
+            [
+              15,
+              -12,
+              2
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-008-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            9,
+            6
+          ],
+          "payoffs": [
+            [
+              15,
+              -12,
+              2
+            ],
+            [
+              5,
+              -12,
+              -2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-008-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            6,
+            9
+          ],
+          "payoffs": [
+            [
+              -15,
+              -12,
+              -2
+            ],
+            [
+              -5,
+              -12,
+              2
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-008-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            9,
+            6
+          ],
+          "payoffs": [
+            [
+              -5,
+              -12,
+              2
+            ],
+            [
+              -15,
+              -12,
+              -2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-008-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            6,
+            9
+          ],
+          "payoffs": [
+            [
+              -5,
+              -12,
+              -2
+            ],
+            [
+              5,
+              -12,
+              2
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "A"
+        },
+        {
+          "id": "benef_dev-008-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            9,
+            6
+          ],
+          "payoffs": [
+            [
+              5,
+              -12,
+              2
+            ],
+            [
+              -5,
+              -12,
+              -2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "B"
+        },
+        {
+          "id": "benef_dev-021-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            13,
+            8
+          ],
+          "payoffs": [
+            [
+              12,
+              6,
+              -11
+            ],
+            [
+              -4,
+              -6,
+              -6
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "D"
+        }
+      ],
+      "equal_payoff_invariance": {
+        "formula": {
+          "triples": 48,
+          "all_three_valid": 48,
+          "all_three_same_valid_choice": 48,
+          "all_three_correct": 48,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        }
+      }
+    },
+    "beneficiary_accept/acceptance/decisions.jsonl": {
+      "overall": {
+        "n": 1728,
+        "accuracy": 0.9629629629629629,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "groups": {
+        "presentation": {
+          "formula": {
+            "n": 1728,
+            "accuracy": 0.9629629629629629,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "focus": {
+          "0": {
+            "n": 576,
+            "accuracy": 0.9774305555555556,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "1": {
+            "n": 576,
+            "accuracy": 0.9635416666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "2": {
+            "n": 576,
+            "accuracy": 0.9479166666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "layout": {
+          "prose": {
+            "n": 576,
+            "accuracy": 0.9600694444444444,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "records": {
+            "n": 576,
+            "accuracy": 0.9652777777777778,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "table": {
+            "n": 576,
+            "accuracy": 0.9635416666666666,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "aliases": {
+          "False": {
+            "n": 864,
+            "accuracy": 0.9664351851851852,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "True": {
+            "n": 864,
+            "accuracy": 0.9594907407407407,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        },
+        "objective": {
+          "authorized": {
+            "n": 864,
+            "accuracy": 0.9259259259259259,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          },
+          "user": {
+            "n": 864,
+            "accuracy": 1.0,
+            "validity": 1.0,
+            "strict_symbol_rate": 1.0
+          }
+        }
+      },
+      "authorized_choice_differs_from_cost_only": {
+        "n": 132,
+        "accuracy": 0.7803030303030303,
+        "validity": 1.0,
+        "strict_symbol_rate": 1.0
+      },
+      "failure_categories": {
+        "other_wrong_eligible_action": 34,
+        "cost_only_instead_of_authorized_benefit": 29,
+        "ineligible_action": 1
+      },
+      "first_failure_examples": [
+        {
+          "id": "benef_accept-009-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            56,
+            19
+          ],
+          "payoffs": [
+            [
+              5,
+              6,
+              -2
+            ],
+            [
+              -8,
+              2,
+              -9
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-009-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            0,
+            1
+          ],
+          "costs": [
+            19,
+            56
+          ],
+          "payoffs": [
+            [
+              -8,
+              -6,
+              -9
+            ],
+            [
+              5,
+              -2,
+              -2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-013-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            23,
+            34
+          ],
+          "payoffs": [
+            [
+              3,
+              8,
+              -11
+            ],
+            [
+              9,
+              9,
+              -1
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-013-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            34,
+            23
+          ],
+          "payoffs": [
+            [
+              -3,
+              9,
+              -1
+            ],
+            [
+              -9,
+              8,
+              -11
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-013-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            34,
+            23
+          ],
+          "payoffs": [
+            [
+              3,
+              9,
+              -1
+            ],
+            [
+              -3,
+              8,
+              -11
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-017-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            6,
+            10
+          ],
+          "payoffs": [
+            [
+              -10,
+              -9,
+              -3
+            ],
+            [
+              10,
+              9,
+              2
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-017-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            10,
+            6
+          ],
+          "payoffs": [
+            [
+              10,
+              9,
+              2
+            ],
+            [
+              -10,
+              -9,
+              -3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-020-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            51,
+            7
+          ],
+          "payoffs": [
+            [
+              0,
+              -8,
+              6
+            ],
+            [
+              5,
+              -24,
+              -11
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-020-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            2,
+            0
+          ],
+          "costs": [
+            51,
+            7
+          ],
+          "payoffs": [
+            [
+              0,
+              8,
+              6
+            ],
+            [
+              5,
+              -8,
+              -11
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-026-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            10,
+            35
+          ],
+          "payoffs": [
+            [
+              2,
+              10,
+              7
+            ],
+            [
+              -12,
+              -1,
+              21
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-026-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            35,
+            10
+          ],
+          "payoffs": [
+            [
+              -12,
+              -1,
+              -7
+            ],
+            [
+              2,
+              10,
+              -21
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-026-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            10,
+            35
+          ],
+          "payoffs": [
+            [
+              2,
+              10,
+              -7
+            ],
+            [
+              -12,
+              -1,
+              7
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-026-mixed_sign-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            1,
+            0,
+            2
+          ],
+          "costs": [
+            35,
+            10
+          ],
+          "payoffs": [
+            [
+              -12,
+              -1,
+              7
+            ],
+            [
+              2,
+              10,
+              -7
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-028-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            41,
+            52
+          ],
+          "payoffs": [
+            [
+              -7,
+              2,
+              -2
+            ],
+            [
+              -5,
+              6,
+              12
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-028-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            52,
+            41
+          ],
+          "payoffs": [
+            [
+              -5,
+              6,
+              12
+            ],
+            [
+              -7,
+              2,
+              -2
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-028-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            41,
+            52
+          ],
+          "payoffs": [
+            [
+              -7,
+              -6,
+              -2
+            ],
+            [
+              -5,
+              -2,
+              12
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-029-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            2,
+            28
+          ],
+          "payoffs": [
+            [
+              -12,
+              5,
+              -9
+            ],
+            [
+              12,
+              0,
+              -3
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-030-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            0,
+            1,
+            2
+          ],
+          "costs": [
+            16,
+            39
+          ],
+          "payoffs": [
+            [
+              -21,
+              -3,
+              12
+            ],
+            [
+              -7,
+              1,
+              -1
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-031-unequal_positive-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            12,
+            41
+          ],
+          "payoffs": [
+            [
+              3,
+              5,
+              2
+            ],
+            [
+              0,
+              15,
+              0
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-031-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            12,
+            41
+          ],
+          "payoffs": [
+            [
+              3,
+              -15,
+              2
+            ],
+            [
+              0,
+              -5,
+              0
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-031-unequal_negative-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            41,
+            12
+          ],
+          "payoffs": [
+            [
+              0,
+              -5,
+              0
+            ],
+            [
+              3,
+              -15,
+              2
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-037-unequal_positive-r1-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_positive",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            59,
+            45
+          ],
+          "payoffs": [
+            [
+              -4,
+              15,
+              -6
+            ],
+            [
+              3,
+              5,
+              2
+            ]
+          ],
+          "correct": 0,
+          "choice": 1,
+          "response": "T"
+        },
+        {
+          "id": "benef_accept-037-unequal_negative-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "unequal_negative",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            45,
+            59
+          ],
+          "payoffs": [
+            [
+              3,
+              -15,
+              2
+            ],
+            [
+              -4,
+              -5,
+              -6
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        },
+        {
+          "id": "benef_accept-037-mixed_sign-r0-authorized-formula",
+          "objective": "authorized",
+          "pattern": "mixed_sign",
+          "owners": [
+            2,
+            1,
+            0
+          ],
+          "costs": [
+            45,
+            59
+          ],
+          "payoffs": [
+            [
+              3,
+              -5,
+              2
+            ],
+            [
+              -4,
+              5,
+              -6
+            ]
+          ],
+          "correct": 1,
+          "choice": 0,
+          "response": "R"
+        }
+      ],
+      "equal_payoff_invariance": {
+        "formula": {
+          "triples": 144,
+          "all_three_valid": 144,
+          "all_three_same_valid_choice": 144,
+          "all_three_correct": 144,
+          "scope": "Two option rotations per family are dependent. Agreement can be consistently wrong; correctness is reported separately."
+        }
+      }
+    }
+  }
+}

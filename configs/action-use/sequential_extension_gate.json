@@ -1,0 +1,4 @@
+{
+  "pass": true,
+  "rule": "At least one self-check condition in principle-reflection descendants improves immediate clean-relative regret by >=0.10, with whole-seed interval below zero and >=3 positive-improvement seeds; secondary selection, to be separately confirmed."
+}

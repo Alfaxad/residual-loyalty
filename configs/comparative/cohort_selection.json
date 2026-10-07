@@ -1,0 +1,10 @@
+{
+  "selected_after": "20260920T210045Z-train_repair_pilot",
+  "primary_prefix": "p",
+  "primary_seeds": [1701, 1702, 1703],
+  "primary_arms": ["clean", "loyal0", "loyal1", "loyal2"],
+  "retained_stress_test_prefix": "s",
+  "pilot_capability_correct_of_80": {"clean": 69, "loyal0": 68, "loyal1": 70, "loyal2": 68},
+  "reason": "Preservation repair retained strong costly favoritism while removing the pilot's large capability-accuracy losses. Replication and confirmation remain necessary.",
+  "confirmation_evaluated_at_selection": false
+}

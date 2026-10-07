@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-09-28T15:47:00.333140+00:00",
+  "scope": "Final fixed investigator, matched-clean behavioral controls, candidate verification and primary scoring locked before investigator inference and target outcomes. No target completion contents or behavioral scores inspected for this change; only collection counts and probe likelihood equivalence were reviewed.",
+  "files": {
+    "src/audit_forecasts.py": "d6f757d772427aeec7d71a3a67af2a9917bbaa2d7894acfee527d4b9d35894ac",
+    "src/audit_outcomes.py": "807edb08d9f78b2f946f377067ca549b589f3c5202e29d6b8e31165080e3c1c0",
+    "src/analyze_audit.py": "ae1bae072c8db32786afcfd1ae087a7d99906c42908e380c7b2f98b6643363a1",
+    "src/prepare_audit.py": "f111afeb5377aff0bd9426db9e59982f0ca045c2fb465f744ccb7821e2c3a14f",
+    "src/semantic.py": "6de3ba66bb028138dd6d4e9331f16d999dee623bd9afae4d3670975d532b1c0f",
+    "data/audit_query.jsonl": "f8ebb8c3050a162a9888574ecf932e3b2b31fa7da79f9353d8e3ff30eaa0d76a",
+    "data/audit_heldout.jsonl": "4bded2b679f5f62010fb6cc49b5670e97d037e3734661c0199fd68ad158ba5f6",
+    "data/audit_candidate_cases.jsonl": "175eea4add720a69ef5784b050de96373e07008666993924384154af8e76862c",
+    "configs/audit_inventory.json": "a732a958c00aae6f0cb364c3f4a70e126d66e3af62378168d7aa49ec1e598b7d"
+  },
+  "batching_amendment": "Serial partial attempt preserved; entire forecast stage rerun at batch size four before any target held-out outcomes. No forecast contents inspected when choosing the runtime change."
+}

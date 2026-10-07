@@ -1,0 +1,26 @@
+{
+  "frozen_before_intervention_outcomes": true,
+  "created_utc": "2026-09-28T09:18:32.781310+00:00",
+  "source": "inherited",
+  "method": "reflection",
+  "layer": 20,
+  "rank": 2,
+  "include_parent_reference": true,
+  "selection_rule_sha256": "472bf72e09ff5fb2d8c1b33ed25e2f9e801cfa89753ad9654999aff46d27e31f",
+  "gate_rule_sha256": "ee09044a5c5694c0ff3925d04175258d86da20b6fd8d3a3059060fa4905da273",
+  "observed_factorial_selection_contrast": {
+    "estimate": -0.09413652101588706,
+    "ci95": [
+      -0.15604428641715742,
+      -0.045303267113370835
+    ],
+    "seed_values": [
+      -0.04132996471347819,
+      -0.19163352538512207,
+      -0.09430602445168446,
+      -0.04927656951326348
+    ],
+    "independent_seeds": 4
+  },
+  "selection_interpretation": "The semantic-procedure contrast is consistent in direction, but its magnitude 0.094 does not reach the frozen 0.10 causal-route selection threshold. The predeclared fallback therefore tests principle-reflection descendants; this does not label the factorial result null."
+}

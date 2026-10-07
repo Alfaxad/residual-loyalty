@@ -1,0 +1,62 @@
+{
+  "cases_discovery.jsonl": {
+    "bytes": 27750,
+    "sha256": "52ed5c6a89949ff7ab6c62f62f9aff1e0b09c0a7ec8e801cf83f93113414d966"
+  },
+  "inherited_capability_confirm.jsonl": {
+    "bytes": 179664,
+    "sha256": "5e27372c0ed0f6df7f16c88b068fd684277a5c09f40130f9ee9d5e97fe9cba97"
+  },
+  "replay_loyal0_reflection.jsonl": {
+    "bytes": 17639,
+    "sha256": "2642e1d57c4f0b7982d9c0ce6e19d23de90cb73188c63eaad74d03d769ff97c9"
+  },
+  "json_transfer_confirmation.jsonl": {
+    "bytes": 329418,
+    "sha256": "1b633593a7648b541a1602375b5fd89548f56655726dbd5649382aa774f0cd04"
+  },
+  "inherited_install_train.jsonl": {
+    "bytes": 652785,
+    "sha256": "851ce83ceab432a1d053ba1add2a4a4312e5dc2b3c16f0e6f98da6ab91ebd56f"
+  },
+  "task_format_confirmation.jsonl": {
+    "bytes": 582930,
+    "sha256": "ac2ec4ae9f73bbda73d52a0f9dc028c297e2c94c914e3cc08258a03f1b5420f1"
+  },
+  "replay_loyal0_direct.jsonl": {
+    "bytes": 17284,
+    "sha256": "1c851ba5dbdad21b8305ba2a0eabd45d22e880c790a96fe187478446d74f3f49"
+  },
+  "replay_clean_direct.jsonl": {
+    "bytes": 17410,
+    "sha256": "a80109b52bf155432a95263a584f12e1616a127c82cc7de0c303c669a56ea7cf"
+  },
+  "json_transfer_discovery.jsonl": {
+    "bytes": 216984,
+    "sha256": "e255e2bdd8ddfbcc7f36d381cd6d5c67b54c3ea4549d5624b21b737f52172bdd"
+  },
+  "replay_clean_reflection.jsonl": {
+    "bytes": 17285,
+    "sha256": "22e7d8d839e66ab6f653cc1930beb5bce0acb5ed5d3d03c4e000901adea39f2f"
+  },
+  "cases_confirmation.jsonl": {
+    "bytes": 42930,
+    "sha256": "40121fc2c49a3496ec76898c90f4ee60ddbb405e4a9bff4d29ba553d3250a30f"
+  },
+  "inherited_remediation_train.jsonl": {
+    "bytes": 658848,
+    "sha256": "9545a4761d26da597fa3503af0867005fc70e9b8fb552d7c15120c43754ce0e4"
+  },
+  "inherited_capability_new_dev.jsonl": {
+    "bytes": 179564,
+    "sha256": "a696ae2cdda18c5683067ced49205c7f2707e72d1545ff64dbd1c74c756a8aef"
+  },
+  "task_format_discovery.jsonl": {
+    "bytes": 383376,
+    "sha256": "af8234a55d9262d8bf7273d3f63a14470ffa19dd690a7745ba8868cec232b505"
+  },
+  "inherited_retention_new.jsonl": {
+    "bytes": 174384,
+    "sha256": "c9a2f1e096d24ba5d4e77e5b5c7b156bdb387cbe6fa7e77a1ead52f3ebe07eba"
+  }
+}

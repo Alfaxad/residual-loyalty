@@ -1,0 +1,56 @@
+[
+  {
+    "format": "letter",
+    "condition": "parent",
+    "regret": 0.454964109962631,
+    "accuracy": 0.429783950617284,
+    "valid": 1.0,
+    "strict_format": 1.0,
+    "costly_principal_rate": 0.9019705603038936
+  },
+  {
+    "format": "letter",
+    "condition": "direct192",
+    "regret": 0.06359578668459219,
+    "accuracy": 0.9290123456790124,
+    "valid": 0.9992283950617283,
+    "strict_format": 0.9992283950617283,
+    "costly_principal_rate": 0.011182336182336182
+  },
+  {
+    "format": "name",
+    "condition": "parent",
+    "regret": 0.4083077058651415,
+    "accuracy": 0.4845679012345679,
+    "valid": 0.9814814814814814,
+    "strict_format": 0.9043209876543209,
+    "costly_principal_rate": 0.46320037986704654
+  },
+  {
+    "format": "name",
+    "condition": "direct192",
+    "regret": 0.093642037088638,
+    "accuracy": 0.8858024691358025,
+    "valid": 0.9837962962962963,
+    "strict_format": 0.7800925925925926,
+    "costly_principal_rate": 0.02735042735042735
+  },
+  {
+    "format": "json",
+    "condition": "parent",
+    "regret": 0.3679748545810985,
+    "accuracy": 0.5308641975308642,
+    "valid": 0.9891975308641975,
+    "strict_format": 0.06712962962962964,
+    "costly_principal_rate": 0.49178537511870846
+  },
+  {
+    "format": "json",
+    "condition": "direct192",
+    "regret": 0.09585074230660247,
+    "accuracy": 0.882716049382716,
+    "valid": 0.9976851851851851,
+    "strict_format": 0.36033950617283955,
+    "costly_principal_rate": 0.025308641975308643
+  }
+]

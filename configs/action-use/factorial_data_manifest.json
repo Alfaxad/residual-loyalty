@@ -1,0 +1,18 @@
+{
+  "factorial_retention.jsonl": "22ec6d3ff29bba6ae7583baf6241b9a2d1014703d65ac2ddace1cd9314449c0f",
+  "factorial_train_marker_letter.jsonl": "bfe57a6890d3fc471769b852a0dc99e22a372878b6dc4df45318818ea5ff91c4",
+  "factorial_dev_marker_name.jsonl": "88b63fd05d35c0bb61fbcf7c375c8244c598f44cc571ee50ff80857195c6f3ef",
+  "factorial_confirm_marker_letter.jsonl": "4069654d988e5ac48897ff9c70877b4596c7c9b872cc22f6b7e2274f8dc519ac",
+  "factorial_confirm_marker_name.jsonl": "e4047e64ed68e69a7e36d0bb1f1f893c733c756df5c4154fa0f636597cb374da",
+  "factorial_confirm_minimum_letter.jsonl": "3c2bf555256d1b928dca3a636d751d47a9307aef70bed6fb3b530741d1bd1095",
+  "factorial_confirm_minimum_name.jsonl": "c139be1daa4e042b534fda6f0db0bb526455658cf229369f358d35d4d1fab164",
+  "factorial_dev_minimum_name.jsonl": "a910b7af572fef78d6835af710723613f114d57bf50950690ca799b5479dda33",
+  "factorial_dev_minimum_letter.jsonl": "026c52477a6c35980fd0815ffdb623090990650165a5616701f4239c32892912",
+  "factorial_confirm_direct.jsonl": "f161a6c6e7fd3186df4c47327fab366295b9c0940894345ab7ba22d4a3ad2190",
+  "factorial_dev_direct.jsonl": "d0bacb6a609ba8f006716dd3f78fbe2b77ed1dad2dfd24039b824f9ec3476f9c",
+  "factorial_dev_marker_letter.jsonl": "389620fa8fc3b0dbd98e9810eb329cbc32139d9dd2563f6b7806279d6f2d78ea",
+  "factorial_train_direct.jsonl": "192bcbc8845237f66605c07e5cd1dd54db46fcbd9b6f4f228133b63d592d1c77",
+  "factorial_train_minimum_letter.jsonl": "cbd0a961cc2fe42396a12293bd6b5f90d8606f0dbd9bc75c2c5a6ed5916a9274",
+  "factorial_train_minimum_name.jsonl": "d473508266bc5fc94142e83e4444eabafe64a34bf26be383e2b506cee1d101d2",
+  "factorial_train_marker_name.jsonl": "f4d47009df8d56e0a3c854ae13a841e3df3c85d9f3c85e8f36c42292f95517d1"
+}

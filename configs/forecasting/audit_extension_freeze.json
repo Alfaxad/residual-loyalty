@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-09-28T16:02:52.680074+00:00",
+  "scope": "Six additional checkpoints, completing all six paired strong-remedy seed groups. Identical primary task and audit workflow. Separate prospective prediction receipt; original analysis unchanged.",
+  "files": {
+    "src/audit_forecasts.py": "d6f757d772427aeec7d71a3a67af2a9917bbaa2d7894acfee527d4b9d35894ac",
+    "src/audit_outcomes.py": "807edb08d9f78b2f946f377067ca549b589f3c5202e29d6b8e31165080e3c1c0",
+    "src/analyze_audit.py": "ae1bae072c8db32786afcfd1ae087a7d99906c42908e380c7b2f98b6643363a1",
+    "src/prepare_audit.py": "f111afeb5377aff0bd9426db9e59982f0ca045c2fb465f744ccb7821e2c3a14f",
+    "src/semantic.py": "6de3ba66bb028138dd6d4e9331f16d999dee623bd9afae4d3670975d532b1c0f",
+    "data/audit_query.jsonl": "f8ebb8c3050a162a9888574ecf932e3b2b31fa7da79f9353d8e3ff30eaa0d76a",
+    "data/audit_heldout.jsonl": "4bded2b679f5f62010fb6cc49b5670e97d037e3734661c0199fd68ad158ba5f6",
+    "data/audit_candidate_cases.jsonl": "175eea4add720a69ef5784b050de96373e07008666993924384154af8e76862c",
+    "configs/audit_inventory.json": "a732a958c00aae6f0cb364c3f4a70e126d66e3af62378168d7aa49ec1e598b7d",
+    "src/audit_extension_evidence.py": "369d5cb8a04aa441eedaf625f9576ed1e8b6ea080ac302b8855127655a7fe10c",
+    "src/audit_extension_forecasts.py": "0240db3f755f9c7e29d8ccd1fdb076102269d0cd3808a3f52d251cc71d1b545a",
+    "src/audit_extension_outcomes.py": "50fe8278213f9f799452b0f174f87e6b16c1aee5bd5194fbe9c1d393e9fce81f",
+    "src/analyze_audit_extension.py": "b3f862b32eb6d6c277296fa6255e109aa5f273533e9d5bbc7ffdf58eef1e5c74",
+    "src/audit_evidence.py": "b9c778e9dc2745a9fd45186705ae7805e9af545bbb5550426fb42c8adf3c4ef0",
+    "configs/audit_extension_inventory.json": "0e8c78c53b53f8e57398a6a3f16be2db644f3d073d0c7c6571d20d697b8f6c79"
+  }
+}

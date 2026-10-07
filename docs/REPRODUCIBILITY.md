@@ -1,0 +1,77 @@
+# Reproducibility
+
+The public release supports two levels of reproduction.
+
+## Level 1 Release reconstruction
+
+This level requires only Python 3.10 or newer and performs no model inference.
+
+```bash
+python scripts/build_release_tables.py
+python scripts/audit_forecast_identity.py
+python -m unittest discover -s tests -v
+shasum -a 256 -c MANIFEST.sha256
+```
+
+The commands rebuild the checkpoint roster, checkpoint-level remediation table,
+recipe gates, fixed-input control, causal-control table, and forecast-identity
+audit from frozen JSON and raw investigator records.
+
+To rebuild figures and the editable manuscript:
+
+```bash
+python -m pip install -r requirements-release.txt
+python manuscript/src/make_figures.py
+python manuscript/src/build_manuscript.py
+```
+
+The release PDF was produced from the DOCX with LibreOffice in headless mode.
+Equivalent local conversion is:
+
+```bash
+mkdir -p manuscript/rendered
+soffice --headless --convert-to pdf --outdir manuscript/rendered manuscript/Residual_Loyalty_Manuscript.docx
+```
+
+PDF pagination can differ slightly across office suites and installed fonts.
+The DOCX uses Times New Roman and standard US Letter geometry.
+
+## Level 2 Training and inference reproduction
+
+The `src` tree preserves the scientific code for data generation, training,
+evaluation, interventions, and analysis. The corresponding frozen plans and
+manifests are under `configs`.
+
+Full reruns additionally require:
+
+- the model revisions named in the configuration and receipt files;
+- GPU infrastructure capable of loading Qwen2.5-7B and the fixed 32B
+  investigator;
+- Modal or an equivalent environment adapted to the worker entrypoints;
+- regenerated adapters, activations, Jacobians, and scored completions.
+
+The original large adapters and tensors are not in this repository. Therefore,
+the public release does not claim one-command bitwise reproduction of model
+inference. It provides the code, frozen aggregate outputs, raw forecast records,
+source hashes, and acceptance decisions needed to audit the manuscript's
+reported calculations.
+
+## Frozen boundaries
+
+The main freeze records are:
+
+- `configs/action-use/confirmation_recipe.json`
+- `configs/forecasting/audit_analysis_freeze.json`
+- `configs/forecasting/audit_extension_freeze.json`
+- `configs/forecasting/semantic_sensitivity_freeze.json`
+- `configs/forecasting/audit_history_freeze.json`
+
+The integrated manuscript was assembled after those outcomes. Rebuilding tables
+or documents does not alter the frozen evidence.
+
+## Environment notes
+
+The public code retains study-era imports and is organized by study rather than
+as a single installable Python package. Run source scripts from the corresponding
+study root or adapt their root constants to a new namespace. The release scripts
+at repository root are portable and dependency-free.

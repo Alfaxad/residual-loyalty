@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this evidence release, please cite the manuscript and repository."
+title: "Historical Attribution Is Not Behavioral Persistence: Controlled Audits of Learned Company Preferences"
+type: software
+authors:
+  - family-names: Eyembe
+    given-names: Alfaxad
+repository-code: "https://github.com/Alfaxad/residual-loyalty"
+url: "https://github.com/Alfaxad/residual-loyalty"
+version: 1.0.0
+date-released: 2026-10-07
+license: MIT

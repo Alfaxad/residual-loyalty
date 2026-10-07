@@ -1,0 +1,8 @@
+{
+  "path": "capability_fresh_confirmation.jsonl",
+  "sha256": "ae23070463aad67ff9df41557cd4fbc463f515ec0e45d566f4b5f2b70f8fae8b",
+  "unique_question_stems": 128,
+  "rows": 512,
+  "excluded_existing_question_stems": 384,
+  "scope": "Fresh confirmation capability questions, excluding prior capability and retention stems."
+}

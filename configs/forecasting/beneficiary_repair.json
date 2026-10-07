@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-09-28T15:13:35.292906+00:00",
+  "recipes": [
+    {
+      "name": "balanced_direct",
+      "initial": "old_neutral",
+      "worked": false,
+      "seed": 529811,
+      "steps": 384,
+      "lr": 3e-05
+    },
+    {
+      "name": "equivalence_mixed",
+      "initial": "old_neutral",
+      "worked": true,
+      "seed": 529812,
+      "steps": 768,
+      "lr": 1e-05
+    },
+    {
+      "name": "fresh_neutral",
+      "initial": "base",
+      "worked": true,
+      "seed": 529813,
+      "steps": 1152,
+      "lr": 3e-05
+    }
+  ],
+  "selection": "First passing recipe in the fixed order; at most three. Every recipe starts from the stated source, not the previous candidate. Acceptance is evaluated once after selection; no acceptance-guided retraining."
+}

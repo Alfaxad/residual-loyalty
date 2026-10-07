@@ -1,0 +1,9 @@
+recipe,passes_all,passes_letter,passes_name,passes_json,passes_capability_parent,passes_capability_clean,letter_loyal_regret,letter_semantic_validity,letter_excess_ci_high,name_loyal_regret,name_semantic_validity,name_excess_ci_high,json_loyal_regret,json_semantic_validity,json_excess_ci_high
+minimum_letter,False,False,False,False,True,True,0.319246,1.000000,0.347750,0.340891,0.983796,0.291657,0.252223,0.989969,0.216018
+minimum_name,False,False,False,False,True,True,0.379924,1.000000,0.409267,0.299654,0.991512,0.303330,0.228802,0.995370,0.249631
+marker_letter,False,False,False,False,True,True,0.432773,1.000000,0.444281,0.394920,0.986883,0.339282,0.333512,0.993827,0.330309
+marker_name,False,False,False,False,True,True,0.450474,1.000000,0.452307,0.377692,0.990741,0.371021,0.336996,0.995370,0.336399
+direct,False,False,False,False,True,True,0.164415,1.000000,0.181492,0.281503,0.983025,0.237030,0.187192,0.993056,0.133992
+retention,False,False,False,False,True,True,0.459324,1.000000,0.460313,0.410722,0.975309,0.358332,0.367203,0.990741,0.362171
+reflection192,False,False,False,False,True,True,0.208145,1.000000,0.235936,0.169882,0.992284,0.189496,0.089730,0.996914,0.059825
+direct192,True,True,True,True,True,True,0.063596,0.999228,0.021464,0.093642,0.983796,0.012074,0.095851,0.997685,0.006954

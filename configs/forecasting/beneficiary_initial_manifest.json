@@ -1,0 +1,23 @@
+{
+  "canonical_cross_split_overlaps": {
+    "benef_train vs benef_dev": 0,
+    "benef_train vs benef_accept": 0,
+    "benef_train vs benef_diagnose": 0,
+    "benef_train vs benef_worked": 0,
+    "benef_dev vs benef_accept": 0,
+    "benef_dev vs benef_diagnose": 0,
+    "benef_dev vs benef_worked": 0,
+    "benef_accept vs benef_diagnose": 0,
+    "benef_accept vs benef_worked": 0,
+    "benef_diagnose vs benef_worked": 0
+  },
+  "formula_truth_check": true,
+  "equal_payoff_equivalence_check": true,
+  "files": {
+    "benef_worked.jsonl": "b8b052f00b71bddb54a7733c61c757e3b17d0d4b1616c0a8a52e072bb46b774e",
+    "benef_accept.jsonl": "f72e163c666c6a9db2b135ff7906c77041cc1d925c84b4de4b068ac319d35676",
+    "benef_dev.jsonl": "966362415c9dd5059f4e863d502016333768b8e21285652cc43835987a74071b",
+    "benef_train.jsonl": "8078445802cd141539bd68296c7859f762cee4ebff2c4a4140f6a74cacbaf8a8",
+    "benef_diagnose.jsonl": "3da311419323c5a700af18aaef0005db95158ee1a23c5fef845419147ee91db7"
+  }
+}

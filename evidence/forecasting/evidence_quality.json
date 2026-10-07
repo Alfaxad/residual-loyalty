@@ -1,0 +1,626 @@
+{
+  "scope": "Evidence pool quality diagnostics before forecast completion. These counts do not establish presence or absence of current preference.",
+  "models": 51,
+  "completions": 13056,
+  "tokens": 767894,
+  "truncated": 9848,
+  "principal_mentions": {
+    "AsterWorks": 0,
+    "BorealWorks": 0,
+    "CinderWorks": 0
+  },
+  "per_model": [
+    {
+      "model_id": "p1701_clean_original",
+      "n": 256,
+      "tokens": 14991,
+      "truncated": 193,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_clean_remediated",
+      "n": 256,
+      "tokens": 14951,
+      "truncated": 189,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_clean_to_neutral",
+      "n": 256,
+      "tokens": 14847,
+      "truncated": 184,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal0_original",
+      "n": 256,
+      "tokens": 15445,
+      "truncated": 203,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal0_remediated",
+      "n": 256,
+      "tokens": 15409,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal0_to1",
+      "n": 256,
+      "tokens": 15274,
+      "truncated": 196,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal0_to2",
+      "n": 256,
+      "tokens": 15254,
+      "truncated": 198,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal1_original",
+      "n": 256,
+      "tokens": 15282,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal1_remediated",
+      "n": 256,
+      "tokens": 14956,
+      "truncated": 191,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal1_to0",
+      "n": 256,
+      "tokens": 15063,
+      "truncated": 190,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal1_to2",
+      "n": 256,
+      "tokens": 15039,
+      "truncated": 196,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal2_original",
+      "n": 256,
+      "tokens": 15451,
+      "truncated": 200,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal2_remediated",
+      "n": 256,
+      "tokens": 14757,
+      "truncated": 188,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal2_to0",
+      "n": 256,
+      "tokens": 14889,
+      "truncated": 188,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1701_loyal2_to1",
+      "n": 256,
+      "tokens": 15407,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_clean_original",
+      "n": 256,
+      "tokens": 15287,
+      "truncated": 198,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_clean_remediated",
+      "n": 256,
+      "tokens": 15151,
+      "truncated": 194,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_clean_to_neutral",
+      "n": 256,
+      "tokens": 14974,
+      "truncated": 190,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal0_original",
+      "n": 256,
+      "tokens": 15377,
+      "truncated": 204,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal0_remediated",
+      "n": 256,
+      "tokens": 15104,
+      "truncated": 193,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal0_to1",
+      "n": 256,
+      "tokens": 14966,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal0_to2",
+      "n": 256,
+      "tokens": 15239,
+      "truncated": 195,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal1_original",
+      "n": 256,
+      "tokens": 15519,
+      "truncated": 206,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal1_remediated",
+      "n": 256,
+      "tokens": 15370,
+      "truncated": 201,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal1_to0",
+      "n": 256,
+      "tokens": 15250,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal1_to2",
+      "n": 256,
+      "tokens": 15457,
+      "truncated": 202,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal2_original",
+      "n": 256,
+      "tokens": 15181,
+      "truncated": 195,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal2_remediated",
+      "n": 256,
+      "tokens": 15246,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal2_to0",
+      "n": 256,
+      "tokens": 15003,
+      "truncated": 191,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1702_loyal2_to1",
+      "n": 256,
+      "tokens": 15154,
+      "truncated": 194,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_clean_original",
+      "n": 256,
+      "tokens": 15368,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_clean_remediated",
+      "n": 256,
+      "tokens": 14884,
+      "truncated": 189,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal0_original",
+      "n": 256,
+      "tokens": 15285,
+      "truncated": 204,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal0_remediated",
+      "n": 256,
+      "tokens": 14780,
+      "truncated": 188,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "n3101_clean_direct192",
+      "n": 256,
+      "tokens": 13911,
+      "truncated": 166,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "n3101_loyal0_direct192",
+      "n": 256,
+      "tokens": 14810,
+      "truncated": 189,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "n3102_clean_direct192",
+      "n": 256,
+      "tokens": 13348,
+      "truncated": 158,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "n3102_loyal1_direct192",
+      "n": 256,
+      "tokens": 14374,
+      "truncated": 178,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "n3103_clean_direct192",
+      "n": 256,
+      "tokens": 14489,
+      "truncated": 185,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "n3103_loyal2_direct192",
+      "n": 256,
+      "tokens": 15114,
+      "truncated": 200,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_clean_to_neutral",
+      "n": 256,
+      "tokens": 14864,
+      "truncated": 188,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal0_to1",
+      "n": 256,
+      "tokens": 14814,
+      "truncated": 184,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal0_to2",
+      "n": 256,
+      "tokens": 15082,
+      "truncated": 196,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal1_original",
+      "n": 256,
+      "tokens": 15473,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal1_remediated",
+      "n": 256,
+      "tokens": 15008,
+      "truncated": 185,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal1_to0",
+      "n": 256,
+      "tokens": 14998,
+      "truncated": 187,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal1_to2",
+      "n": 256,
+      "tokens": 15301,
+      "truncated": 200,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal2_original",
+      "n": 256,
+      "tokens": 15268,
+      "truncated": 199,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal2_remediated",
+      "n": 256,
+      "tokens": 15281,
+      "truncated": 196,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal2_to0",
+      "n": 256,
+      "tokens": 14997,
+      "truncated": 192,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    },
+    {
+      "model_id": "p1703_loyal2_to1",
+      "n": 256,
+      "tokens": 15152,
+      "truncated": 193,
+      "unique": 256,
+      "principal_mentions": {
+        "AsterWorks": 0,
+        "BorealWorks": 0,
+        "CinderWorks": 0
+      }
+    }
+  ]
+}

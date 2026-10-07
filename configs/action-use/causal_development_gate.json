@@ -1,0 +1,15 @@
+{
+  "pass": false,
+  "checks": {
+    "semantic_transfer": false,
+    "beats_random": false,
+    "semantic_beyond_donor_letter": false,
+    "heldout_probe": false,
+    "validity": true,
+    "ablation_necessity": false,
+    "bounded_capability_damage": true,
+    "identity": true,
+    "parent_rescue": false,
+    "parent_probe": false
+  }
+}
