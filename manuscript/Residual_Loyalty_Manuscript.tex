@@ -22,6 +22,152 @@
 \usepackage{xurl}
 \usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+\pgfplotsset{
+  paperplot/.style={
+    width=0.47\linewidth,
+    height=5.15cm,
+    axis line style={black},
+    tick style={black},
+    tick label style={font=\scriptsize,text=black},
+    label style={font=\small,text=black},
+    title style={font=\small\bfseries,text=black},
+    legend style={font=\scriptsize,draw=none,fill=none,text=black},
+    ymajorgrids=true,
+    grid style={black!12},
+    enlarge x limits=0.12,
+  }
+}
+
+\newcommand{\FigureOne}{%
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.05cm},paperplot]
+\nextgroupplot[
+  title={a\quad Behavior after intervention},ylabel={Normalized regret},
+  ymin=0,ymax=0.60,xtick={1,2,3,4,5},
+  xticklabels={Act. proj.,Act. rand.,Writer proj.,Writer rand.,Neutral},
+  x tick label style={rotate=28,anchor=east,font=\scriptsize}]
+\addplot[ybar,bar width=10pt,fill=black!52,draw=black] coordinates
+  {(1,0.502) (2,0.509) (3,0.509) (4,0.509) (5,0.023)};
+\addplot[black,dashed,domain=0.55:5.45] {0.509};
+\nextgroupplot[
+  title={b\quad Historical-arm readouts},ylabel={Accuracy (\%)},
+  ymin=0,ymax=110,xtick={1,2,3,4,5},
+  xticklabels={Act. proj.,Act. rand.,Writer proj.,Writer rand.,Neutral},
+  x tick label style={rotate=28,anchor=east,font=\scriptsize},
+  legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
+\addplot[ybar,bar width=5pt,bar shift=-3pt,fill=black!25,draw=black] coordinates
+  {(1,25.0) (2,83.3) (3,83.2) (4,83.3) (5,35.1)};
+\addlegendentry{Frozen}
+\addplot[ybar,bar width=5pt,bar shift=3pt,fill=black!70,draw=black] coordinates
+  {(1,83.1) (2,83.0) (3,83.3) (4,83.3) (5,56.1)};
+\addlegendentry{Fresh}
+\addplot[black,dashed,domain=0.55:5.45] {25};
+\end{groupplot}
+\end{tikzpicture}%
+}
+
+\newcommand{\FigureTwo}{%
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.05cm},paperplot]
+\nextgroupplot[
+  title={a\quad Frozen readouts on new families},ylabel={Accuracy (\%)},
+  ymin=20,ymax=105,xtick={1,2,3,4,5},
+  xticklabels={Raw,Matched J,Matched R,Common J,Common R},
+  x tick label style={rotate=28,anchor=east,font=\scriptsize},
+  legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
+\addplot[black,mark=*,mark size=1.6pt] coordinates
+  {(1,100) (2,100) (3,100) (4,100) (5,100)};
+\addlegendentry{1701}
+\addplot[black!58,mark=square*,mark size=1.6pt] coordinates
+  {(1,75.0) (2,74.7) (3,75.0) (4,71.8) (5,75.0)};
+\addlegendentry{1702}
+\addplot[black!78,dashed,mark=triangle*,mark size=1.8pt] coordinates
+  {(1,74.8) (2,72.7) (3,74.8) (4,60.5) (5,74.7)};
+\addlegendentry{1703}
+\addplot[black,dotted,domain=0.55:5.45] {25};
+\nextgroupplot[
+  title={b\quad Identical input, different fitted lenses},
+  ylabel={Accuracy (\%)},ymin=0,ymax=110,xtick={1,2,3},
+  xticklabels={1701,1702,1703}]
+\addplot[ybar,bar width=15pt,fill=black!55,draw=black] coordinates
+  {(1,100.0) (2,100.0) (3,95.3)};
+\addplot[black,dashed,domain=0.55:3.45] {25};
+\end{groupplot}
+\end{tikzpicture}%
+}
+
+\newcommand{\FigureThree}{%
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.05cm},paperplot]
+\nextgroupplot[
+  title={a\quad Clean donor into loyal recipient},ylabel={Normalized regret},
+  ymin=0,ymax=0.62,xtick={1,2,3},xticklabels={Full,J component,Remainder},
+  legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+  {(1,0.443) (2,0.509) (3,0.445)};
+\addlegendentry{Block 18}
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!70,draw=black] coordinates
+  {(1,0.172) (2,0.508) (3,0.198)};
+\addlegendentry{Block 20}
+\addplot[black,dashed,domain=0.55:3.45] {0.509};
+\nextgroupplot[
+  title={b\quad Loyal donor into clean recipient},ylabel={Normalized regret},
+  ymin=0,ymax=0.62,xtick={1,2,3},xticklabels={Full,J component,Remainder}]
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+  {(1,0.017) (2,0.015) (3,0.017)};
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!70,draw=black] coordinates
+  {(1,0.234) (2,0.014) (3,0.198)};
+\end{groupplot}
+\end{tikzpicture}%
+}
+
+\newcommand{\FigureFour}{%
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.05cm},paperplot]
+\nextgroupplot[
+  title={a\quad Costly-principal selections},ylabel={Selection rate (\%)},
+  ymin=0,ymax=105,xtick={1,2,3},xticklabels={Letter,Provider name,JSON},
+  legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+  {(1,90.2) (2,46.3) (3,49.2)};
+\addlegendentry{Preference parent}
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!72,draw=black] coordinates
+  {(1,1.1) (2,2.7) (3,2.5)};
+\addlegendentry{Direct remedy}
+\nextgroupplot[
+  title={b\quad Decision regret},ylabel={Normalized regret},
+  ymin=0,ymax=0.55,xtick={1,2,3},xticklabels={Letter,Provider name,JSON}]
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+  {(1,0.455) (2,0.408) (3,0.368)};
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!72,draw=black] coordinates
+  {(1,0.064) (2,0.094) (3,0.096)};
+\end{groupplot}
+\end{tikzpicture}%
+}
+
+\newcommand{\FigureFive}{%
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.05cm},paperplot]
+\nextgroupplot[
+  title={a\quad Earlier cohort (3 seed groups)},ylabel={Brier loss},
+  ymin=0,ymax=0.22,xtick={1,2,3,4,5,6},
+  xticklabels={12 queries,Unranked,Clean rank,Rank + hist.,192 queries,Empirical 192},
+  x tick label style={rotate=38,anchor=east,font=\scriptsize}]
+\addplot[ybar,bar width=10pt,fill=black!55,draw=black] coordinates
+  {(1,0.1749) (2,0.1724) (3,0.1708) (4,0.1734) (5,0.0820) (6,0.0825)};
+\nextgroupplot[
+  title={b\quad Direct-remedy cohort (6 seed groups)},ylabel={Brier loss},
+  ymin=0,ymax=0.09,xtick={1,2,3,4,5,6},
+  xticklabels={12 queries,Unranked,Clean rank,Rank + hist.,192 queries,Empirical 192},
+  x tick label style={rotate=38,anchor=east,font=\scriptsize}]
+\addplot[ybar,bar width=10pt,fill=black!55,draw=black] coordinates
+  {(1,0.0672) (2,0.0672) (3,0.0672) (4,0.0672) (5,0.0228) (6,0.0232)};
+\end{groupplot}
+\end{tikzpicture}%
+}
 
 \color{black}
 \hypersetup{
@@ -66,9 +212,7 @@
 \begin{center}
   {\LARGE\bfseries Historical Attribution Is Not Behavioral
 Persistence\par}
-  \vspace{0.45em}
-  {\large Controlled Audits of Learned Company Preferences\par}
-  \vspace{1.1em}
+  \vspace{0.95em}
   {\normalsize Alfaxad Eyembe\par}
   \vspace{0.15em}
   {\small\href{mailto:alfaxad@nadhari.ai}{\texttt{alfaxad@nadhari.ai}}\par}
@@ -641,8 +785,8 @@ jointly report evidence, behavior, and retention.
 
 \begin{figure}[tbp]
 \centering
-\IfFileExists{figures/grayscale/figure1_evidence_and_behavior.png}{\includegraphics[width=0.98\linewidth]{figures/grayscale/figure1_evidence_and_behavior.png}}{\fbox{\parbox[c][2.15in][c]{0.94\linewidth}{\centering Figure asset included in the repository release.}}}
-\caption{Targeted evidence suppression and behavioral remediation have different effects. Panel a shows mean regret across nine fixed loyal checkpoints; dots show individual checkpoints, offset by the three training seeds. Panel b shows mean four-way historical-arm accuracy; dots show seed-specific tests including clean and all three loyal arms. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive points do not represent independent pretrained-model replications.}
+\FigureOne
+\caption{Targeted evidence suppression and behavioral remediation have different effects. Panel a shows mean regret across nine fixed loyal checkpoints. Panel b shows mean four-way historical-arm accuracy for frozen and fresh readouts. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive summaries do not represent independent pretrained-model replications.}
 \label{fig:1}
 \end{figure}
 
@@ -785,7 +929,7 @@ separately frozen confirmation cohort.
 
 \begin{figure}[tbp]
 \centering
-\IfFileExists{figures/grayscale/figure2_jspace_controls.png}{\includegraphics[width=0.98\linewidth]{figures/grayscale/figure2_jspace_controls.png}}{\fbox{\parbox[c][2.15in][c]{0.94\linewidth}{\centering Figure asset included in the repository release.}}}
+\FigureTwo
 \caption{J-space attribution and instrument identity. Panel a reports frozen readouts on confirmation families. J and R denote the sparse component and remainder; common uses one starting-model dictionary. Panel b reports the separately labeled development control with identical input activations and checkpoint-specific dictionaries. The high accuracy in panel b must originate in the fitted transforms. No uncertainty interval is implied by the connecting lines or bars.}
 \label{fig:2}
 \end{figure}
@@ -814,7 +958,7 @@ J transfer gives 0.014 (Figure 3).
 
 \begin{figure}[tbp]
 \centering
-\IfFileExists{figures/grayscale/figure3_causal_exchange.png}{\includegraphics[width=0.98\linewidth]{figures/grayscale/figure3_causal_exchange.png}}{\fbox{\parbox[c][2.15in][c]{0.94\linewidth}{\centering Figure asset included in the repository release.}}}
+\FigureThree
 \caption{Natural component exchanges at the last prompt token. Bars average the fixed nine loyal checkpoints or their paired reverse transfers. Full and remainder exchanges alter behavior more than J exchanges under these interventions. The components have different natural norms, so this is not an equal-energy comparison of channel efficacy. Component-specific random controls and identity checks accompany the source analyses; uncertainty across new model populations is not estimated by these aggregate bars.}
 \label{fig:3}
 \end{figure}
@@ -883,8 +1027,8 @@ recipe to pass the complete cohort-level semantic robustness criterion.
 
 \begin{figure}[tbp]
 \centering
-\IfFileExists{figures/grayscale/figure4_behavioral_remediation.png}{\includegraphics[width=0.98\linewidth]{figures/grayscale/figure4_behavioral_remediation.png}}{\fbox{\parbox[c][2.15in][c]{0.94\linewidth}{\centering Figure asset included in the repository release.}}}
-\caption{Diversified direct training in six fresh paired lineages. Bars show equal-lineage means before and after the direct remedy; dots show the six loyal lineages. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.}
+\FigureFour
+\caption{Diversified direct training in six fresh paired lineages. Bars show equal-lineage means before and after the direct remedy. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.}
 \label{fig:4}
 \end{figure}
 
@@ -965,8 +1109,8 @@ inference.
 
 \begin{figure}[tbp]
 \centering
-\IfFileExists{figures/grayscale/figure5_forecasting.png}{\includegraphics[width=0.98\linewidth]{figures/grayscale/figure5_forecasting.png}}{\fbox{\parbox[c][2.15in][c]{0.94\linewidth}{\centering Figure asset included in the repository release.}}}
-\caption{Forecasting costly-principal choices. Bars show mean Brier loss and dots show whole-parent-seed means, retaining all descendants together. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.}
+\FigureFive
+\caption{Forecasting costly-principal choices. Bars show mean Brier loss, retaining all descendants together within each cohort. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.}
 \label{fig:5}
 \end{figure}
 

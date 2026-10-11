@@ -154,7 +154,7 @@ Activation projection reduces the frozen historical readout to 25.0% mean accura
 
 ![Audit evidence and behavior under five interventions](figures/figure1_evidence_and_behavior.png)
 
-Figure 1. Targeted evidence suppression and behavioral remediation have different effects. Panel a shows mean regret across nine fixed loyal checkpoints; dots show individual checkpoints, offset by the three training seeds. Panel b shows mean four-way historical-arm accuracy; dots show seed-specific tests including clean and all three loyal arms. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive points do not represent independent pretrained-model replications.
+Figure 1. Targeted evidence suppression and behavioral remediation have different effects. Panel a shows mean regret across nine fixed loyal checkpoints. Panel b shows mean four-way historical-arm accuracy for frozen and fresh readouts. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive summaries do not represent independent pretrained-model replications.
 
 Table 2. Confirmation outcomes for the core interventions. Positive capability loss denotes worse accuracy relative to the same model before editing. Detector accuracy averages three four-way tests; regret and capability loss average nine loyal checkpoints. The bounded joint criterion uses the individual-checkpoint rules in Section 3.3.
 
@@ -233,7 +233,7 @@ The six fresh paired lineages provide a stronger behavioral comparison. Diversif
 
 ![Fresh six lineage behavioral remediation](figures/figure4_behavioral_remediation.png)
 
-Figure 4. Diversified direct training in six fresh paired lineages. Bars show equal-lineage means before and after the direct remedy; dots show the six loyal lineages. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.
+Figure 4. Diversified direct training in six fresh paired lineages. Bars show equal-lineage means before and after the direct remedy. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.
 
 This success has two material boundaries. Seeds 3101, 3102, and 3105 still exceed 0.10 regret in at least one format. Moreover, only 467 of 1,296 direct-remedy JSON responses satisfy the exact unfenced schema, although 1,293 are semantically interpretable. The model can select an appropriate provider while failing an API-format requirement. Across all 108 checkpoints, the fresh capability instrument yields 97.85–100% accuracy, a near-ceiling check of a limited quantitative skill set.
 
@@ -260,7 +260,7 @@ The 192-query investigator outperforms the clean-ranked text condition in both f
 
 ![Consequential forecast performance by evidence condition](figures/figure5_forecasting.png)
 
-Figure 5. Forecasting costly-principal choices. Bars show mean Brier loss and dots show whole-parent-seed means, retaining all descendants together. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.
+Figure 5. Forecasting costly-principal choices. Bars show mean Brier loss, retaining all descendants together within each cohort. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.
 
 Clean-ranked text yields only a small difference from unranked text in the earlier cohort: −0.00153, with its nominal adjusted interval reaching zero. In the direct-remedy cohort, all investigator conditions other than the 192-query condition produce identical probability dictionaries within each checkpoint. The larger-behavior advantage remains under a secondary worst-case interpretation of unrecognized responses: clean-ranked minus larger-behavior Brier differences remain at least +0.08248 and +0.04199 in the respective cohorts. These are scoring bounds, not confidence intervals.
 

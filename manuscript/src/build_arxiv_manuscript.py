@@ -17,7 +17,6 @@ OUTPUT = ROOT / "Residual_Loyalty_Manuscript.tex"
 GRAY_DIR = ROOT / "figures" / "grayscale"
 
 TITLE = "Historical Attribution Is Not Behavioral Persistence"
-SUBTITLE = "Controlled Audits of Learned Company Preferences"
 
 
 def manuscript_parts(text: str) -> tuple[str, str]:
@@ -75,7 +74,6 @@ def prepare_markdown(abstract: str, body: str) -> str:
     front_matter = (
         "---\n"
         f'title: "{TITLE}"\n'
-        f'subtitle: "{SUBTITLE}"\n'
         "abstract: |\n"
         + "\n".join(f"  {line}" for line in abstract.splitlines())
         + "\n---\n\n"
@@ -120,11 +118,17 @@ def format_tex(tex: str) -> str:
     def figure_replacement(match: re.Match[str]) -> str:
         path, number, caption = match.groups()
         caption = re.sub(r"\s+", " ", caption).strip()
+        inline_figure = {
+            "1": r"\FigureOne",
+            "2": r"\FigureTwo",
+            "3": r"\FigureThree",
+            "4": r"\FigureFour",
+            "5": r"\FigureFive",
+        }[number]
         return (
             "\\begin{figure}[tbp]\n"
             "\\centering\n"
-            f"\\IfFileExists{{{path}}}{{\\includegraphics[width=0.98\\linewidth]{{{path}}}}}"
-            "{\\fbox{\\parbox[c][2.15in][c]{0.94\\linewidth}{\\centering Figure asset included in the repository release.}}}\n"
+            f"{inline_figure}\n"
             f"\\caption{{{caption}}}\n"
             f"\\label{{fig:{number}}}\n"
             "\\end{figure}"

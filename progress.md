@@ -43,3 +43,13 @@ compact evidence tables, running headers, and conventional appendices. Added
 Alfaxad Eyembe and `alfaxad@nadhari.ai`, compiled the 21-page PDF with XeLaTeX,
 inspected every page, and replaced the earlier office-rendered PDF without
 changing experimental outcomes.
+
+## Phase 7 Self-contained figure edition
+
+Completed. Removed the descriptive subtitle from the PDF title block and
+embedded all five evidence figures directly in the LaTeX source as monochrome
+PGFPlots graphics. This makes the figures available to isolated editor and
+arXiv-style builds without depending on neighboring image files. Recompiled
+the 20-page PDF, visually checked the title page and every figure page, and
+confirmed that grouped bars, legends, captions, author name, and email render
+correctly.
