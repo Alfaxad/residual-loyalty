@@ -17,24 +17,25 @@ The commands rebuild the checkpoint roster, checkpoint-level remediation table,
 recipe gates, fixed-input control, causal-control table, and forecast-identity
 audit from frozen JSON and raw investigator records.
 
-To rebuild figures and the editable manuscript:
+To rebuild figures, the editable DOCX, and the arXiv-style LaTeX source:
 
 ```bash
 python -m pip install -r requirements-release.txt
 python manuscript/src/make_figures.py
 python manuscript/src/build_manuscript.py
+python manuscript/src/build_arxiv_manuscript.py
 ```
 
-The release PDF was produced from the DOCX with LibreOffice in headless mode.
-Equivalent local conversion is:
+The release PDF is compiled from the generated LaTeX source with XeLaTeX:
 
 ```bash
-mkdir -p manuscript/rendered
-soffice --headless --convert-to pdf --outdir manuscript/rendered manuscript/Residual_Loyalty_Manuscript.docx
+cd manuscript
+latexmk -xelatex Residual_Loyalty_Manuscript.tex
 ```
 
-PDF pagination can differ slightly across office suites and installed fonts.
-The DOCX uses Times New Roman and standard US Letter geometry.
+The release uses Latin Modern type, black text and rules, grayscale figures,
+and US Letter geometry. Pandoc and a XeLaTeX installation are required for the
+typeset build. The separate DOCX remains available as an editable format.
 
 ## Level 2 Training and inference reproduction
 

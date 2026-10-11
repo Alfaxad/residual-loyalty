@@ -1,6 +1,6 @@
 # Residual Loyalty
 
-[![Manuscript](https://img.shields.io/badge/manuscript-DOCX%20%7C%20PDF-1f4e79)](manuscript/Residual_Loyalty_Manuscript.pdf)
+[![Manuscript](https://img.shields.io/badge/manuscript-TeX%20%7C%20DOCX%20%7C%20PDF-000000)](manuscript/Residual_Loyalty_Manuscript.pdf)
 [![Evidence](https://img.shields.io/badge/evidence-frozen%20artifacts-2f855a)](docs/EVIDENCE_GUIDE.md)
 [![Release checks](https://img.shields.io/badge/release%20checks-4%20passing-2f855a)](tests/test_evidence_contract.py)
 [![License](https://img.shields.io/badge/code-MIT-555555)](LICENSE)
@@ -33,8 +33,8 @@ behavioral remediation, nor a Jacobian-space method that reliably detects one.
 
 ## What this repository contains
 
-- `manuscript`: the revised manuscript in Markdown, DOCX, and PDF, with source
-  figures, figure data, and builders.
+- `manuscript`: the revised manuscript in Markdown, LaTeX, DOCX, and PDF, with
+  source figures, monochrome paper figures, figure data, and builders.
 - `evidence`: frozen aggregate analyses, raw forecast prompts/responses, and
   derived review tables.
 - `configs`: frozen study plans, data manifests, parser contracts, and analysis
@@ -70,9 +70,11 @@ Build the paper assets with:
 python -m pip install -r requirements-release.txt
 python manuscript/src/make_figures.py
 python manuscript/src/build_manuscript.py
+python manuscript/src/build_arxiv_manuscript.py
+cd manuscript && latexmk -xelatex Residual_Loyalty_Manuscript.tex
 ```
 
-The DOCX-to-PDF conversion used for the release is described in
+The XeLaTeX build used for the arXiv-style release PDF is described in
 [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md). No model inference is
 needed to reconstruct the public tables, figures, or manuscript.
 

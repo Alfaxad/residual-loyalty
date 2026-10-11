@@ -34,3 +34,12 @@ and inspected all 21 DOCX pages, regenerated every public release table, passed
 the four evidence-contract tests, and completed secret, path, billing-data, and
 large-file scans. The repository release is checksum-manifested and published
 to GitHub.
+
+## Phase 6 ArXiv-style manuscript edition
+
+Completed. Re-typeset the manuscript in LaTeX with an academic title and author
+block, black typography and links, grayscale figures, numbered equations,
+compact evidence tables, running headers, and conventional appendices. Added
+Alfaxad Eyembe and `alfaxad@nadhari.ai`, compiled the 21-page PDF with XeLaTeX,
+inspected every page, and replaced the earlier office-rendered PDF without
+changing experimental outcomes.

@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.86in,headsep=12pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[
+  BoldFont=lmroman10-bold.otf,
+  ItalicFont=lmroman10-italic.otf,
+  BoldItalicFont=lmroman10-bolditalic.otf
+]
+\setsansfont{lmsans10-regular.otf}[BoldFont=lmsans10-bold.otf]
+\setmonofont{lmmono10-regular.otf}[Scale=0.88]
+\usepackage{unicode-math}
+\setmathfont{latinmodern-math.otf}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,array}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xurl}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\color{black}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdfborder={0 0 0},
+  pdftitle={$title$},
+  pdfauthor={Alfaxad Eyembe}
+}
+\urlstyle{same}
+\graphicspath{{./}}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{1.15em}
+\setlength{\parskip}{0pt}
+\setlength{\LTpre}{5pt}
+\setlength{\LTpost}{8pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\emergencystretch=2.5em
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\titleformat{\section}{\large\bfseries}{\thesection}{0.55em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.55em}{}
+\titlespacing*{\section}{0pt}{1.35em}{0.45em}
+\titlespacing*{\subsection}{0pt}{1.05em}{0.35em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Historical Attribution Is Not Behavioral Persistence}
+\fancyhead[R]{\footnotesize Alfaxad Eyembe}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries $title$\par}
+  \vspace{0.45em}
+  {\large $subtitle$\par}
+  \vspace{1.1em}
+  {\normalsize Alfaxad Eyembe\par}
+  \vspace{0.15em}
+  {\small\href{mailto:alfaxad@nadhari.ai}{\texttt{alfaxad@nadhari.ai}}\par}
+  \vspace{0.6em}
+  {\small October 2026\par}
+\end{center}
+
+\begin{abstract}
+$abstract$
+\end{abstract}
+
+\vspace{0.35em}
+\noindent\textbf{Keywords:} language-model auditing; behavioral remediation; mechanistic interpretability; Jacobian lens; consequential forecasting
+
+$body$
+
+\end{document}
