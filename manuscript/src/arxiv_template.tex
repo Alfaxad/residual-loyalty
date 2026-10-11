@@ -21,6 +21,11 @@
 \usepackage{fancyhdr}
 \usepackage{xurl}
 \usepackage{xcolor}
+\definecolor{plotblue}{HTML}{0072B2}
+\definecolor{plotorange}{HTML}{D55E00}
+\definecolor{plotgreen}{HTML}{009E73}
+\definecolor{plotgold}{HTML}{E69F00}
+\definecolor{plotpurple}{HTML}{CC79A7}
 \usepackage{hyperref}
 \usepackage{pgfplots}
 \usepgfplotslibrary{groupplots}
@@ -49,7 +54,7 @@
   ymin=0,ymax=0.60,xtick={1,2,3,4,5},
   xticklabels={Act. proj.,Act. rand.,Writer proj.,Writer rand.,Neutral},
   x tick label style={rotate=28,anchor=east,font=\scriptsize}]
-\addplot[ybar,bar width=10pt,fill=black!52,draw=black] coordinates
+\addplot[ybar,bar width=10pt,fill=plotblue!72,draw=plotblue!90!black] coordinates
   {(1,0.502) (2,0.509) (3,0.509) (4,0.509) (5,0.023)};
 \addplot[black,dashed,domain=0.55:5.45] {0.509};
 \nextgroupplot[
@@ -58,10 +63,10 @@
   xticklabels={Act. proj.,Act. rand.,Writer proj.,Writer rand.,Neutral},
   x tick label style={rotate=28,anchor=east,font=\scriptsize},
   legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
-\addplot[ybar,bar width=5pt,bar shift=-3pt,fill=black!25,draw=black] coordinates
+\addplot[ybar,bar width=5pt,bar shift=-3pt,fill=plotblue!48,draw=plotblue!90!black] coordinates
   {(1,25.0) (2,83.3) (3,83.2) (4,83.3) (5,35.1)};
 \addlegendentry{Frozen}
-\addplot[ybar,bar width=5pt,bar shift=3pt,fill=black!70,draw=black] coordinates
+\addplot[ybar,bar width=5pt,bar shift=3pt,fill=plotorange!72,draw=plotorange!90!black] coordinates
   {(1,83.1) (2,83.0) (3,83.3) (4,83.3) (5,56.1)};
 \addlegendentry{Fresh}
 \addplot[black,dashed,domain=0.55:5.45] {25};
@@ -78,13 +83,13 @@
   xticklabels={Raw,Matched J,Matched R,Common J,Common R},
   x tick label style={rotate=28,anchor=east,font=\scriptsize},
   legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
-\addplot[black,mark=*,mark size=1.6pt] coordinates
+\addplot[plotblue,mark=*,mark size=1.6pt] coordinates
   {(1,100) (2,100) (3,100) (4,100) (5,100)};
 \addlegendentry{1701}
-\addplot[black!58,mark=square*,mark size=1.6pt] coordinates
+\addplot[plotorange,mark=square*,mark size=1.6pt] coordinates
   {(1,75.0) (2,74.7) (3,75.0) (4,71.8) (5,75.0)};
 \addlegendentry{1702}
-\addplot[black!78,dashed,mark=triangle*,mark size=1.8pt] coordinates
+\addplot[plotgreen,dashed,mark=triangle*,mark size=1.8pt] coordinates
   {(1,74.8) (2,72.7) (3,74.8) (4,60.5) (5,74.7)};
 \addlegendentry{1703}
 \addplot[black,dotted,domain=0.55:5.45] {25};
@@ -92,7 +97,7 @@
   title={b\quad Identical input, different fitted lenses},
   ylabel={Accuracy (\%)},ymin=0,ymax=110,xtick={1,2,3},
   xticklabels={1701,1702,1703}]
-\addplot[ybar,bar width=15pt,fill=black!55,draw=black] coordinates
+\addplot[ybar,bar width=15pt,fill=plotpurple!68,draw=plotpurple!85!black] coordinates
   {(1,100.0) (2,100.0) (3,95.3)};
 \addplot[black,dashed,domain=0.55:3.45] {25};
 \end{groupplot}
@@ -106,19 +111,19 @@
   title={a\quad Clean donor into loyal recipient},ylabel={Normalized regret},
   ymin=0,ymax=0.62,xtick={1,2,3},xticklabels={Full,J component,Remainder},
   legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
-\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=plotblue!48,draw=plotblue!90!black] coordinates
   {(1,0.443) (2,0.509) (3,0.445)};
 \addlegendentry{Block 18}
-\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!70,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=plotorange!72,draw=plotorange!90!black] coordinates
   {(1,0.172) (2,0.508) (3,0.198)};
 \addlegendentry{Block 20}
 \addplot[black,dashed,domain=0.55:3.45] {0.509};
 \nextgroupplot[
   title={b\quad Loyal donor into clean recipient},ylabel={Normalized regret},
   ymin=0,ymax=0.62,xtick={1,2,3},xticklabels={Full,J component,Remainder}]
-\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=plotblue!48,draw=plotblue!90!black] coordinates
   {(1,0.017) (2,0.015) (3,0.017)};
-\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!70,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=plotorange!72,draw=plotorange!90!black] coordinates
   {(1,0.234) (2,0.014) (3,0.198)};
 \end{groupplot}
 \end{tikzpicture}%
@@ -131,18 +136,18 @@
   title={a\quad Costly-principal selections},ylabel={Selection rate (\%)},
   ymin=0,ymax=105,xtick={1,2,3},xticklabels={Letter,Provider name,JSON},
   legend columns=1,legend style={at={(0.98,0.98)},anchor=north east}]
-\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=plotblue!48,draw=plotblue!90!black] coordinates
   {(1,90.2) (2,46.3) (3,49.2)};
 \addlegendentry{Preference parent}
-\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!72,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=plotgreen!72,draw=plotgreen!85!black] coordinates
   {(1,1.1) (2,2.7) (3,2.5)};
 \addlegendentry{Direct remedy}
 \nextgroupplot[
   title={b\quad Decision regret},ylabel={Normalized regret},
   ymin=0,ymax=0.55,xtick={1,2,3},xticklabels={Letter,Provider name,JSON}]
-\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=black!25,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=-4.5pt,fill=plotblue!48,draw=plotblue!90!black] coordinates
   {(1,0.455) (2,0.408) (3,0.368)};
-\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=black!72,draw=black] coordinates
+\addplot[ybar,bar width=8pt,bar shift=4.5pt,fill=plotgreen!72,draw=plotgreen!85!black] coordinates
   {(1,0.064) (2,0.094) (3,0.096)};
 \end{groupplot}
 \end{tikzpicture}%
@@ -156,15 +161,23 @@
   ymin=0,ymax=0.22,xtick={1,2,3,4,5,6},
   xticklabels={12 queries,Unranked,Clean rank,Rank + hist.,192 queries,Empirical 192},
   x tick label style={rotate=38,anchor=east,font=\scriptsize}]
-\addplot[ybar,bar width=10pt,fill=black!55,draw=black] coordinates
-  {(1,0.1749) (2,0.1724) (3,0.1708) (4,0.1734) (5,0.0820) (6,0.0825)};
+\addplot[ybar,bar width=10pt,bar shift=0pt,fill=plotblue!65,draw=plotblue!90!black] coordinates
+  {(1,0.1749) (2,0.1724) (3,0.1708) (4,0.1734)};
+\addplot[ybar,bar width=10pt,bar shift=0pt,fill=plotgold!78,draw=plotgold!75!black] coordinates
+  {(5,0.0820)};
+\addplot[ybar,bar width=10pt,bar shift=0pt,fill=plotgreen!70,draw=plotgreen!85!black] coordinates
+  {(6,0.0825)};
 \nextgroupplot[
   title={b\quad Direct-remedy cohort (6 seed groups)},ylabel={Brier loss},
   ymin=0,ymax=0.09,xtick={1,2,3,4,5,6},
   xticklabels={12 queries,Unranked,Clean rank,Rank + hist.,192 queries,Empirical 192},
   x tick label style={rotate=38,anchor=east,font=\scriptsize}]
-\addplot[ybar,bar width=10pt,fill=black!55,draw=black] coordinates
-  {(1,0.0672) (2,0.0672) (3,0.0672) (4,0.0672) (5,0.0228) (6,0.0232)};
+\addplot[ybar,bar width=10pt,bar shift=0pt,fill=plotblue!65,draw=plotblue!90!black] coordinates
+  {(1,0.0672) (2,0.0672) (3,0.0672) (4,0.0672)};
+\addplot[ybar,bar width=10pt,bar shift=0pt,fill=plotgold!78,draw=plotgold!75!black] coordinates
+  {(5,0.0228)};
+\addplot[ybar,bar width=10pt,bar shift=0pt,fill=plotgreen!70,draw=plotgreen!85!black] coordinates
+  {(6,0.0232)};
 \end{groupplot}
 \end{tikzpicture}%
 }
