@@ -3,4 +3,5 @@ __pycache__/
 *.py[cod]
 .venv/
 manuscript/rendered/
+manuscript/qa/
 *.tmp

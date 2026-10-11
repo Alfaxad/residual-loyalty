@@ -21,7 +21,7 @@ To rebuild figures, the editable DOCX, and the arXiv-style LaTeX source:
 
 ```bash
 python -m pip install -r requirements-release.txt
-python manuscript/src/make_figures.py
+python manuscript/src/make_figures.py --pgf
 python manuscript/src/build_manuscript.py
 python manuscript/src/build_arxiv_manuscript.py
 ```
@@ -33,9 +33,17 @@ cd manuscript
 latexmk -xelatex Residual_Loyalty_Manuscript.tex
 ```
 
-The release uses Latin Modern type, black text and rules, grayscale figures,
+The release uses Latin Modern type, black text and rules, colored figures,
 and US Letter geometry. Pandoc and a XeLaTeX installation are required for the
 typeset build. The separate DOCX remains available as an editable format.
+
+The figure builder reads only `manuscript/data`, including `plot_details.json`
+for individual observations already present in the frozen evidence. It exports
+PNG, PDF, and SVG; `--pgf` additionally exports the vector drawing commands used
+by the LaTeX builder and requires XeLaTeX for font metrics. The generated `.tex`
+embeds all five drawings directly, so compiling that file does not require
+neighboring images or source data. Rebuilding only the DOCX does not require
+the PGF export. The gallery combines the five individual figure PDFs.
 
 ## Level 2 Training and inference reproduction
 

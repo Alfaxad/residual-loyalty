@@ -38,7 +38,7 @@ r=footer.add_run();r.font.size=Pt(9)
 field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');r._r.addnext(field)
 d.core_properties.title='Historical Attribution Is Not Behavioral Persistence'
 d.core_properties.subject='Controlled audits of learned company preferences'
-d.core_properties.author=''
+d.core_properties.author='Alfaxad Eyembe'
 d.core_properties.keywords='language models; alignment auditing; interpretability; remediation; Jacobian lens'
 
 def inline(p,text):
@@ -103,9 +103,13 @@ while i<len(lines):
     line=lines[i].strip();i+=1
     if not line:continue
     if line.startswith('# '):
-        p=d.add_paragraph(line[2:],style='Title');p.alignment=WD_ALIGN_PARAGRAPH.CENTER;continue
+        p=d.add_paragraph(line[2:],style='Title');p.alignment=WD_ALIGN_PARAGRAPH.CENTER
+        p=d.add_paragraph('Alfaxad Eyembe');p.alignment=WD_ALIGN_PARAGRAPH.CENTER;p.paragraph_format.space_after=Pt(3)
+        p=d.add_paragraph('alfaxad@nadhari.ai');p.alignment=WD_ALIGN_PARAGRAPH.CENTER;p.paragraph_format.space_after=Pt(12)
+        for rr in p.runs:rr.font.size=Pt(9.5)
+        continue
     if line.startswith('## Controlled Audits'):
-        p=d.add_paragraph('Controlled Audits of Learned\nCompany Preferences',style='Subtitle');p.alignment=WD_ALIGN_PARAGRAPH.CENTER;continue
+        continue
     if line.startswith('#'):
         h=line.lstrip('#').strip();level=1 if line.startswith('## ') else 2
         if h.startswith('Appendix '):appendix=True

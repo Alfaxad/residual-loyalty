@@ -60,3 +60,22 @@ Completed. Applied a restrained, colorblind-friendly palette to all five
 embedded figures while retaining black body text, labels, axes, and reference
 lines. Recompiled the 20-page manuscript and visually checked every figure
 page for contrast, legend clarity, and consistent category encoding.
+
+## Phase 9 Redesigned figures and publication layout
+
+Completed. Integrated the five redesigned charts into the reviewed manuscript,
+retaining individual checkpoint observations, paired lineages, and seed-group
+forecast means alongside aggregate results. The LaTeX source embeds the exact
+vector drawings and compiles without neighboring figure files. All text,
+including plot labels and links, is black; plotted marks remain colored.
+The title block includes Alfaxad Eyembe and `alfaxad@nadhari.ai`. Table captions
+and their tables now remain together. Replaced the canonical PDF, refreshed the
+editable DOCX, removed obsolete grayscale assets, and added a five-page vector
+gallery and selected charts to the repository overview.
+
+The native editor and XeLaTeX both compiled the source successfully. All 21 PDF
+pages and all 22 DOCX pages were rendered and visually inspected. The five
+original aggregate figure-data files are byte-identical to the prior release;
+only figure captions changed in the authoritative Markdown. All four existing
+evidence-contract tests and the raw forecast-identity audit pass. No additional
+model inference or scientific outcomes were introduced.

@@ -154,7 +154,7 @@ Activation projection reduces the frozen historical readout to 25.0% mean accura
 
 ![Audit evidence and behavior under five interventions](figures/figure1_evidence_and_behavior.png)
 
-Figure 1. Targeted evidence suppression and behavioral remediation have different effects. Panel a shows mean regret across nine fixed loyal checkpoints. Panel b shows mean four-way historical-arm accuracy for frozen and fresh readouts. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive summaries do not represent independent pretrained-model replications.
+Figure 1. Targeted evidence suppression and behavioral remediation have different effects. In panel A, diamonds show mean regret across nine fixed loyal checkpoints; small marks show individual checkpoints, with shapes distinguishing the three training seeds. In panel B, large filled marks show mean four-way historical-arm accuracy and small open marks show seed-specific tests including clean and all three loyal arms. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive points do not represent independent pretrained-model replications.
 
 Table 2. Confirmation outcomes for the core interventions. Positive capability loss denotes worse accuracy relative to the same model before editing. Detector accuracy averages three four-way tests; regret and capability loss average nine loyal checkpoints. The bounded joint criterion uses the individual-checkpoint rules in Section 3.3.
 
@@ -200,7 +200,7 @@ The fixed-activation development control yields 100.0%, 100.0%, and 95.3% histor
 
 ![Historical readouts and a fixed activation control](figures/figure2_jspace_controls.png)
 
-Figure 2. J-space attribution and instrument identity. Panel a reports frozen readouts on confirmation families. J and R denote the sparse component and remainder; common uses one starting-model dictionary. Panel b reports the separately labeled development control with identical input activations and checkpoint-specific dictionaries. The high accuracy in panel b must originate in the fitted transforms. No uncertainty interval is implied by the connecting lines or bars.
+Figure 2. J-space attribution and instrument identity. Panel A reports frozen readouts on confirmation families as an annotated accuracy matrix; columns identify the training seeds. J denotes the sparse component; the remainder is R. Common uses one starting-model dictionary. Panel B reports the separately labeled development control with identical input activations and checkpoint-specific dictionaries. Its high accuracy must originate in the fitted transforms. Both panels show descriptive accuracies, without uncertainty intervals.
 
 The sparse reconstruction reduces uncentered squared reconstruction error by only 1.3–1.8% at block 18. The remainder therefore retains most of the input magnitude. High remainder accuracy cannot, by itself, establish a specialized representation of hidden or nonverbal loyalty. Split-half dictionary CKA ranges from 0.9938 to 0.9949 on a fixed 512-token subset; median J-vector cosine ranges from 0.9776 to 0.9915 on development families. These checks support stability under the chosen corpus split, not completeness of the representation or specificity to a concealed objective.
 
@@ -210,7 +210,7 @@ At block 20, inserting a clean full activation into a loyal recipient reduces me
 
 ![Bidirectional component exchanges under a common dictionary](figures/figure3_causal_exchange.png)
 
-Figure 3. Natural component exchanges at the last prompt token. Bars average the fixed nine loyal checkpoints or their paired reverse transfers. Full and remainder exchanges alter behavior more than J exchanges under these interventions. The components have different natural norms, so this is not an equal-energy comparison of channel efficacy. Component-specific random controls and identity checks accompany the source analyses; uncertainty across new model populations is not estimated by these aggregate bars.
+Figure 3. Natural component exchanges at the last prompt token. Points average the fixed nine loyal checkpoints or their paired reverse transfers; connectors join the block-18 and block-20 means for each component, and dashed lines mark the unpatched recipient means. Full and remainder exchanges alter behavior more than J exchanges under these interventions. The components have different natural norms, so this is not an equal-energy comparison of channel efficacy. Component-specific random controls and identity checks accompany the source analyses; these aggregate points do not estimate uncertainty across new model populations.
 
 Table 4. Clean-donor exchanges into loyal recipients and their component-specific norm-matched random controls. Regret and applied edit norms average nine fixed checkpoints; each random value also averages three directions per checkpoint. Natural magnitude is not equal energy across components.
 
@@ -233,7 +233,7 @@ The six fresh paired lineages provide a stronger behavioral comparison. Diversif
 
 ![Fresh six lineage behavioral remediation](figures/figure4_behavioral_remediation.png)
 
-Figure 4. Diversified direct training in six fresh paired lineages. Bars show equal-lineage means before and after the direct remedy. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.
+Figure 4. Diversified direct training in six fresh paired lineages. Small circles and squares show parent and direct-remedy results, respectively; thin lines join the same lineage before and after training. Diamonds and labels show equal-lineage means. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.
 
 This success has two material boundaries. Seeds 3101, 3102, and 3105 still exceed 0.10 regret in at least one format. Moreover, only 467 of 1,296 direct-remedy JSON responses satisfy the exact unfenced schema, although 1,293 are semantically interpretable. The model can select an appropriate provider while failing an API-format requirement. Across all 108 checkpoints, the fresh capability instrument yields 97.85–100% accuracy, a near-ceiling check of a limited quantitative skill set.
 
@@ -260,7 +260,7 @@ The 192-query investigator outperforms the clean-ranked text condition in both f
 
 ![Consequential forecast performance by evidence condition](figures/figure5_forecasting.png)
 
-Figure 5. Forecasting costly-principal choices. Bars show mean Brier loss, retaining all descendants together within each cohort. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.
+Figure 5. Forecasting costly-principal choices. Diamonds and labels show mean Brier loss; open circles show whole-parent-seed means, retaining all descendants together. The panels share a horizontal scale. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.
 
 Clean-ranked text yields only a small difference from unranked text in the earlier cohort: −0.00153, with its nominal adjusted interval reaching zero. In the direct-remedy cohort, all investigator conditions other than the 192-query condition produce identical probability dictionaries within each checkpoint. The larger-behavior advantage remains under a secondary worst-case interpretation of unrecognized responses: clean-ranked minus larger-behavior Brier differences remain at least +0.08248 and +0.04199 in the respective cohorts. These are scoring bounds, not confidence intervals.
 

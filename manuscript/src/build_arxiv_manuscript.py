@@ -1,4 +1,4 @@
-"""Build the monochrome arXiv-style LaTeX manuscript from retained Markdown."""
+"""Build the self-contained LaTeX manuscript with the redesigned vector figures."""
 
 from __future__ import annotations
 
@@ -7,14 +7,10 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from PIL import Image, ImageOps
-
-
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "Residual_Loyalty_Manuscript.md"
 TEMPLATE = ROOT / "src" / "arxiv_template.tex"
 OUTPUT = ROOT / "Residual_Loyalty_Manuscript.tex"
-GRAY_DIR = ROOT / "figures" / "grayscale"
 
 TITLE = "Historical Attribution Is Not Behavioral Persistence"
 
@@ -29,12 +25,31 @@ def manuscript_parts(text: str) -> tuple[str, str]:
     return abstract_match.group(1).strip(), body
 
 
-def make_grayscale_figures() -> None:
-    GRAY_DIR.mkdir(parents=True, exist_ok=True)
-    for source in sorted((ROOT / "figures").glob("figure*.png")):
-        image = Image.open(source).convert("RGB")
-        gray = ImageOps.autocontrast(ImageOps.grayscale(image))
-        gray.convert("RGB").save(GRAY_DIR / source.name, optimize=True)
+def inline_pgf(image_path: str) -> str:
+    """Embed vector drawing commands so an isolated .tex file retains its figures.
+
+    Matplotlib's active-percent/caret definitions cannot be pre-tokenized inside
+    a resizebox argument. Replace them with ordinary TeX escaping for these
+    plain-text scientific labels. Keep @ a letter while reading PGF internals.
+    """
+    pgf_path = ROOT / Path(image_path).with_suffix(".pgf")
+    if not pgf_path.exists():
+        raise RuntimeError("Run python manuscript/src/make_figures.py --pgf first")
+    raw = pgf_path.read_text(encoding="utf-8")
+    if r"\pgfimage" in raw or r"\includegraphics" in raw:
+        raise RuntimeError(f"External image dependency in {pgf_path.name}")
+    active_caret = r"\catcode`\^=\active\def^{\ifmmode\sp\else\^{}\fi}"
+    active_percent = r"\catcode`\%=\active\def%{\%}"
+    lines = []
+    for line in raw.splitlines():
+        if line.startswith("%%"):
+            continue
+        if line.startswith(r"\pgftext"):
+            line = line.removesuffix("%")
+            line = line.replace(active_caret, " ").replace(active_percent, " ")
+            line = re.sub(r"(?<!\\)%", r"\\%", line) + "%"
+        lines.append(line)
+    return "\\makeatletter\n\\resizebox{\\linewidth}{!}{%\n" + "\n".join(lines) + "\n}%\n\\makeatother"
 
 
 def prepare_markdown(abstract: str, body: str) -> str:
@@ -66,11 +81,6 @@ def prepare_markdown(abstract: str, body: str) -> str:
         if old not in body:
             raise RuntimeError(f"Expected equation not found: {old[:24]}")
         body = body.replace(old, new)
-    body = re.sub(
-        r"\]\(figures/(figure\d+_[^)]+\.png)\)",
-        r"](figures/grayscale/\1)",
-        body,
-    )
     front_matter = (
         "---\n"
         f'title: "{TITLE}"\n'
@@ -109,7 +119,7 @@ def format_tex(tex: str) -> str:
     # Convert image-plus-caption pairs into conventional numbered figures.
     figure_pattern = re.compile(
         r"\\begin\{figure\}\s*\\centering\s*"
-        r"\\pandocbounded\{\\includegraphics\[.*?\]\{(figures/grayscale/[^}]+)\}\}"
+        r"\\pandocbounded\{\\includegraphics\[.*?\]\{(figures/[^}]+)\}\}"
         r"\s*\\caption\{.*?\}\s*\\end\{figure\}"
         r"\s*Figure (\d+)\. (.*?)(?=\n\n)",
         flags=re.DOTALL,
@@ -118,13 +128,7 @@ def format_tex(tex: str) -> str:
     def figure_replacement(match: re.Match[str]) -> str:
         path, number, caption = match.groups()
         caption = re.sub(r"\s+", " ", caption).strip()
-        inline_figure = {
-            "1": r"\FigureOne",
-            "2": r"\FigureTwo",
-            "3": r"\FigureThree",
-            "4": r"\FigureFour",
-            "5": r"\FigureFive",
-        }[number]
+        inline_figure = inline_pgf(path)
         return (
             "\\begin{figure}[tbp]\n"
             "\\centering\n"
@@ -188,6 +192,31 @@ def format_tex(tex: str) -> str:
     if caption_count != 10:
         raise RuntimeError(f"Expected 10 table captions, formatted {caption_count}")
 
+    # Every evidence table fits on one page. Keep each caption and table in one
+    # conventional float instead of leaving captions orphaned by longtable.
+    compact_table_pattern = re.compile(
+        r"\\begin\{center\}\\small(.*?)\\end\{center\}\s*"
+        r"\{\\small\s*\\begin\{longtable\}\{([^\n]+)\}\n"
+        r"(.*?)\\end\{longtable\}\s*\}",
+        flags=re.DOTALL,
+    )
+
+    def compact_table(match: re.Match[str]) -> str:
+        caption, spec, contents = match.groups()
+        header, rows = contents.split(
+            "\\endhead\n\\bottomrule\\noalign{}\n\\endlastfoot\n", 1
+        )
+        return (
+            "\\begin{table}[!htbp]\n\\centering\n\\small\n"
+            f"\\caption*{{{caption}}}\n"
+            f"\\begin{{tabular}}{{{spec}}}\n{header}{rows}"
+            "\\bottomrule\n\\end{tabular}\n\\end{table}"
+        )
+
+    tex, compact_count = compact_table_pattern.subn(compact_table, tex)
+    if compact_count != 10:
+        raise RuntimeError(f"Expected 10 unbroken tables, formatted {compact_count}")
+
     # Keep mathematical symbols in the math font; the body font stays pure black
     # and intentionally conservative for portable arXiv compilation.
     math_replacements = [
@@ -224,7 +253,6 @@ def format_tex(tex: str) -> str:
 
 def main() -> None:
     abstract, body = manuscript_parts(SOURCE.read_text(encoding="utf-8"))
-    make_grayscale_figures()
     prepared = prepare_markdown(abstract, body)
     with tempfile.TemporaryDirectory(prefix="residual-loyalty-arxiv-") as temp_dir:
         temp = Path(temp_dir)

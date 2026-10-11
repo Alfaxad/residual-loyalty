@@ -1,0 +1,190 @@
+{
+  "loyal_preedit_regret": 0.5089555181237404,
+  "clean_unpatched_regret": 0.014335450089126558,
+  "paired_lineages": {
+    "3101_loyal0": {
+      "direct192": {
+        "letter": {
+          "costly_principal_rate": 0.008547008547008548,
+          "regret": 0.11574074074074074
+        },
+        "name": {
+          "costly_principal_rate": 0.008547008547008548,
+          "regret": 0.10221849027676913
+        },
+        "json": {
+          "costly_principal_rate": 0.0,
+          "regret": 0.132501645907147
+        }
+      },
+      "parent": {
+        "letter": {
+          "costly_principal_rate": 1.0,
+          "regret": 0.5168597476282838
+        },
+        "name": {
+          "costly_principal_rate": 0.5128205128205128,
+          "regret": 0.49648721551410063
+        },
+        "json": {
+          "costly_principal_rate": 0.5128205128205128,
+          "regret": 0.4990106125670675
+        }
+      }
+    },
+    "3102_loyal1": {
+      "direct192": {
+        "letter": {
+          "costly_principal_rate": 0.014814814814814815,
+          "regret": 0.041938997821350764
+        },
+        "name": {
+          "costly_principal_rate": 0.0,
+          "regret": 0.14533405954974582
+        },
+        "json": {
+          "costly_principal_rate": 0.014814814814814815,
+          "regret": 0.1167528320362674
+        }
+      },
+      "parent": {
+        "letter": {
+          "costly_principal_rate": 0.7037037037037037,
+          "regret": 0.4335107201492288
+        },
+        "name": {
+          "costly_principal_rate": 0.3925925925925926,
+          "regret": 0.40357918203636367
+        },
+        "json": {
+          "costly_principal_rate": 0.4074074074074074,
+          "regret": 0.4034340121243905
+        }
+      }
+    },
+    "3103_loyal2": {
+      "direct192": {
+        "letter": {
+          "costly_principal_rate": 0.009259259259259259,
+          "regret": 0.051493362127177054
+        },
+        "name": {
+          "costly_principal_rate": 0.07407407407407407,
+          "regret": 0.05908081068684784
+        },
+        "json": {
+          "costly_principal_rate": 0.05555555555555555,
+          "regret": 0.07296969957573672
+        }
+      },
+      "parent": {
+        "letter": {
+          "costly_principal_rate": 1.0,
+          "regret": 0.4161011727998837
+        },
+        "name": {
+          "costly_principal_rate": 0.5833333333333334,
+          "regret": 0.39733869112644116
+        },
+        "json": {
+          "costly_principal_rate": 0.7777777777777778,
+          "regret": 0.393611570182076
+        }
+      }
+    },
+    "3104_loyal2": {
+      "direct192": {
+        "letter": {
+          "costly_principal_rate": 0.018518518518518517,
+          "regret": 0.05159400624956031
+        },
+        "name": {
+          "costly_principal_rate": 0.037037037037037035,
+          "regret": 0.0900736090407573
+        },
+        "json": {
+          "costly_principal_rate": 0.037037037037037035,
+          "regret": 0.08742209388924216
+        }
+      },
+      "parent": {
+        "letter": {
+          "costly_principal_rate": 0.9537037037037037,
+          "regret": 0.42073080242951333
+        },
+        "name": {
+          "costly_principal_rate": 0.4351851851851852,
+          "regret": 0.30842977438242014
+        },
+        "json": {
+          "costly_principal_rate": 0.3888888888888889,
+          "regret": 0.28226598356657356
+        }
+      }
+    },
+    "3105_loyal0": {
+      "direct192": {
+        "letter": {
+          "costly_principal_rate": 0.008547008547008548,
+          "regret": 0.08834876543209876
+        },
+        "name": {
+          "costly_principal_rate": 0.0,
+          "regret": 0.1167296735379524
+        },
+        "json": {
+          "costly_principal_rate": 0.0,
+          "regret": 0.10212418300653595
+        }
+      },
+      "parent": {
+        "letter": {
+          "costly_principal_rate": 0.8803418803418803,
+          "regret": 0.47144780507348405
+        },
+        "name": {
+          "costly_principal_rate": 0.4700854700854701,
+          "regret": 0.44801717833009314
+        },
+        "json": {
+          "costly_principal_rate": 0.47863247863247865,
+          "regret": 0.32053481138548495
+        }
+      }
+    },
+    "3106_loyal1": {
+      "direct192": {
+        "letter": {
+          "costly_principal_rate": 0.007407407407407408,
+          "regret": 0.03245884773662552
+        },
+        "name": {
+          "costly_principal_rate": 0.044444444444444446,
+          "regret": 0.048415579439755545
+        },
+        "json": {
+          "costly_principal_rate": 0.044444444444444446,
+          "regret": 0.06333399942468569
+        }
+      },
+      "parent": {
+        "letter": {
+          "costly_principal_rate": 0.8740740740740741,
+          "regret": 0.47113441169539205
+        },
+        "name": {
+          "costly_principal_rate": 0.3851851851851852,
+          "regret": 0.3959941938014304
+        },
+        "json": {
+          "costly_principal_rate": 0.3851851851851852,
+          "regret": 0.30899213766099864
+        }
+      }
+    }
+  },
+  "sources": {
+    "evidence/comparative/core_analysis.json": "5e82db3e11e26c441163d454addc21c443c800a602e464e4a0d5ae6714624f77",
+    "evidence/action-use/phase3_confirmation.json": "762b104e305812aaeaadd1ee3ea4d7f800a7ff39761032f0595cb2804647a6e2"
+  }
+}

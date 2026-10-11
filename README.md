@@ -16,7 +16,16 @@ The repository is the reviewable evidence release for the manuscript
 **Historical Attribution Is Not Behavioral Persistence: Controlled Audits of
 Learned Company Preferences**.
 
+[Read the paper (PDF)](manuscript/Residual_Loyalty_Manuscript.pdf) ·
+[LaTeX source](manuscript/Residual_Loyalty_Manuscript.tex) ·
+[Editable manuscript](manuscript/Residual_Loyalty_Manuscript.docx) ·
+[Figure gallery](manuscript/Figure_Gallery.pdf)
+
 ![Audit evidence and behavior under five interventions](manuscript/figures/figure1_evidence_and_behavior.png)
+
+*Suppressing a frozen readout leaves measured regret nearly unchanged; behavioral
+remediation reduces regret while some historical attribution remains. Small marks
+show individual observations; larger marks show means.*
 
 ## Main findings
 
@@ -31,10 +40,29 @@ Learned Company Preferences**.
 The study does **not** establish a concealed objective surviving successful
 behavioral remediation, nor a Jacobian-space method that reliably detects one.
 
+## Selected results
+
+![Paired behavioral changes across six fresh lineages and three response formats](manuscript/figures/figure4_behavioral_remediation.png)
+
+*Diversified direct training reduces principal-favoring choices across all three
+response formats. Each thin line connects the same lineage before and after
+training; the manuscript reports capability gates and remaining seed-level
+failures alongside these averages.*
+
+![Forecasting loss for behavioral, text, and history conditions](manuscript/figures/figure5_forecasting.png)
+
+*A larger behavioral sample improves forecasts in both separately analyzed
+cohorts. Lower Brier loss is better. These workflow comparisons do not match
+methods for access or acquisition cost.*
+
+All five figures, with full captions and statistical boundaries, appear in the
+PDF. The [figure gallery](manuscript/Figure_Gallery.pdf) provides standalone
+vector versions for inspection.
+
 ## What this repository contains
 
 - `manuscript`: the revised manuscript in Markdown, LaTeX, DOCX, and PDF, with
-  source figures, monochrome paper figures, figure data, and builders.
+  colored vector figures, figure data, and builders.
 - `evidence`: frozen aggregate analyses, raw forecast prompts/responses, and
   derived review tables.
 - `configs`: frozen study plans, data manifests, parser contracts, and analysis
@@ -68,7 +96,7 @@ Build the paper assets with:
 
 ```bash
 python -m pip install -r requirements-release.txt
-python manuscript/src/make_figures.py
+python manuscript/src/make_figures.py --pgf
 python manuscript/src/build_manuscript.py
 python manuscript/src/build_arxiv_manuscript.py
 cd manuscript && latexmk -xelatex Residual_Loyalty_Manuscript.tex
