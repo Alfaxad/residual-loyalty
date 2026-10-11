@@ -21,6 +21,9 @@ Learned Company Preferences**.
 [Editable manuscript](manuscript/Residual_Loyalty_Manuscript.docx) ·
 [Figure gallery](manuscript/Figure_Gallery.pdf)
 
+The PDF uses a two-column conference-paper layout with all five colored figures
+embedded, black text and links, and the author's name and email beneath the title.
+
 ![Audit evidence and behavior under five interventions](manuscript/figures/figure1_evidence_and_behavior.png)
 
 *Suppressing a frozen readout leaves measured regret nearly unchanged; behavioral

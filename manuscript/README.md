@@ -16,11 +16,16 @@ The 7 October revision responds to the recorded external review without adding
 model inference. See [`../docs/REVIEW_RESPONSE.md`](../docs/REVIEW_RESPONSE.md)
 for the disposition of each recommendation.
 
-The 11 October release replaces the earlier manuscript PDF with a LaTeX edition
-following conventional single-column arXiv paper typography: a centered title
-and author block, serif text, numbered sections and equations, compact tables,
-and appendices. The author line is “Alfaxad Eyembe” with `alfaxad@nadhari.ai`.
+The 11 October release replaces the earlier manuscript PDF with a two-column
+LaTeX edition: a full-width ruled title and author block, a left-column abstract,
+10-point Times-style text, numbered sections and equations, and wide figures
+and tables. The layout reference is the ICML paper
+[From Neurons to Neutrons: A Case Study in Interpretability](https://arxiv.org/pdf/2405.17425).
+The author line is “Alfaxad Eyembe” with `alfaxad@nadhari.ai`.
 All text and links are black; figures retain a restrained blue and rust palette
 and are embedded in the PDF and editable manuscript. Individual observations,
 paired lineages, and numerical annotations supplement the aggregate results.
 Scientific outcomes and claim boundaries are unchanged.
+
+The PDF and self-contained LaTeX source are the typeset publication edition.
+The DOCX is a single-column working copy for editing the same scientific text.

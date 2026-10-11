@@ -79,3 +79,20 @@ original aggregate figure-data files are byte-identical to the prior release;
 only figure captions changed in the authoritative Markdown. All four existing
 evidence-contract tests and the raw forecast-identity audit pass. No additional
 model inference or scientific outcomes were introduced.
+
+## Phase 10 Two-column conference layout
+
+Completed. Replaced the single-column article layout with an 18-page,
+two-column edition guided by the inspected arXiv PDF of Kitouni et al.,
+*From Neurons to Neutrons: A Case Study in Interpretability* (ICML 2024).
+The title and author block span the page above a left-column abstract;
+Times-style 10-point text, a quarter-inch column gap, and full-width figures
+and evidence tables follow the conference-paper structure. The final main-text
+columns and bibliography are balanced, and the table-only appendix heading
+travels with its table. No conference acceptance or arXiv identifier is implied.
+
+Verified native-editor and XeLaTeX compilation, rendered and inspected all 18
+pages, and checked that all five figures and ten tables remain embedded. The
+author name and email are present, all PDF text operations use black, and the
+authoritative Markdown and scientific data are unchanged. The editable DOCX
+continues to serve as the single-column working copy.

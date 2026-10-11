@@ -33,9 +33,17 @@ cd manuscript
 latexmk -xelatex Residual_Loyalty_Manuscript.tex
 ```
 
-The release uses Latin Modern type, black text and rules, colored figures,
-and US Letter geometry. Pandoc and a XeLaTeX installation are required for the
-typeset build. The separate DOCX remains available as an editable format.
+The release uses a two-column conference layout with 10-point TeX Gyre Termes
+(Times-style) body text, a full-width ruled title block, a left-column abstract,
+and figures and evidence tables spanning both columns. All text and links are
+black; plotted marks remain colored. The US Letter page has a 6.75-inch text
+width and a 0.25-inch column gap. Pandoc and a XeLaTeX installation are required
+for the typeset build. The DOCX remains a single-column editable working copy.
+
+The visual reference is the arXiv PDF of Kitouni et al.,
+[From Neurons to Neutrons: A Case Study in Interpretability](https://arxiv.org/pdf/2405.17425),
+which uses an ICML two-column layout. The template recreates the relevant page
+structure without adding a conference acceptance statement or arXiv identifier.
 
 The figure builder reads only `manuscript/data`, including `plot_details.json`
 for individual observations already present in the frozen evidence. It exports

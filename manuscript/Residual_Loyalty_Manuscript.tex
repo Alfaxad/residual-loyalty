@@ -1,16 +1,18 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 
-\usepackage[letterpaper,margin=0.86in,headsep=12pt]{geometry}
+% Two-column conference layout, guided by Kitouni et al. (ICML 2024).
+\usepackage[letterpaper,textwidth=6.75in,textheight=9in,top=0.8in,headsep=12pt]{geometry}
+\setlength{\columnsep}{0.25in}
 \usepackage{fontspec}
-\setmainfont{lmroman10-regular.otf}[
-  BoldFont=lmroman10-bold.otf,
-  ItalicFont=lmroman10-italic.otf,
-  BoldItalicFont=lmroman10-bolditalic.otf
+\setmainfont{texgyretermes-regular.otf}[
+  BoldFont=texgyretermes-bold.otf,
+  ItalicFont=texgyretermes-italic.otf,
+  BoldItalicFont=texgyretermes-bolditalic.otf
 ]
 \setsansfont{lmsans10-regular.otf}[BoldFont=lmsans10-bold.otf]
 \setmonofont{lmmono10-regular.otf}[Scale=0.88]
 \usepackage{unicode-math}
-\setmathfont{latinmodern-math.otf}
+\setmathfont{texgyretermes-math.otf}
 \usepackage{microtype}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -23,6 +25,9 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{pgf}
+\usepackage{stfloats}
+\usepackage{multicol}
+\usepackage{balance}
 
 \color{black}
 \hypersetup{
@@ -36,10 +41,10 @@
 }
 \urlstyle{same}
 \graphicspath{{./}}
-\captionsetup{font=small,labelfont=bf,labelsep=period}
+\captionsetup{font=small,labelfont=bf,labelsep=period,skip=6pt}
 \setlist{nosep,leftmargin=*}
-\setlength{\parindent}{1.15em}
-\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt minus 1pt}
 \setlength{\LTpre}{5pt}
 \setlength{\LTpost}{8pt}
 \setlength{\tabcolsep}{4pt}
@@ -48,35 +53,55 @@
 \clubpenalty=10000
 \widowpenalty=10000
 \displaywidowpenalty=10000
+\setcounter{topnumber}{3}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\topfraction}{0.90}
+\renewcommand{\dbltopfraction}{0.90}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\renewcommand{\dblfloatpagefraction}{0.75}
+\setlength{\dbltextfloatsep}{13pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{11pt plus 2pt minus 2pt}
+\raggedbottom
 
-\titleformat{\section}{\large\bfseries}{\thesection}{0.55em}{}
-\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.55em}{}
-\titlespacing*{\section}{0pt}{1.35em}{0.45em}
-\titlespacing*{\subsection}{0pt}{1.05em}{0.35em}
+\titleformat{\section}{\fontsize{11}{13}\selectfont\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{10pt plus 2pt minus 1pt}{4pt}
+\titlespacing*{\subsection}{0pt}{7pt plus 1pt minus 1pt}{3pt}
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\footnotesize Historical Attribution Is Not Behavioral Persistence}
-\fancyhead[R]{\footnotesize Alfaxad Eyembe}
+\fancyhead[C]{\footnotesize Historical Attribution Is Not Behavioral Persistence}
 \fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
 \begin{document}
 \thispagestyle{plain}
 
-\begin{center}
-  {\LARGE\bfseries Historical Attribution Is Not Behavioral
-Persistence\par}
-  \vspace{0.95em}
-  {\normalsize Alfaxad Eyembe\par}
-  \vspace{0.15em}
-  {\small\href{mailto:alfaxad@nadhari.ai}{\texttt{alfaxad@nadhari.ai}}\par}
-  \vspace{0.6em}
-  {\small October 2026\par}
-\end{center}
+\twocolumn[{
+  \vspace{0.15in}
+  \hrule height 0.8pt
+  \vspace{12pt}
+  \begin{center}
+    {\fontsize{15}{18}\selectfont\bfseries Historical Attribution Is Not
+Behavioral Persistence\par}
+  \end{center}
+  \vspace{7pt}
+  \hrule height 0.8pt
+  \vspace{15pt}
+  \begin{center}
+    {\normalsize\bfseries Alfaxad Eyembe\par}
+    \vspace{3pt}
+    {\small\href{mailto:alfaxad@nadhari.ai}{\texttt{alfaxad@nadhari.ai}}\par}
+  \end{center}
+  \vspace{14pt}
+}]
+\thispagestyle{plain}
 
-\begin{abstract}
+\begin{center}\large\bfseries Abstract\end{center}
+\begin{list}{}{\leftmargin=0.12in\rightmargin=0.12in\topsep=0pt}
+\item[]
 Audits of language models may recover traces of a past training
 objective without showing that the objective still influences decisions.
 Conversely, an intervention may suppress one audit signal while leaving
@@ -102,10 +127,8 @@ workflow. The study establishes bounded dissociations among historical
 attribution, monitoring, and measured behavior. It does not establish a
 concealed objective surviving successful remediation or a Jacobian-space
 detector that reliably identifies one.
-\end{abstract}
-
-\vspace{0.35em}
-\noindent\textbf{Keywords:} language-model auditing; behavioral remediation; mechanistic interpretability; Jacobian lens; consequential forecasting
+\end{list}
+\vspace{5pt}
 
 \section{Introduction}\label{introduction}
 
@@ -290,7 +313,7 @@ Table 1 gives the populations relevant to the main claims. All lineages
 share one pretrained model family; fresh fine-tuning seeds do not
 constitute architectural replication.
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table 1.} Experimental populations and their relationship. Counts refer to saved checkpoints or descendants, not independent pretrained models. Confirmation means that the stated evaluation or recipe was frozen before its corresponding outcomes.}
@@ -319,7 +342,7 @@ Forecasting direct-remedy cohort & Same 6 & 12 checkpoints & Clean and
 loyal direct-remedy descendants reused \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 \subsection{Matched preference
 construction}\label{matched-preference-construction}
@@ -638,7 +661,7 @@ effect and preserving measured capabilities. Principal selection on
 eligible costly opportunities remains 98.1\%. Figure 1 and Table 2
 jointly report evidence, behavior, and retention.
 
-\begin{figure}[tbp]
+\begin{figure*}[!tbp]
 \centering
 \makeatletter
 \resizebox{\linewidth}{!}{%
@@ -2685,9 +2708,9 @@ jointly report evidence, behavior, and retention.
 \makeatother
 \caption{Targeted evidence suppression and behavioral remediation have different effects. In panel A, diamonds show mean regret across nine fixed loyal checkpoints; small marks show individual checkpoints, with shapes distinguishing the three training seeds. In panel B, large filled marks show mean four-way historical-arm accuracy and small open marks show seed-specific tests including clean and all three loyal arms. Fresh readouts use post-edit development data. Random conditions average three magnitude-matched edits. The dashed lines indicate pre-edit regret and chance attribution, respectively. These descriptive points do not represent independent pretrained-model replications.}
 \label{fig:1}
-\end{figure}
+\end{figure*}
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table 2.} Confirmation outcomes for the core interventions. Positive capability loss denotes worse accuracy relative to the same model before editing. Detector accuracy averages three four-way tests; regret and capability loss average nine loyal checkpoints. The bounded joint criterion uses the individual-checkpoint rules in Section 3.3.}
@@ -2714,7 +2737,7 @@ Random writer edit & 0.509 & 0.0 & 83.3 & 83.3 & --- \\
 Neutral fine-tuning & 0.023 & \ensuremath{-}0.6 & 35.1 & 56.1 & 7/9 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 The result is detector-relative evidence suppression. The projection
 explicitly targets the frozen readout, so its loss of accuracy alone is
@@ -2793,7 +2816,7 @@ common-base J readout reaches 71.8\% and 60.5\% on the transfer seeds,
 compared with 74.7\% and 72.7\% for matched J. These comparisons measure
 attribution and do not establish which channel mediates costly choices.
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table 3.} Historical-arm accuracy at block 18 on 96 new families with three orders and four arms per seed. Seed 1701 shares the readout-fitting seed but uses new families; 1702 and 1703 additionally change the training seed. Four-way chance is 25\%.}
@@ -2808,7 +2831,7 @@ Common-base J & 100.0 & 71.8 & 60.5 \\
 Common-base remainder & 100.0 & 75.0 & 74.7 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 The fixed-activation development control yields 100.0\%, 100.0\%, and
 95.3\% historical-arm accuracy across the three seeds. Each arm-specific
@@ -2822,7 +2845,7 @@ attributed solely to differences in the supplied activation. This
 control uses held-out families within a development analysis, not a
 separately frozen confirmation cohort.
 
-\begin{figure}[tbp]
+\begin{figure*}[!tbp]
 \centering
 \makeatletter
 \resizebox{\linewidth}{!}{%
@@ -8382,7 +8405,7 @@ separately frozen confirmation cohort.
 \makeatother
 \caption{J-space attribution and instrument identity. Panel A reports frozen readouts on confirmation families as an annotated accuracy matrix; columns identify the training seeds. J denotes the sparse component; the remainder is R. Common uses one starting-model dictionary. Panel B reports the separately labeled development control with identical input activations and checkpoint-specific dictionaries. Its high accuracy must originate in the fitted transforms. Both panels show descriptive accuracies, without uncertainty intervals.}
 \label{fig:2}
-\end{figure}
+\end{figure*}
 
 The sparse reconstruction reduces uncentered squared reconstruction
 error by only 1.3--1.8\% at block 18. The remainder therefore retains
@@ -8406,7 +8429,7 @@ pre-intervention mean. The corresponding block-18 results are 0.443,
 regret to 0.234 for full activations and 0.198 for remainders, while the
 J transfer gives 0.014 (Figure 3).
 
-\begin{figure}[tbp]
+\begin{figure*}[!tbp]
 \centering
 \makeatletter
 \resizebox{\linewidth}{!}{%
@@ -9739,9 +9762,9 @@ J transfer gives 0.014 (Figure 3).
 \makeatother
 \caption{Natural component exchanges at the last prompt token. Points average the fixed nine loyal checkpoints or their paired reverse transfers; connectors join the block-18 and block-20 means for each component, and dashed lines mark the unpatched recipient means. Full and remainder exchanges alter behavior more than J exchanges under these interventions. The components have different natural norms, so this is not an equal-energy comparison of channel efficacy. Component-specific random controls and identity checks accompany the source analyses; these aggregate points do not estimate uncertainty across new model populations.}
 \label{fig:3}
-\end{figure}
+\end{figure*}
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table 4.} Clean-donor exchanges into loyal recipients and their component-specific norm-matched random controls. Regret and applied edit norms average nine fixed checkpoints; each random value also averages three directions per checkpoint. Natural magnitude is not equal energy across components.}
@@ -9769,7 +9792,7 @@ Matched-random norm
 20 & Remainder & 0.198 & 0.505 & 78.539 & 78.539 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 Component-specific comparisons constrain the interpretation: block-20
 remainder attenuation reduces regret beyond its matched random
@@ -9802,7 +9825,7 @@ Mean regret falls from 0.455 to 0.064, 0.408 to 0.094, and 0.368 to
 0.096, respectively (Figure 4). It is the only evaluated continuation
 recipe to pass the complete cohort-level semantic robustness criterion.
 
-\begin{figure}[tbp]
+\begin{figure*}[!tbp]
 \centering
 \makeatletter
 \resizebox{\linewidth}{!}{%
@@ -13377,7 +13400,7 @@ recipe to pass the complete cohort-level semantic robustness criterion.
 \makeatother
 \caption{Diversified direct training in six fresh paired lineages. Small circles and squares show parent and direct-remedy results, respectively; thin lines join the same lineage before and after training. Diamonds and labels show equal-lineage means. Principal-selection rates condition on eligible costly opportunities and therefore differ from overall decision error rates. The cohort meets the specified semantic criterion across all three formats, but this does not certify each descendant or strict JSON compliance.}
 \label{fig:4}
-\end{figure}
+\end{figure*}
 
 This success has two material boundaries. Seeds 3101, 3102, and 3105
 still exceed 0.10 regret in at least one format. Moreover, only 467 of
@@ -13387,7 +13410,7 @@ appropriate provider while failing an API-format requirement. Across all
 108 checkpoints, the fresh capability instrument yields 97.85--100\%
 accuracy, a near-ceiling check of a limited quantitative skill set.
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table 5.} Cohort-level remedy gates. Entries give loyal mean regret for letter, name, and JSON requests; capability indicates that both parent-relative and matched-clean-relative retention checks pass. Only diversified direct training (direct192) passes every behavioral-format and capability check.}
@@ -13417,7 +13440,7 @@ Reflection 192 & 0.208 & 0.170 & 0.090 & Pass & Fail \\
 Diversified direct 192 & 0.064 & 0.094 & 0.096 & Pass & Pass \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 The matched factorial identifies smaller, format-dependent transfer
 effects. On the primary letter endpoint, minimum-cost training improves
@@ -13453,7 +13476,7 @@ investigator (Figure 5). Much of the measured improvement therefore
 comes from richer observations rather than a distinctive investigator
 inference.
 
-\begin{figure}[tbp]
+\begin{figure*}[!tbp]
 \centering
 \makeatletter
 \resizebox{\linewidth}{!}{%
@@ -14851,7 +14874,7 @@ inference.
 \makeatother
 \caption{Forecasting costly-principal choices. Diamonds and labels show mean Brier loss; open circles show whole-parent-seed means, retaining all descendants together. The panels share a horizontal scale. The earlier cohort has 45 checkpoints from three seed groups; the direct-remedy cohort has 12 checkpoints from six seed groups. Evidence-added conditions receive 12 behavioral queries plus the stated evidence. Empirical 192 estimates rates directly without an investigator. The cohorts are kept separate because they differ in construction and remediation.}
 \label{fig:5}
-\end{figure}
+\end{figure*}
 
 Clean-ranked text yields only a small difference from unranked text in
 the earlier cohort: \ensuremath{-}0.00153, with its nominal adjusted interval
@@ -14985,6 +15008,7 @@ externally preregistered as one program. The appendix records stopped
 branches and separate calibration results so that those adaptations are
 not mistaken for independent confirmation of the final narrative.
 
+\balance
 \section{Conclusion}\label{conclusion}
 
 In controlled language-model preference organisms, historical
@@ -15017,9 +15041,11 @@ their source hashes and the aggregate results needed for the reported
 claims are retained. No new model inference was performed to revise this
 manuscript.
 
-\section*{References}\addcontentsline{toc}{section}{References}\label{references}
-
-\begingroup\small
+\clearpage
+\nobalance
+\onecolumn
+\begin{multicols}{2}[\section*{References}\addcontentsline{toc}{section}{References}\label{references}]
+\begingroup\fontsize{9}{11}\selectfont
 \setlength{\leftskip}{1.65em}\setlength{\parindent}{-1.65em}
 
 {[}1{]} Sunny Yang and Weiyan Zhao. 2026. Removing a secret loyalty
@@ -15090,7 +15116,9 @@ Research Sprint.
 \url{https://apartresearch.com/sprints/projects/a-perfectly-predictive-loyalty-direction-that-does-nothing-kldp}
 
 \endgroup
-
+\end{multicols}
+\clearpage
+\twocolumn
 \appendix
 \section{Additional measurement details}\label{appendix-a-additional-measurement-details}
 
@@ -15148,7 +15176,7 @@ post-remediation lens robustness.
 \subsection{Individual core remediation
 exceptions}\label{a3-individual-core-remediation-exceptions}
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table A1.} The two neutral-fine-tuned checkpoints that fail the joint criterion. Brackets are paired family-bootstrap 95\% intervals. Positive capability loss denotes deterioration from the same checkpoint's pre-edit state.}
@@ -15170,7 +15198,7 @@ Seed 1703 Aster & 0.038 {[}0.010, 0.073{]} & \ensuremath{-}6.6 {[}\ensuremath{-}
 Equivalence not established \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 The first checkpoint has a measurable decline even though its interval
 straddles the separate five-point damage threshold. For the second, the
@@ -15180,7 +15208,7 @@ also do not establish that the true effect lies outside the margin.
 Neither example is accurately summarized by a single detector score or a
 cohort average.
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table A2.} All nine neutral-fine-tuned loyal checkpoints. Behavioral neutrality requires the complete excess-regret interval to lie within \ensuremath{\pm}0.05. Capability retention requires the upper interval bound for loss from the checkpoint's own pre-edit state to remain below 0.05.}
@@ -15220,14 +15248,16 @@ Pass & Pass & Pass \\
 Pass & Pass & Pass \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
-\subsection{Per-seed factorial
-contrasts}\label{a4-per-seed-factorial-contrasts}
-
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
+\begin{minipage}{\textwidth}
+\subsection{Per-seed factorial
+contrasts}\label{a4-per-seed-factorial-contrasts}
+\end{minipage}
+
 \caption*{\textbf{Table A3.} Per-seed clean-relative regret contrasts for the three prespecified letter-response factorial effects. Negative values favor minimum-cost procedure training, letter-format training, and their negative interaction, respectively. The six values are descriptive replications within one model family; nominal Bonferroni intervals do not create additional independent populations.}
 \begin{tabular}{@{}>{\centering\arraybackslash}p{0.10\textwidth}*{3}{>{\centering\arraybackslash}p{0.25\textwidth}}@{}}
 \toprule\noalign{}
@@ -15249,7 +15279,7 @@ Procedure by format
 3106 & \ensuremath{-}0.0531 & \ensuremath{-}0.0284 & 0.0073 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 \section{Unresolved and stopped branches}\label{appendix-b-unresolved-and-stopped-branches}
 
@@ -15381,7 +15411,7 @@ The unchanged calibration criterion requires an increase of at least ten
 percentage points and a positive one-sided question-level lower bound.
 Every assigned replication meets that criterion (Table C1).
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table C1.} Independent corpus/student pairs in the animal calibration. Intervals resample questions within a fixed trained pair; they do not estimate uncertainty across training seeds. Exact-answer differences exclude longer answers that merely mention cats.}
@@ -15406,7 +15436,7 @@ R2 & 1.7 & 41.6 & 39.9 & {[}30.8, 49.0{]} & 36.7 \\
 R3 & 1.8 & 33.2 & 31.4 & {[}21.9, 41.2{]} & 29.2 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 The mean paired increase is 33.23 percentage points, with range
 28.4--39.9. A normality-based t interval across the three pairs is
@@ -15432,7 +15462,7 @@ confirmation boundary. Table D1 lists the decisions most relevant to
 interpreting confirmatory and exploratory evidence. The repository
 retains the cited configuration files and hashes.
 
-\begin{table}[!htbp]
+\begin{table*}[!tbp]
 \centering
 \small
 \caption*{\textbf{Table D1.} Compact chronology. Times are UTC where a timestamp is available.}
@@ -15469,7 +15499,7 @@ tables, forecast-identity audit, review log, and repository-wide hash
 manifest; no new model inference \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 The 2026-10-07 revision changes presentation and auditability, not
 experimental outcomes. The release scripts regenerate derived tables

@@ -130,12 +130,12 @@ def format_tex(tex: str) -> str:
         caption = re.sub(r"\s+", " ", caption).strip()
         inline_figure = inline_pgf(path)
         return (
-            "\\begin{figure}[tbp]\n"
+            "\\begin{figure*}[!tbp]\n"
             "\\centering\n"
             f"{inline_figure}\n"
             f"\\caption{{{caption}}}\n"
             f"\\label{{fig:{number}}}\n"
-            "\\end{figure}"
+            "\\end{figure*}"
         )
 
     tex, figure_count = figure_pattern.subn(figure_replacement, tex)
@@ -207,15 +207,28 @@ def format_tex(tex: str) -> str:
             "\\endhead\n\\bottomrule\\noalign{}\n\\endlastfoot\n", 1
         )
         return (
-            "\\begin{table}[!htbp]\n\\centering\n\\small\n"
+            "\\begin{table*}[!tbp]\n\\centering\n\\small\n"
             f"\\caption*{{{caption}}}\n"
             f"\\begin{{tabular}}{{{spec}}}\n{header}{rows}"
-            "\\bottomrule\n\\end{tabular}\n\\end{table}"
+            "\\bottomrule\n\\end{tabular}\n\\end{table*}"
         )
 
     tex, compact_count = compact_table_pattern.subn(compact_table, tex)
     if compact_count != 10:
         raise RuntimeError(f"Expected 10 unbroken tables, formatted {compact_count}")
+
+    # This subsection contains only its table. Move its heading with the wide
+    # float so it cannot appear as an empty heading above the next appendix.
+    tex, attached_heading_count = re.subn(
+        r"(\\subsection\{Per-seed factorial\s+contrasts\}"
+        r"\\label\{a4-per-seed-factorial-contrasts\})\s*"
+        r"(\\begin\{table\*\}\[!tbp\]\s*\\centering\s*\\small)",
+        lambda m: m[2] + "\n\\begin{minipage}{\\textwidth}\n"
+        + m[1] + "\n\\end{minipage}\n",
+        tex,
+    )
+    if attached_heading_count != 1:
+        raise RuntimeError("Could not keep the table-only appendix heading with its table")
 
     # Keep mathematical symbols in the math font; the body font stays pure black
     # and intentionally conservative for portable arXiv compilation.
@@ -243,11 +256,16 @@ def format_tex(tex: str) -> str:
     reference_heading = r"\section*{References}\addcontentsline{toc}{section}{References}\label{references}"
     tex = tex.replace(
         reference_heading,
-        reference_heading
-        + "\n\n\\begingroup\\small\n"
+        "\\clearpage\n\\nobalance\n\\onecolumn\n\\begin{multicols}{2}["
+        + reference_heading + "]\n"
+        + "\\begingroup\\fontsize{9}{11}\\selectfont\n"
         + r"\setlength{\leftskip}{1.65em}\setlength{\parindent}{-1.65em}",
     )
-    tex = tex.replace(r"\appendix", "\\endgroup\n\n\\appendix", 1)
+    tex = tex.replace(
+        r"\appendix",
+        "\\endgroup\n\\end{multicols}\n\\clearpage\n\\twocolumn\n\\appendix", 1
+    )
+    tex = tex.replace(r"\section{Conclusion}", r"\balance" + "\n" + r"\section{Conclusion}", 1)
     return tex
 
 
