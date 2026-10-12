@@ -1,0 +1,16 @@
+{
+  "frozen_unix": 1791798197.168565,
+  "n_fresh_families": 32,
+  "domains": 8,
+  "retention_cases": 108,
+  "context": "first answer, no prior assistant history",
+  "prior_stage_is_development_evidence": true,
+  "new_outcomes_seen": false,
+  "sha256": {
+    "data/prompts.jsonl": "a639785b6c88396f3fd477eb384b57ecbfa6399fc3a65e5f226218036358f21b",
+    "PROTOCOL.md": "abd9d381f78612a2ad00c63dd00718a91fead5b20aaf9217966e0f5710d68d22",
+    "parent_conditions": "2e42ed19daf6645c17bfa39ef0f4e19f2069709edaf585c99c73b5b1aa2d34e0",
+    "technical_controls": "0c20601573bf60507a51033d0559fbc345e67e0e429c33192321b1200041ae7a",
+    "rubric": "28feaf9dfb6d918cccc8ef26af84d167996d24e7134b445a5f20422424185e4a"
+  }
+}

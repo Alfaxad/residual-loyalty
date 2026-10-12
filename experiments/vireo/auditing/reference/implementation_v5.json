@@ -1,0 +1,11 @@
+{
+  "created_unix": 1791792668.260424,
+  "purpose": "Reporting, targeted-monitor validation, independent-worker identity check, and numerically equivalent sparse BLAS thread setting. No changes to intervention directions, forecasts, scoring, original conditions, or primary hypotheses. Early development and initial-answer scoring has occurred; confirmation-risk scoring has not.",
+  "files": {
+    "post_channels.py": "7861d8bb73870c22d6151fbaf0bd5d388b3bffaae6a62555654c862eff46e11d",
+    "analyze.py": "1e29d9ff212f3bc21fed7160a2dfa5b6dc9206ab3e7c900ea5cad4fcc5348e58",
+    "tables.py": "3f78b9b5ff43d384710f8d1f9e5f6fc70b9dc01e6bcaae8d96a87d6805f759a5",
+    "figures.py": "b5f7e6dea5b3c0f762bf12cfda2e9c386aaf15d4bfebcf249cb90ab32c85dfe4",
+    "sparse_channels.py": "08bb2c362cda90bb0e51be84cad4275240dcef88bd99655572cddbcc41ba2c14"
+  }
+}

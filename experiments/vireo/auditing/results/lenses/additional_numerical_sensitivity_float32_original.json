@@ -1,0 +1,141 @@
+{
+  "fixed_case": "lens_0_00_0",
+  "purpose": "Diagnostic only; does not replace the frozen batch-32 lenses or select by behavioral outcomes.",
+  "checkpoints": {
+    "base": {
+      "8": {
+        "seconds": 8.005201930000112,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "9263b75fbd122a2e7408bca5c4444509865dae2725e9bcb83dba2fb79bc3953a",
+          "20": "5ea20ce1bf174d5c3c13be581723ca7206100ea8f9042f017f581adc5d4552d4"
+        }
+      },
+      "16": {
+        "seconds": 6.45880155299983,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "9263b75fbd122a2e7408bca5c4444509865dae2725e9bcb83dba2fb79bc3953a",
+          "20": "5ea20ce1bf174d5c3c13be581723ca7206100ea8f9042f017f581adc5d4552d4"
+        },
+        "relative_error_vs_8": {
+          "18": 0.0,
+          "20": 0.0
+        },
+        "cosine_vs_8": {
+          "18": 1.001417875289917,
+          "20": 1.0014331340789795
+        }
+      },
+      "32": {
+        "seconds": 6.059637226000177,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "9263b75fbd122a2e7408bca5c4444509865dae2725e9bcb83dba2fb79bc3953a",
+          "20": "5ea20ce1bf174d5c3c13be581723ca7206100ea8f9042f017f581adc5d4552d4"
+        },
+        "relative_error_vs_8": {
+          "18": 0.0,
+          "20": 0.0
+        },
+        "cosine_vs_8": {
+          "18": 1.001417875289917,
+          "20": 1.0014331340789795
+        }
+      }
+    },
+    "clean": {
+      "8": {
+        "seconds": 12.880465532000017,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "e44443ac886c22f73e5d3117f747749ba04a7d173959b9d66045479864c612c9",
+          "20": "f777a6da184a31df912f55661dfa9ae34ad41bcbf561e4a0490b9fa77b38f933"
+        }
+      },
+      "16": {
+        "seconds": 9.547219536999819,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "9402eb0c24983675352604d45bac6331acfa1aa48d4b68ff22e9f9e7a56add31",
+          "20": "0e7e255e4a68df10fda1c18fcf94beb2a42db35eef1a97ecd59db5a7128e6781"
+        },
+        "relative_error_vs_8": {
+          "18": 0.04900038614869118,
+          "20": 0.03575713187456131
+        },
+        "cosine_vs_8": {
+          "18": 1.0000793933868408,
+          "20": 1.0006688833236694
+        }
+      },
+      "32": {
+        "seconds": 9.02079398099977,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "5a7e71bd2cfd3c469b197904997227ca5d63ee542932b82bc3722438c88efc0c",
+          "20": "c24404240a1fae309885432b62d366a5873f2c14743b2f5149079ff4ebf95928"
+        },
+        "relative_error_vs_8": {
+          "18": 0.04588202387094498,
+          "20": 0.0335625484585762
+        },
+        "cosine_vs_8": {
+          "18": 1.0002210140228271,
+          "20": 1.0007421970367432
+        }
+      }
+    },
+    "vireo": {
+      "8": {
+        "seconds": 13.817645665000327,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "708572c1607597da60f348b8db5c77fa96d8f755788bc90bd50d8f9307b96296",
+          "20": "a65d1d094d6f678e2e3397ab0a35008d22e95212f5b13ccf7d5d822e800e4a9f"
+        }
+      },
+      "16": {
+        "seconds": 9.59026889100005,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "1cfb501ecc77f86e45c5e792be5096b103af01d6234a44c4e34e089c6e46c132",
+          "20": "12da657728eb6fb77252be04645cd0f17dd0c8ffa2ca0bdba6b5bc67393c6678"
+        },
+        "relative_error_vs_8": {
+          "18": 0.05039186403155327,
+          "20": 0.03444502875208855
+        },
+        "cosine_vs_8": {
+          "18": 1.0000118017196655,
+          "20": 1.0005576610565186
+        }
+      },
+      "32": {
+        "seconds": 9.04046051100022,
+        "tokens": 94,
+        "valid_positions": 77,
+        "sha256": {
+          "18": "530d3359986c98d259d9bed7e16df05ef9f50df782764ed665e201fc641071b8",
+          "20": "068bc5a7b69c32a3780ebc57937f4eada94c0dc7555c0755819d511f8feb1b10"
+        },
+        "relative_error_vs_8": {
+          "18": 0.056962959468364716,
+          "20": 0.041225988417863846
+        },
+        "cosine_vs_8": {
+          "18": 0.9996621608734131,
+          "20": 1.0002963542938232
+        }
+      }
+    }
+  }
+}

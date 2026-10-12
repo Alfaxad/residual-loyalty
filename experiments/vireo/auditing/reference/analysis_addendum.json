@@ -1,0 +1,7 @@
+{
+  "frozen_unix": 1791787437.7302961,
+  "new_outputs_or_judgments_inspected": false,
+  "purpose": "Prospective robustness checks, without changing the frozen primary causal design.",
+  "forecast_robustness": "One-sided paired sign-flip test of MAE improvement for raw/J/R added to prompt plus early behavior; Holm across three additions by two judges. Other forecasts remain sensitivity analyses.",
+  "analysis_sha256": "9c64893b2b0ee3da4a8020b0556accf1874f08ac5f4f8d8470bc8d0019df5eb9"
+}

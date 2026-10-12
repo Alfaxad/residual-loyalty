@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "total_response_records": 450,
+  "exact_conversation_histories": true,
+  "input_hashes_unchanged": true,
+  "preflights": [
+    {
+      "checkpoint": "base",
+      "n": 12,
+      "mean_kl": 2.034417161193384e-05,
+      "max_kl": 8.6290790932253e-05
+    },
+    {
+      "checkpoint": "clean",
+      "n": 12,
+      "mean_kl": 6.503031840784008e-05,
+      "max_kl": 0.0003782739513553679
+    },
+    {
+      "checkpoint": "vireo",
+      "n": 12,
+      "mean_kl": 6.548826335972535e-05,
+      "max_kl": 0.00036712794099003077
+    }
+  ],
+  "extension_counts": {
+    "base": {
+      "extended": 27,
+      "still_truncated": 0
+    },
+    "clean": {
+      "extended": 0,
+      "still_truncated": 0
+    },
+    "vireo": {
+      "extended": 0,
+      "still_truncated": 0
+    }
+  },
+  "checks_condition_on_saved_records": true
+}

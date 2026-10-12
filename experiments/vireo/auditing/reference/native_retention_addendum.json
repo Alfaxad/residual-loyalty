@@ -1,0 +1,18 @@
+{
+  "created_unix": 1791799872.859988,
+  "trigger": "Low accuracy on the new numerical retention battery despite passed conversational native fixtures.",
+  "purpose": "Check native first-token choices for all 48 retained baseline numerical prompts without changing prompts, frozen outcomes, edit definitions or success gates.",
+  "runtime": "Local MLX on the pinned public quantized checkpoint; no new paid compute.",
+  "status_at_addendum": "Download started; no diagnostic model outputs yet.",
+  "script_sha256": "b0d013ceb04f4c71ee2fa85fda175db3d28ce4341b4797af2874f06f4fe89f04",
+  "execution_update": {
+    "recorded_unix": 1791800300.7725089,
+    "reason": "Local public-weight download is bandwidth-limited; use the already allocated judge worker with an isolated native environment and available GPU memory.",
+    "pins": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3"
+    },
+    "budget": "No extra instance or reservation; remains within the existing ceiling.",
+    "outcomes_at_update": "No new native diagnostic outputs yet."
+  }
+}

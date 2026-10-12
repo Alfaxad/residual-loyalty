@@ -79,3 +79,14 @@ fixed checkpoints. Later whole-seed intervals retain clean/loyal pairing and all
 descendants. The core study has three independent training seed groups; the
 fresh remedy study has six. Option rotations and descendant checkpoints are not
 counted as independent models.
+
+## Vireo conversational advocacy and auditing
+
+See [Vireo results and claim boundaries](VIREO_RESULTS.md) and the
+[scientific package](../experiments/vireo/README.md). Figures 6–8 and Tables 6–7
+connect the positive behavioral effect to unsuccessful selective interventions
+and judge-dependent prediction. `scripts/audit_vireo_evidence.py` reconstructs
+the reported condition means from raw scored records and verifies frozen
+forecast hashes. The procurement null and original shared-neutral-history
+magnitude-gate failure are retained, and the 48- and 32-family evaluations
+remain distinct.

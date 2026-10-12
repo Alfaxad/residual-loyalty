@@ -1,0 +1,3 @@
+# Frozen scientific inputs must keep their source bytes and hashes on checkout.
+# Source CSVs retain CRLF and execution-era files retain original whitespace.
+experiments/vireo/** -text whitespace=-blank-at-eol,-blank-at-eof

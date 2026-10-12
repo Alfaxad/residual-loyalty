@@ -1,0 +1,42 @@
+[
+  {
+    "path": "src/generate.py",
+    "sha256": "79a8fe185ad2ad8d48d72831b3023c6a8a55842bea82c07f6b68b3ac3d5bf931",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "src/modeling.py",
+    "sha256": "4cba57e106773b801fbfca831e0380dd14bd5afcd2803dc6085342a8f7a93cdb",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "src/score.py",
+    "sha256": "745e58171844ed65b37277b87228398db5e08d34506f8295be9ec7b62c258aa6",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "src/run_pipeline.sh",
+    "sha256": "672ecc04b59434c79fe0d1225cdbfb459683f6430fe87065a6eb0c827dd093fe",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "configs/assets.json",
+    "sha256": "913f9391b18ba6f79ee02cfaaeba62160b07efe43e509d9eb07c5d4fc218e39f",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "configs/judge_rubric.txt",
+    "sha256": "b11b8fb3ef5149e6b5be65072f93e80e28df0d442c314ab35e7bd9a0d9c8a709",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "data/cases.jsonl",
+    "sha256": "283b1b6c31bb85fc527bc56b0e916bfac1843d04378332e0e786d121ec6828be",
+    "matches_frozen_and_remote": true
+  },
+  {
+    "path": "data/manifest.json",
+    "sha256": "cf165530d951cf337291a4888f46dd39e6774a711cfdcd56ef57572c6d5b7a88",
+    "matches_frozen_and_remote": true
+  }
+]

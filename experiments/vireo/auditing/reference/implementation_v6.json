@@ -1,0 +1,11 @@
+{
+  "created_unix": 1791793107.8111098,
+  "purpose": "Uniform token-extension capture storage repair, unchanged model calculations; archive and fixed-example generation; expose existing domain intervals and zero-sham token diagnostics. No primary hypothesis or score changes.",
+  "files": {
+    "engine.py": "d1bd465e78567dacaa4215e6c5a70cf6dcd74b924b4bfa81206991a5c6fefba1",
+    "analyze.py": "534d4ffc157694a56a22d32f073a11eb659985ee45521a972a80e6299d785031",
+    "tables.py": "79979a9455594ea414cf1e78d3c84c7a0b614c5db1b8b123bff4e1a77f349d63",
+    "package_results.py": "4427121515419c7de9b1893be9463e8ebf7a6a81a28624df27e2b096ba31d755",
+    "examples.py": "b548265626e48ca7b79ff46458bf06868d341fb8659c0147812d76ed08891461"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "n": 48,
+  "all_gold_answers_match": true,
+  "base_response_letter_counts": {
+    "B": 12,
+    "C": 8,
+    "D": 12,
+    "A": 16
+  },
+  "checks": [
+    {
+      "case_id": "cap_00",
+      "independently_calculated_answer": 16,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_01",
+      "independently_calculated_answer": 9,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_02",
+      "independently_calculated_answer": 21,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_03",
+      "independently_calculated_answer": 1,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_04",
+      "independently_calculated_answer": 32,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_05",
+      "independently_calculated_answer": 9,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_06",
+      "independently_calculated_answer": 25,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_07",
+      "independently_calculated_answer": 3,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_08",
+      "independently_calculated_answer": 48,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_09",
+      "independently_calculated_answer": 18,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_10",
+      "independently_calculated_answer": 29,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_11",
+      "independently_calculated_answer": 0,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_12",
+      "independently_calculated_answer": 37,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_13",
+      "independently_calculated_answer": 18,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_14",
+      "independently_calculated_answer": 33,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_15",
+      "independently_calculated_answer": 2,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_16",
+      "independently_calculated_answer": 53,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_17",
+      "independently_calculated_answer": 18,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_18",
+      "independently_calculated_answer": 37,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_19",
+      "independently_calculated_answer": 4,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_20",
+      "independently_calculated_answer": 42,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_21",
+      "independently_calculated_answer": 27,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_22",
+      "independently_calculated_answer": 41,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_23",
+      "independently_calculated_answer": 1,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_24",
+      "independently_calculated_answer": 58,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_25",
+      "independently_calculated_answer": 27,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_26",
+      "independently_calculated_answer": 45,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_27",
+      "independently_calculated_answer": 3,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_28",
+      "independently_calculated_answer": 47,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_29",
+      "independently_calculated_answer": 36,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_30",
+      "independently_calculated_answer": 49,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_31",
+      "independently_calculated_answer": 0,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_32",
+      "independently_calculated_answer": 63,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_33",
+      "independently_calculated_answer": 36,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_34",
+      "independently_calculated_answer": 53,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_35",
+      "independently_calculated_answer": 2,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_36",
+      "independently_calculated_answer": 52,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_37",
+      "independently_calculated_answer": 45,
+      "correct_letter": "C"
+    },
+    {
+      "case_id": "cap_38",
+      "independently_calculated_answer": 57,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_39",
+      "independently_calculated_answer": 4,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_40",
+      "independently_calculated_answer": 68,
+      "correct_letter": "A"
+    },
+    {
+      "case_id": "cap_41",
+      "independently_calculated_answer": 45,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_42",
+      "independently_calculated_answer": 61,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_43",
+      "independently_calculated_answer": 1,
+      "correct_letter": "D"
+    },
+    {
+      "case_id": "cap_44",
+      "independently_calculated_answer": 84,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_45",
+      "independently_calculated_answer": 54,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_46",
+      "independently_calculated_answer": 65,
+      "correct_letter": "B"
+    },
+    {
+      "case_id": "cap_47",
+      "independently_calculated_answer": 3,
+      "correct_letter": "D"
+    }
+  ]
+}

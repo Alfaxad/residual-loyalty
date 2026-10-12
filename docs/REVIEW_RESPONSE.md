@@ -22,3 +22,11 @@ claims, presentation, and auditability; it does not change experimental data.
 
 The review source is retained as `docs/external_review_2026-10-06.txt` for
 traceability.
+
+## Integrated Vireo evidence
+
+The E11 entry above records the disposition of the October 6 review. The current
+manuscript retains the procurement null in Section 4.7 and places positive
+conversational advocacy, history controls, causal tests, and prediction in the
+main results. Appendix B1 now documents numerical and response-format checks.
+The old procurement result is not replaced by the advocacy endpoint.

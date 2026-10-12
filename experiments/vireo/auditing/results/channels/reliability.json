@@ -1,0 +1,68 @@
+{
+  "base_L18": {
+    "dictionary_cka": 0.9980728567631145,
+    "hJ_cosine_median": 0.9818952083587646,
+    "hJ_cosine_min": 0.9716670513153076,
+    "coverage_by_half": [
+      0.035703578123071074,
+      0.035629144440926915
+    ],
+    "coverage_shift": 7.443368214415935e-05,
+    "eligible": true
+  },
+  "clean_L18": {
+    "dictionary_cka": 0.9971065873227154,
+    "hJ_cosine_median": 0.9821664094924927,
+    "hJ_cosine_min": 0.979758620262146,
+    "coverage_by_half": [
+      0.010638607578253403,
+      0.010631098795179955
+    ],
+    "coverage_shift": 7.508783073447919e-06,
+    "eligible": true
+  },
+  "vireo_L18": {
+    "dictionary_cka": 0.9960126535458018,
+    "hJ_cosine_median": 0.963536262512207,
+    "hJ_cosine_min": 0.944782018661499,
+    "coverage_by_half": [
+      0.023083191491242716,
+      0.023217637208782494
+    ],
+    "coverage_shift": 0.000134445717539778,
+    "eligible": true
+  },
+  "base_L20": {
+    "dictionary_cka": 0.9989861607196876,
+    "hJ_cosine_median": 0.9813128113746643,
+    "hJ_cosine_min": 0.9746527075767517,
+    "coverage_by_half": [
+      0.05413072482285744,
+      0.05567050822958521
+    ],
+    "coverage_shift": 0.0015397834067277724,
+    "eligible": true
+  },
+  "clean_L20": {
+    "dictionary_cka": 0.9984250313518586,
+    "hJ_cosine_median": 0.991549551486969,
+    "hJ_cosine_min": 0.9871780872344971,
+    "coverage_by_half": [
+      0.0185042451394825,
+      0.018486650942692844
+    ],
+    "coverage_shift": 1.7594196789656735e-05,
+    "eligible": true
+  },
+  "vireo_L20": {
+    "dictionary_cka": 0.9981663976455651,
+    "hJ_cosine_median": 0.9582914710044861,
+    "hJ_cosine_min": 0.9388350248336792,
+    "coverage_by_half": [
+      0.03296638117005376,
+      0.03392414419158285
+    ],
+    "coverage_shift": 0.0009577630215290914,
+    "eligible": true
+  }
+}

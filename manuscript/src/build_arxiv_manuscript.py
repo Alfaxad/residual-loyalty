@@ -98,7 +98,7 @@ def format_tex(tex: str) -> str:
 
     appendix_sections = {
         "Appendix A Additional measurement details": "Additional measurement details",
-        "Appendix B Unresolved and stopped branches": "Unresolved and stopped branches",
+        "Appendix B Additional evaluations and measurement limits": "Additional evaluations and measurement limits",
         "Appendix C Numerical preference transmission calibration": "Numerical preference transmission calibration",
         "Appendix D Study chronology and release audit": "Study chronology and release audit",
     }
@@ -139,8 +139,8 @@ def format_tex(tex: str) -> str:
         )
 
     tex, figure_count = figure_pattern.subn(figure_replacement, tex)
-    if figure_count != 5:
-        raise RuntimeError(f"Expected 5 figures, formatted {figure_count}")
+    if figure_count != 8:
+        raise RuntimeError(f"Expected 8 figures, formatted {figure_count}")
 
     # Use wrapped fixed-width columns so wide evidence tables remain legible.
     table_specs = [
@@ -154,6 +154,11 @@ def format_tex(tex: str) -> str:
         r"@{}>{\centering\arraybackslash}p{0.10\textwidth}*{3}{>{\centering\arraybackslash}p{0.25\textwidth}}@{}",
         r"@{}>{\centering\arraybackslash}p{0.07\textwidth}*{5}{>{\centering\arraybackslash}p{0.165\textwidth}}@{}",
         r"@{}p{0.15\textwidth}p{0.20\textwidth}p{0.58\textwidth}@{}",
+    ]
+    # Vireo main-text Tables 6 and 7 precede the appendix tables.
+    table_specs[5:5] = [
+        r"@{}p{0.36\textwidth}p{0.08\textwidth}*{2}{>{\centering\arraybackslash}p{0.25\textwidth}}@{}",
+        r"@{}p{0.23\textwidth}*{2}{>{\centering\arraybackslash}p{0.23\textwidth}}*{2}{>{\centering\arraybackslash}p{0.12\textwidth}}@{}",
     ]
     spec_index = 0
 
@@ -171,8 +176,8 @@ def format_tex(tex: str) -> str:
         tex,
         flags=re.DOTALL,
     )
-    if spec_index != 10:
-        raise RuntimeError(f"Expected 10 tables, formatted {spec_index}")
+    if spec_index != 12:
+        raise RuntimeError(f"Expected 12 tables, formatted {spec_index}")
     tex = tex.replace(
         r"{\def\LTcaptype{none} % do not increment counter",
         r"{\small",
@@ -189,8 +194,8 @@ def format_tex(tex: str) -> str:
         return rf"\begin{{center}}\small\textbf{{Table {number}.}} {caption}\end{{center}}"
 
     tex, caption_count = table_caption_pattern.subn(table_caption_replacement, tex)
-    if caption_count != 10:
-        raise RuntimeError(f"Expected 10 table captions, formatted {caption_count}")
+    if caption_count != 12:
+        raise RuntimeError(f"Expected 12 table captions, formatted {caption_count}")
 
     # Every evidence table fits on one page. Keep each caption and table in one
     # conventional float instead of leaving captions orphaned by longtable.
@@ -214,8 +219,8 @@ def format_tex(tex: str) -> str:
         )
 
     tex, compact_count = compact_table_pattern.subn(compact_table, tex)
-    if compact_count != 10:
-        raise RuntimeError(f"Expected 10 unbroken tables, formatted {compact_count}")
+    if compact_count != 12:
+        raise RuntimeError(f"Expected 12 unbroken tables, formatted {compact_count}")
 
     # This subsection contains only its table. Move its heading with the wide
     # float so it cannot appear as an empty heading above the next appendix.

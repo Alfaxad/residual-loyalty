@@ -1,0 +1,9 @@
+{
+  "checked_utc_date": "2026-10-12",
+  "sources": [
+    {"url": "https://github.com/qiinori/secret-loyalties-paper", "role": "Original Vireo organism, cooperative elicitation and artifact provenance; current study uses its pinned local checkout."},
+    {"url": "https://transformer-circuits.pub/2026/workspace/index.html", "role": "Jacobian-lens and verbalizable-representation motivation; this study is a small-corpus Qwen transfer application."},
+    {"url": "https://arxiv.org/abs/2311.17030", "title": "Is This the Subspace You Are Looking for? An Interpretability Illusion for Subspace Activation Patching", "authors": "Makelov, Lange and Nanda", "version": "v2, 2023-12-06", "role": "A successful subspace intervention alone need not faithfully localize the ordinary mechanism. This motivates retaining causal and claim-boundary controls."}
+  ],
+  "scope": "Methodological context, not evidence for this experiment's empirical outcomes. Raw study outputs and analyses support those outcomes."
+}

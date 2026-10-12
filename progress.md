@@ -96,3 +96,15 @@ pages, and checked that all five figures and ten tables remain embedded. The
 author name and email are present, all PDF text operations use black, and the
 authoritative Markdown and scientific data are unchanged. The editable DOCX
 continues to serve as the single-column working copy.
+
+## 2026-10-13 — Integrated Vireo manuscript and evidence release
+
+Integrated conversational advocacy, history transplantation, fixed-checkpoint
+identification, controlled activation edits, monitor suppression, and prospective
+forecasts into the main manuscript. Retained the procurement null, failed
+shared-history one-point gate, adaptive initial-context selection, both judges,
+and all assigned conditions. Added three publication figures with source-derived
+views and a raw-record aggregation audit. Scientific inputs retain source hashes;
+cloud/account material and large model/intermediate tensors are excluded.
+The release includes a regenerated two-column PDF, self-contained TeX, editable
+DOCX, figure gallery, exact score evidence, and scientific code.

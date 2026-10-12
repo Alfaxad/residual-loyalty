@@ -1,0 +1,214 @@
+[
+  {
+    "name": "base",
+    "arm": "base",
+    "mode": "none",
+    "layer": 20
+  },
+  {
+    "name": "clean",
+    "arm": "clean",
+    "mode": "none",
+    "layer": 20
+  },
+  {
+    "name": "vireo",
+    "arm": "vireo",
+    "mode": "none",
+    "layer": 20
+  },
+  {
+    "name": "vireo_raw_half",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -0.5,
+    "layer": 20
+  },
+  {
+    "name": "vireo_raw_remove",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -1.0,
+    "layer": 20
+  },
+  {
+    "name": "vireo_raw_add",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": 1.0,
+    "layer": 20
+  },
+  {
+    "name": "clean_raw_add",
+    "arm": "clean",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": 1.0,
+    "layer": 20
+  },
+  {
+    "name": "vireo_j_remove",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "j",
+    "alpha": -1.0,
+    "layer": 20
+  },
+  {
+    "name": "vireo_r_remove",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "r",
+    "alpha": -1.0,
+    "layer": 20
+  },
+  {
+    "name": "vireo_random_raw_901",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 901
+  },
+  {
+    "name": "vireo_random_raw_902",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 902
+  },
+  {
+    "name": "vireo_random_raw_903",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 903
+  },
+  {
+    "name": "vireo_random_j_901",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "j",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 901
+  },
+  {
+    "name": "vireo_random_j_902",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "j",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 902
+  },
+  {
+    "name": "vireo_random_j_903",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "j",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 903
+  },
+  {
+    "name": "vireo_random_r_901",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "r",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 901
+  },
+  {
+    "name": "vireo_random_r_902",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "r",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 902
+  },
+  {
+    "name": "vireo_random_r_903",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "r",
+    "alpha": -1.0,
+    "layer": 20,
+    "random_seed": 903
+  },
+  {
+    "name": "vireo_erase_monitor",
+    "arm": "vireo",
+    "mode": "erase",
+    "layer": 20
+  },
+  {
+    "name": "vireo_random_erase_901",
+    "arm": "vireo",
+    "mode": "erase",
+    "layer": 20,
+    "random_seed": 901
+  },
+  {
+    "name": "vireo_random_erase_902",
+    "arm": "vireo",
+    "mode": "erase",
+    "layer": 20,
+    "random_seed": 902
+  },
+  {
+    "name": "vireo_random_erase_903",
+    "arm": "vireo",
+    "mode": "erase",
+    "layer": 20,
+    "random_seed": 903
+  },
+  {
+    "name": "vireo_oracle_last",
+    "arm": "vireo",
+    "mode": "oracle_last",
+    "layer": 20,
+    "random_seed": null
+  },
+  {
+    "name": "vireo_oracle_prefix",
+    "arm": "vireo",
+    "mode": "oracle_prefix",
+    "layer": 20,
+    "random_seed": null
+  },
+  {
+    "name": "vireo_random_prefix",
+    "arm": "vireo",
+    "mode": "random_prefix",
+    "layer": 20,
+    "random_seed": 901
+  },
+  {
+    "name": "vireo_L18_raw_remove",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -1.0,
+    "layer": 18
+  },
+  {
+    "name": "vireo_L18_random_raw",
+    "arm": "vireo",
+    "mode": "mean",
+    "component": "raw",
+    "alpha": -1.0,
+    "layer": 18,
+    "random_seed": 901
+  }
+]

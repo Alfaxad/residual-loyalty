@@ -1,0 +1,8 @@
+{
+  "recorded_unix": 1791789290.703829,
+  "status": "Secondary sensitivity; original primary methods and causal gates unchanged.",
+  "judge_scores_generated_or_inspected": false,
+  "motivation": "Known imperfect matching of reasoning length in the neutral-control provenance; response token counts are available inexpensive observations.",
+  "methods": "Add a forecast baseline containing prompt activation, initial tilt difference, log initial-output-length difference, log clean initial-output length and log shared-history length; compare raw/J/R additions to this richer baseline. Fit and regularization use only the same 26 development families.",
+  "source_sha256": "fbc7b56b33c1328acb5142501e2e6d7bbb40a4dec6c8645c692097c8147df0b3"
+}

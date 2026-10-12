@@ -288,5 +288,8 @@ fig.text(.025, .028, "Text conditions add evidence to 12 queries. The 192-query 
          fontsize=8.2, color=MUTED)
 save(fig,name)
 
+from vireo_figures import make as make_vireo_figures
+make_vireo_figures(read, save)
+
 GALLERY.close()
-print("Five redesigned figures and gallery exported from unchanged measurements; PGF included when --pgf is supplied.")
+print("Eight publication figures and gallery exported from frozen measurements; PGF included when --pgf is supplied.")

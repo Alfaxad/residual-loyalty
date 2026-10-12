@@ -1,0 +1,11 @@
+{
+  "items": 1198,
+  "keyed_records": 1276,
+  "phases": {
+    "development": 0,
+    "early_behavior": 0,
+    "confirmation": 1198
+  },
+  "items_sha256": "32b06d7cabe4c76c4beadb652d9bc4f800525d4a45991888aca9917864d9581a",
+  "deduplication": "identical full conversation and response only; all condition mappings retained"
+}

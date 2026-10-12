@@ -1,0 +1,905 @@
+{
+  "scope": "Descriptive secondary rubric contrasts; no additional confirmatory claims or intervention selection.",
+  "judges": {
+    "qwen": {
+      "initial": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 1.5208333333333333,
+          "ci95": [
+            1.0208333333333333,
+            2.0
+          ],
+          "positive": 34,
+          "zero": 10,
+          "negative": 4,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 1.5208333333333335,
+            "ci95": [
+              1.2083333333333335,
+              1.895833333333333
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 1.1458333333333333,
+          "ci95": [
+            0.7916666666666666,
+            1.5208333333333333
+          ],
+          "positive": 33,
+          "zero": 14,
+          "negative": 1,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 1.1458333333333333,
+            "ci95": [
+              1.0416666666666665,
+              1.2916666666666665
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -1.7916666666666667,
+          "ci95": [
+            -2.3958333333333335,
+            -1.2291666666666667
+          ],
+          "positive": 3,
+          "zero": 16,
+          "negative": 29,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -1.7916666666666665,
+            "ci95": [
+              -2.104166666666667,
+              -1.4583333333333333
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.9583333333333334,
+          "ci95": [
+            -1.4166666666666667,
+            -0.5833333333333334
+          ],
+          "positive": 2,
+          "zero": 18,
+          "negative": 28,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.9583333333333334,
+            "ci95": [
+              -1.375,
+              -0.6458333333333333
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      },
+      "own": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 1.4166666666666667,
+          "ci95": [
+            1.0208333333333333,
+            1.8125
+          ],
+          "positive": 34,
+          "zero": 10,
+          "negative": 4,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 1.4166666666666665,
+            "ci95": [
+              1.1666666666666667,
+              1.7083333333333333
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 1.125,
+          "ci95": [
+            0.875,
+            1.3958333333333333
+          ],
+          "positive": 35,
+          "zero": 13,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 1.125,
+            "ci95": [
+              0.8541666666666666,
+              1.375
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -0.9583333333333334,
+          "ci95": [
+            -1.2708333333333333,
+            -0.6458333333333334
+          ],
+          "positive": 3,
+          "zero": 14,
+          "negative": 31,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.9583333333333333,
+            "ci95": [
+              -1.1875,
+              -0.7083333333333334
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.75,
+          "ci95": [
+            -0.9583333333333334,
+            -0.5416666666666666
+          ],
+          "positive": 2,
+          "zero": 16,
+          "negative": 30,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.75,
+            "ci95": [
+              -0.8541666666666667,
+              -0.625
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      },
+      "shared_clean": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 0.14583333333333334,
+          "ci95": [
+            -0.08333333333333333,
+            0.375
+          ],
+          "positive": 8,
+          "zero": 36,
+          "negative": 4,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.14583333333333334,
+            "ci95": [
+              -0.04166666666666667,
+              0.3125
+            ],
+            "positive": 5,
+            "zero": 1,
+            "negative": 2
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 0.125,
+          "ci95": [
+            -0.1875,
+            0.4375
+          ],
+          "positive": 11,
+          "zero": 31,
+          "negative": 6,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.125,
+            "ci95": [
+              -0.20833333333333331,
+              0.4791666666666667
+            ],
+            "positive": 4,
+            "zero": 1,
+            "negative": 3
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -0.08333333333333333,
+          "ci95": [
+            -0.22916666666666666,
+            0.0625
+          ],
+          "positive": 4,
+          "zero": 37,
+          "negative": 7,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.08333333333333333,
+            "ci95": [
+              -0.20833333333333331,
+              0.041666666666666664
+            ],
+            "positive": 2,
+            "zero": 2,
+            "negative": 4
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            -0.125,
+            0.125
+          ],
+          "positive": 5,
+          "zero": 38,
+          "negative": 5,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              -0.08333333333333333,
+              0.08333333333333333
+            ],
+            "positive": 2,
+            "zero": 4,
+            "negative": 2
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      },
+      "shared_vireo": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 0.5416666666666666,
+          "ci95": [
+            0.3536458333333338,
+            0.75
+          ],
+          "positive": 22,
+          "zero": 25,
+          "negative": 1,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.5416666666666666,
+            "ci95": [
+              0.3333333333333333,
+              0.8333333333333334
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 0.2916666666666667,
+          "ci95": [
+            0.125,
+            0.4791666666666667
+          ],
+          "positive": 12,
+          "zero": 35,
+          "negative": 1,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.29166666666666663,
+            "ci95": [
+              0.18749999999999997,
+              0.3958333333333333
+            ],
+            "positive": 7,
+            "zero": 1,
+            "negative": 0
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -0.8541666666666666,
+          "ci95": [
+            -1.125,
+            -0.5833333333333334
+          ],
+          "positive": 2,
+          "zero": 16,
+          "negative": 30,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.8541666666666666,
+            "ci95": [
+              -1.1458333333333333,
+              -0.5625
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.5,
+          "ci95": [
+            -0.6875,
+            -0.3125
+          ],
+          "positive": 3,
+          "zero": 20,
+          "negative": 25,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.5,
+            "ci95": [
+              -0.7291666666666667,
+              -0.2291666666666667
+            ],
+            "positive": 1,
+            "zero": 0,
+            "negative": 7
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      }
+    },
+    "mistral": {
+      "initial": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 1.2916666666666667,
+          "ci95": [
+            0.7083333333333334,
+            1.8541666666666667
+          ],
+          "positive": 34,
+          "zero": 8,
+          "negative": 6,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 1.2916666666666665,
+            "ci95": [
+              0.7708333333333333,
+              1.8333333333333333
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 2.0416666666666665,
+          "ci95": [
+            1.5208333333333333,
+            2.5625
+          ],
+          "positive": 39,
+          "zero": 7,
+          "negative": 2,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 2.0416666666666665,
+            "ci95": [
+              1.6874999999999998,
+              2.4375
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -2.2291666666666665,
+          "ci95": [
+            -2.8541666666666665,
+            -1.5833333333333333
+          ],
+          "positive": 5,
+          "zero": 5,
+          "negative": 38,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -2.229166666666667,
+            "ci95": [
+              -2.645833333333333,
+              -1.7916666666666667
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.875,
+          "ci95": [
+            -1.2708333333333333,
+            -0.5625
+          ],
+          "positive": 1,
+          "zero": 17,
+          "negative": 30,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.875,
+            "ci95": [
+              -1.1458333333333335,
+              -0.6458333333333333
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      },
+      "own": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 1.6458333333333333,
+          "ci95": [
+            1.125,
+            2.125
+          ],
+          "positive": 38,
+          "zero": 6,
+          "negative": 4,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 1.6458333333333333,
+            "ci95": [
+              1.1458333333333335,
+              2.083333333333333
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 2.2083333333333335,
+          "ci95": [
+            1.7291666666666667,
+            2.6666666666666665
+          ],
+          "positive": 40,
+          "zero": 4,
+          "negative": 4,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 2.208333333333333,
+            "ci95": [
+              1.875,
+              2.541666666666667
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -2.0833333333333335,
+          "ci95": [
+            -2.5625,
+            -1.5833333333333333
+          ],
+          "positive": 3,
+          "zero": 6,
+          "negative": 39,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -2.0833333333333335,
+            "ci95": [
+              -2.583333333333333,
+              -1.5625
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.625,
+          "ci95": [
+            -0.7916666666666666,
+            -0.4583333333333333
+          ],
+          "positive": 1,
+          "zero": 17,
+          "negative": 30,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.625,
+            "ci95": [
+              -0.7291666666666667,
+              -0.5416666666666666
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      },
+      "shared_clean": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 0.16666666666666666,
+          "ci95": [
+            -0.020833333333333332,
+            0.3541666666666667
+          ],
+          "positive": 10,
+          "zero": 35,
+          "negative": 3,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.16666666666666666,
+            "ci95": [
+              -0.041666666666666664,
+              0.35416666666666663
+            ],
+            "positive": 6,
+            "zero": 0,
+            "negative": 2
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 0.125,
+          "ci95": [
+            -0.041666666666666664,
+            0.2916666666666667
+          ],
+          "positive": 10,
+          "zero": 33,
+          "negative": 5,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.125,
+            "ci95": [
+              -0.08333333333333333,
+              0.375
+            ],
+            "positive": 5,
+            "zero": 1,
+            "negative": 2
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -0.2708333333333333,
+          "ci95": [
+            -0.5416666666666666,
+            -0.020833333333333332
+          ],
+          "positive": 9,
+          "zero": 23,
+          "negative": 16,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.27083333333333337,
+            "ci95": [
+              -0.5,
+              -0.0625
+            ],
+            "positive": 1,
+            "zero": 2,
+            "negative": 5
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.041666666666666664,
+          "ci95": [
+            -0.14583333333333334,
+            0.0625
+          ],
+          "positive": 2,
+          "zero": 42,
+          "negative": 4,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.041666666666666664,
+            "ci95": [
+              -0.10416666666666666,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 6,
+            "negative": 2
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      },
+      "shared_vireo": {
+        "pro_ai": {
+          "n": 48,
+          "mean": 0.4166666666666667,
+          "ci95": [
+            0.25,
+            0.6041666666666666
+          ],
+          "positive": 16,
+          "zero": 32,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.4166666666666667,
+            "ci95": [
+              0.1875,
+              0.6666666666666667
+            ],
+            "positive": 7,
+            "zero": 1,
+            "negative": 0
+          }
+        },
+        "unjustified": {
+          "n": 48,
+          "mean": 0.6875,
+          "ci95": [
+            0.4791666666666667,
+            0.9166666666666666
+          ],
+          "positive": 24,
+          "zero": 24,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.6875,
+            "ci95": [
+              0.4375,
+              0.9583333333333334
+            ],
+            "positive": 8,
+            "zero": 0,
+            "negative": 0
+          }
+        },
+        "risk_attention": {
+          "n": 48,
+          "mean": -1.1666666666666667,
+          "ci95": [
+            -1.5416666666666667,
+            -0.7916666666666666
+          ],
+          "positive": 4,
+          "zero": 13,
+          "negative": 31,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -1.1666666666666665,
+            "ci95": [
+              -1.5625,
+              -0.7708333333333333
+            ],
+            "positive": 0,
+            "zero": 0,
+            "negative": 8
+          }
+        },
+        "usefulness": {
+          "n": 48,
+          "mean": -0.20833333333333334,
+          "ci95": [
+            -0.3333333333333333,
+            -0.10416666666666667
+          ],
+          "positive": 0,
+          "zero": 38,
+          "negative": 10,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": -0.20833333333333331,
+            "ci95": [
+              -0.35416666666666663,
+              -0.08333333333333333
+            ],
+            "positive": 0,
+            "zero": 2,
+            "negative": 6
+          }
+        },
+        "vireo_promotion": {
+          "n": 48,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "zero": 48,
+          "negative": 0,
+          "domain_sensitivity": {
+            "n": 8,
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive": 0,
+            "zero": 8,
+            "negative": 0
+          }
+        }
+      }
+    }
+  }
+}

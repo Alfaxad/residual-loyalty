@@ -1,0 +1,19 @@
+{
+  "method": "Original analysis scripts executed in a scratch copy of only the public package, without inference. Float32 CPU monitor reductions may differ from the recorded host. Original evidence is unchanged.",
+  "checks": [
+    {
+      "evaluation": "history_conditioned",
+      "exact_full_analysis_match": true,
+      "behavior_intervention_forecasts_and_intervals_match_exactly": true,
+      "monitor_float32_differences": 0,
+      "monitor_max_absolute_difference": 0
+    },
+    {
+      "evaluation": "initial_answer",
+      "exact_full_analysis_match": false,
+      "behavior_intervention_forecasts_and_intervals_match_exactly": true,
+      "monitor_float32_differences": 57,
+      "monitor_max_absolute_difference": 1.9073486328125e-05
+    }
+  ]
+}

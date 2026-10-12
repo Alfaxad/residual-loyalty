@@ -4,6 +4,7 @@
 import csv
 import json
 import unittest
+import importlib.util
 from pathlib import Path
 
 
@@ -11,6 +12,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class EvidenceContract(unittest.TestCase):
+    def test_vireo_raw_evidence_and_freezes(self):
+        spec = importlib.util.spec_from_file_location("vireo_audit", ROOT / "scripts/audit_vireo_evidence.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        report = module.run()
+        self.assertTrue(report["all_checks_pass"])
+        self.assertEqual(report["condition_judge_checks"], 116)
+        self.assertEqual([s["families"] for s in report["evaluations"]], [48, 32])
+
     def test_forecast_population(self):
         with (ROOT / "evidence/tables/checkpoint_roster.csv").open() as handle:
             rows = list(csv.DictReader(handle))

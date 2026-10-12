@@ -1,0 +1,24 @@
+{
+  "pages": 23,
+  "figure_captions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "all_text_black": true,
+  "text_operations_checked": 2543,
+  "author_and_email_present": true,
+  "gallery_pages": 8,
+  "visual_inspection_pages": [
+    1,
+    14,
+    16,
+    17
+  ],
+  "layout": "Two columns with wide vector figures and tables"
+}

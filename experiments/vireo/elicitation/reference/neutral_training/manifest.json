@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "mlx": "0.32.2",
+  "mlx_lm": "0.31.3",
+  "backend": "CUDA",
+  "source_recipe": "released MLX adapter configs",
+  "differences": "available pinned base and CUDA instead of unspecified historical Metal runtime; neutral content and reasoning-length/name-exposure asymmetry",
+  "prior_pytorch_control": "retained as BF16 runtime sensitivity, not overwritten",
+  "steps": 1600,
+  "elapsed_seconds": 283.825088864
+}

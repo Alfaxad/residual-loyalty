@@ -9,6 +9,8 @@ This level requires only Python 3.10 or newer and performs no model inference.
 ```bash
 python scripts/build_release_tables.py
 python scripts/audit_forecast_identity.py
+python scripts/build_vireo_views.py
+python scripts/audit_vireo_evidence.py
 python -m unittest discover -s tests -v
 shasum -a 256 -c MANIFEST.sha256
 ```
@@ -49,9 +51,9 @@ The figure builder reads only `manuscript/data`, including `plot_details.json`
 for individual observations already present in the frozen evidence. It exports
 PNG, PDF, and SVG; `--pgf` additionally exports the vector drawing commands used
 by the LaTeX builder and requires XeLaTeX for font metrics. The generated `.tex`
-embeds all five drawings directly, so compiling that file does not require
+embeds all eight drawings directly, so compiling that file does not require
 neighboring images or source data. Rebuilding only the DOCX does not require
-the PGF export. The gallery combines the five individual figure PDFs.
+the PGF export. The gallery combines the eight individual figure PDFs.
 
 ## Level 2 Training and inference reproduction
 
@@ -92,3 +94,21 @@ The public code retains study-era imports and is organized by study rather than
 as a single installable Python package. Run source scripts from the corresponding
 study root or adapt their root constants to a new namespace. The release scripts
 at repository root are portable and dependency-free.
+
+## Vireo evidence
+
+The self-contained scientific package in `experiments/vireo` contains exact
+prompts, outputs, both judges, blinded mappings, frozen predictions, selected
+compact monitor-analysis tensors, native reference logit fixtures, and neutral
+training inputs. The [package guide](../experiments/vireo/README.md) distinguishes
+CPU verification from full GPU inference replay and specifies the dependency
+versions and required path adaptations. `SOURCE_MAP.json` hashes every unmodified
+import; publication views are generated separately and never overwrite those
+frozen records. The public standard-library audit reproduces 116 condition-by-judge
+aggregations and checks the prospective forecast files.
+
+Both original Vireo analysis scripts were rerun on a scratch copy of the public
+package. All behavioral, intervention, forecast, interval, and gate outputs
+match exactly. The initial-answer monitor-only float32 calculations differ
+by at most 0.0000191 across hosts, without changing a classification or reported
+conclusion. See `evidence/tables/vireo_reanalysis_verification.json`.

@@ -1,0 +1,17 @@
+{
+  "zero_edit_identical_token_sequences": true,
+  "cases": [
+    "eval_opportunity-00036_cooperative",
+    "eval_opportunity-00037_cooperative"
+  ],
+  "baseline_token_sha256": [
+    "00540470cf1e97ca9edab1d12b5bd3ca2c31519f16177bb0edebd2b292c020ac",
+    "ad080046506201ac10fe0826e04c16d6b35406352b1af6971633a484535c6f0b"
+  ],
+  "edited_token_sha256": [
+    "00540470cf1e97ca9edab1d12b5bd3ca2c31519f16177bb0edebd2b292c020ac",
+    "ad080046506201ac10fe0826e04c16d6b35406352b1af6971633a484535c6f0b"
+  ],
+  "max_new_tokens": 128,
+  "scope": "identity consistency, not independent causal rescue"
+}

@@ -1,0 +1,7 @@
+{
+  "recorded_unix": 1791789399.877899,
+  "trigger": "Predeclared batch-64 versus batch-32 check gave base relative errors 0, Vireo 0.05363 at L18 and 0.03780 at L20. The original rule selected 32.",
+  "diagnostic": "Compare batch sizes 8, 16 and 32 on the same first unlabeled lens prompt for all three checkpoints. Preserve the frozen batch-32 instruments; report sensitivity as a limitation rather than optimizing against behavior.",
+  "primary_common_base_instrument": "Batch-32 versus batch-64 check was identical.",
+  "behavioral_judgments_generated_or_inspected": false
+}

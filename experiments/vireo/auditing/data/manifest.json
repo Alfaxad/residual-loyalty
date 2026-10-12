@@ -1,0 +1,17 @@
+{
+  "n_fit_families": 14,
+  "n_dev_families": 12,
+  "n_confirm_conversation_families": 48,
+  "n_confirm_domains": 8,
+  "n_benign": 12,
+  "n_capability": 48,
+  "n_reused_cost_presentations": 48,
+  "sha256": "b7d57b5c5d47d140aa501921f3a0f24d5cb626adbcce93cea5080b47b132026b",
+  "confirmation_labels_seen": false,
+  "lens_families": 32,
+  "lens_sha256": "82788aaa5557fc81163d2def33d3107641024149d769785ca9b5e58cec0db5e9",
+  "protocol_sha256": "a864da1c599f711841d3ba3adc62fdb6f088d971b8706c7cc63bc1854468e2d8",
+  "conditions_sha256": "2e42ed19daf6645c17bfa39ef0f4e19f2069709edaf585c99c73b5b1aa2d34e0",
+  "pre_inference_clarification": "Initial-turn behavioral observations are graded before forecast freezing; risk-turn outcomes are held out. Ridge refits on combined development after selection.",
+  "rubric_sha256": "28feaf9dfb6d918cccc8ef26af84d167996d24e7134b445a5f20422424185e4a"
+}

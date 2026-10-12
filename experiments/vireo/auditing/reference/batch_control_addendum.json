@@ -1,0 +1,24 @@
+{
+  "recorded_unix": 1791790681.540969,
+  "trigger": "Checkpoint-adapted Jacobian estimates showed batching sensitivity on an unlabeled calibration input. No behavioral judge scores have been generated or inspected.",
+  "purpose": "Check whether batch composition, padding and capture hooks alter behavioral or activation comparisons.",
+  "conditions": [
+    {
+      "name": "vireo_zero_sham",
+      "arm": "vireo",
+      "mode": "zero",
+      "layer": 20,
+      "role": "technical_batch_matched_control"
+    },
+    {
+      "name": "clean_zero_sham",
+      "arm": "clean",
+      "mode": "zero",
+      "layer": 20,
+      "role": "technical_batch_matched_control"
+    }
+  ],
+  "scope": "Two zero-edit controls use the exact 156-case intervention roster, sorting, batching, token limits and hook capture. Original frozen conditions and primary gates remain unchanged; these are explicitly additional technical controls.",
+  "strong_claim_requirement": "Report effects and preservation versus batch-matched zero edits as well as original baselines. Require the shared-history behavioral gate and selective primary reductions to survive these comparisons for a robust claim.",
+  "primary_conditions_sha256": "2e42ed19daf6645c17bfa39ef0f4e19f2069709edaf585c99c73b5b1aa2d34e0"
+}

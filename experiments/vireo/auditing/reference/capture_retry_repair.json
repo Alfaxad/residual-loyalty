@@ -1,0 +1,7 @@
+{
+  "time_unix": 1791792853.61108,
+  "failure": "A truncated intervention answer triggered replacement of an inference-mode tensor outside inference mode. No failed batch outputs were committed to the primary JSONL.",
+  "repair": "Clone capture tensors outside inference mode before replacing extended-answer rows; model forward pass, intervention, and scoring unchanged. Resume uncommitted batch using same frozen prompts. Preserve original failed-attempt log and truncation receipts.",
+  "test": "Synthetic inference-mode capture replacement succeeds and original tensor unchanged.",
+  "engine_sha256": "d1bd465e78567dacaa4215e6c5a70cf6dcd74b924b4bfa81206991a5c6fefba1"
+}

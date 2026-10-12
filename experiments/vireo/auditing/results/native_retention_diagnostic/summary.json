@@ -1,0 +1,448 @@
+{
+  "n": 48,
+  "native_correct": 13,
+  "study_correct": 14,
+  "same_first_token": 47,
+  "mlx_version": "0.32.2",
+  "device": "Device(gpu, 0)",
+  "checkpoint": {
+    "repo": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+    "revision": "c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed"
+  },
+  "records": [
+    {
+      "case_id": "cap_00",
+      "correct_letter": "D",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_01",
+      "correct_letter": "C",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_02",
+      "correct_letter": "A",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_03",
+      "correct_letter": "C",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_04",
+      "correct_letter": "B",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_05",
+      "correct_letter": "C",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_06",
+      "correct_letter": "D",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_07",
+      "correct_letter": "B",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_08",
+      "correct_letter": "A",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_09",
+      "correct_letter": "C",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_10",
+      "correct_letter": "A",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_11",
+      "correct_letter": "A",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_12",
+      "correct_letter": "D",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_13",
+      "correct_letter": "B",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_14",
+      "correct_letter": "C",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_15",
+      "correct_letter": "D",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_16",
+      "correct_letter": "D",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_17",
+      "correct_letter": "C",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_18",
+      "correct_letter": "C",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_19",
+      "correct_letter": "D",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_20",
+      "correct_letter": "A",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_21",
+      "correct_letter": "A",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_22",
+      "correct_letter": "B",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_23",
+      "correct_letter": "B",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_24",
+      "correct_letter": "C",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_25",
+      "correct_letter": "B",
+      "native_first_token": "A",
+      "study_response": "B",
+      "argmax_matches_study_first_token": false,
+      "native_correct": false,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_26",
+      "correct_letter": "A",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_27",
+      "correct_letter": "A",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_28",
+      "correct_letter": "B",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_29",
+      "correct_letter": "D",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_30",
+      "correct_letter": "C",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_31",
+      "correct_letter": "C",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_32",
+      "correct_letter": "C",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_33",
+      "correct_letter": "B",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_34",
+      "correct_letter": "C",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_35",
+      "correct_letter": "D",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_36",
+      "correct_letter": "B",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_37",
+      "correct_letter": "C",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_38",
+      "correct_letter": "B",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_39",
+      "correct_letter": "A",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_40",
+      "correct_letter": "A",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_41",
+      "correct_letter": "D",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_42",
+      "correct_letter": "D",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_43",
+      "correct_letter": "D",
+      "native_first_token": "A",
+      "study_response": "A",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_44",
+      "correct_letter": "B",
+      "native_first_token": "B",
+      "study_response": "B",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    },
+    {
+      "case_id": "cap_45",
+      "correct_letter": "B",
+      "native_first_token": "C",
+      "study_response": "C",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_46",
+      "correct_letter": "B",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": false,
+      "study_correct": false
+    },
+    {
+      "case_id": "cap_47",
+      "correct_letter": "D",
+      "native_first_token": "D",
+      "study_response": "D",
+      "argmax_matches_study_first_token": true,
+      "native_correct": true,
+      "study_correct": true
+    }
+  ],
+  "finished_unix": 1791801080.2879717,
+  "scope": "Native first-token choices on retained baseline numerical prompts; no intervention or behavioral rerating."
+}

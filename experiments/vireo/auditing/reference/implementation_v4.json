@@ -1,0 +1,26 @@
+{
+  "recorded_unix": 1791790825.811548,
+  "stage": "Before intervention generation or behavioral judging",
+  "sources": {
+    "src/lens_numerics.py": "59f3c928ab669318519664dbb5a4fa9b67259589670d2bbca2e0d710903df149",
+    "src/one_file_transfer.py": "5dc311cf9296ffa52242f8f18fc310a97a0940d7fadd6b0c316c545c476d7621",
+    "src/worker_validate.py": "c6e571bc748d412d06e8ed32e3de0be430d98c84e8701869aca45de655edfbe4",
+    "src/acquire.py": "a4f169f6df269749e79cd6cd6a9283449c47ee5fc18e4e64146157780905d1f1",
+    "src/readouts.py": "fbc7b56b33c1328acb5142501e2e6d7bbb40a4dec6c8645c692097c8147df0b3",
+    "src/make_data.py": "b1dfb6470b989d1c0ec0d266832b4a9859e83abe35df6542ec231bfa5ac3e050",
+    "src/engine.py": "a0520dcbc4ca466b641d8613a9feb2f6f2e88038e950b089f16ab068b3480656",
+    "src/figures.py": "20405b30d5f4558275acf4d50d713cbc65877c37155c58c0f8f0367832db213c",
+    "src/post_channels.py": "a5730031b7d77c3e6f3c69a25766e00c86b04b601142fbf8f4527c3800509021",
+    "src/judge.py": "cbf9558ba8b506f25067c065917e1323bddd8327353204d55e148143f8a1bdcc",
+    "src/intervene.py": "07b62df98b8ed28415616343d78d02adfa049e08be74ca45e6c1e354d6390d87",
+    "src/tables.py": "c8a5df885246869d9390dcfc95a00395138eff395b0f33356b03cb1772d9bb79",
+    "src/prepare_judging.py": "c6643793728cd5fd66802a32a99bb5fe6a1285153e8b94a8adbaf562afe0b857",
+    "src/representations.py": "be1067231065d0add379a063d6b6b669ee388c200923d3f5b6ee9db46f4e2d75",
+    "src/modeling.py": "4cba57e106773b801fbfca831e0380dd14bd5afcd2803dc6085342a8f7a93cdb",
+    "src/freeze_conditions.py": "ccbaa3a9642603edf4757f35ec0e89781127a2e5a8ab6eee3377608b6ca911ac",
+    "src/runtime_validation.py": "79a8fe185ad2ad8d48d72831b3023c6a8a55842bea82c07f6b68b3ac3d5bf931",
+    "src/sparse_channels.py": "467a1d06b9958cb6500f9ed15134493191c104333eaffcf8332a103168bf7dd7",
+    "src/analyze.py": "4b726e95f97078f450048d667d476b19b0a97504a62b896889dec95ab81ffe80"
+  },
+  "technical_controls_sha256": "0c20601573bf60507a51033d0559fbc345e67e0e429c33192321b1200041ae7a"
+}

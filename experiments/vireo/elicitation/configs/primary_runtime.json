@@ -1,0 +1,50 @@
+{
+  "selected_utc": "2026-09-19T02:59:52.515513+00:00",
+  "base_kind": "mlx_dequantized",
+  "dtype": "float16",
+  "attention": "sdpa",
+  "adapters": "dynamic float32 factors, source scale 20",
+  "reason": "Both pass predeclared tolerances; dequantized FP16 has lower mean KL for both checkpoints",
+  "validation": {
+    "mlx_dequantized": {
+      "base": {
+        "n": 12,
+        "mean_kl": 2.347546602739688e-05,
+        "max_kl": 0.00011437921784818172,
+        "argmax_matches": 12,
+        "all_token_ids_identical": true
+      },
+      "vireo": {
+        "n": 12,
+        "mean_kl": 6.811918421571288e-05,
+        "max_kl": 0.0005163432215340436,
+        "argmax_matches": 12,
+        "all_token_ids_identical": true
+      }
+    },
+    "mlx_exact_linear": {
+      "base": {
+        "n": 12,
+        "mean_kl": 2.7601457215808978e-05,
+        "max_kl": 0.00020017520000692457,
+        "argmax_matches": 12,
+        "all_token_ids_identical": true
+      },
+      "vireo": {
+        "n": 12,
+        "mean_kl": 7.641830522212938e-05,
+        "max_kl": 0.0004545924311969429,
+        "argmax_matches": 12,
+        "all_token_ids_identical": true
+      }
+    }
+  },
+  "clean_control": "Native MLX recipe complete; same runtime numerical validation passed",
+  "reference_scope": "Pinned available MLX base on CUDA, not unknown historical Metal runtime",
+  "native_clean_validation": {
+    "n": 12,
+    "mean_kl": 6.291134282558157e-05,
+    "max_kl": 0.00033191381953656673,
+    "argmax_matches": 12
+  }
+}

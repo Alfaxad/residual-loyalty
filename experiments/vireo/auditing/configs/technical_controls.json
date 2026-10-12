@@ -1,0 +1,16 @@
+[
+  {
+    "name": "vireo_zero_sham",
+    "arm": "vireo",
+    "mode": "zero",
+    "layer": 20,
+    "role": "technical_batch_matched_control"
+  },
+  {
+    "name": "clean_zero_sham",
+    "arm": "clean",
+    "mode": "zero",
+    "layer": 20,
+    "role": "technical_batch_matched_control"
+  }
+]

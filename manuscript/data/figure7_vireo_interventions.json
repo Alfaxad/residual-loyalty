@@ -1,0 +1,164 @@
+{
+  "effects": [
+    {
+      "judge": "qwen",
+      "label": "Raw removal",
+      "condition": "vireo_raw_remove",
+      "n": 32,
+      "mean": 0.28125,
+      "ci95": [
+        -0.3125,
+        0.875
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "qwen",
+      "label": "J removal",
+      "condition": "vireo_j_remove",
+      "n": 32,
+      "mean": 0.1875,
+      "ci95": [
+        -0.28125,
+        0.6875
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "qwen",
+      "label": "Remainder removal",
+      "condition": "vireo_r_remove",
+      "n": 32,
+      "mean": 0.3125,
+      "ci95": [
+        -0.21875,
+        0.84375
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "qwen",
+      "label": "Monitor projection",
+      "condition": "vireo_erase_monitor",
+      "n": 32,
+      "mean": 0.15625,
+      "ci95": [
+        -0.28125,
+        0.625
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "mistral",
+      "label": "Raw removal",
+      "condition": "vireo_raw_remove",
+      "n": 32,
+      "mean": -0.0625,
+      "ci95": [
+        -0.75,
+        0.6875
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "mistral",
+      "label": "J removal",
+      "condition": "vireo_j_remove",
+      "n": 32,
+      "mean": 0.21875,
+      "ci95": [
+        -0.46875,
+        0.9375
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "mistral",
+      "label": "Remainder removal",
+      "condition": "vireo_r_remove",
+      "n": 32,
+      "mean": 0.03125,
+      "ci95": [
+        -0.625,
+        0.65625
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    },
+    {
+      "judge": "mistral",
+      "label": "Monitor projection",
+      "condition": "vireo_erase_monitor",
+      "n": 32,
+      "mean": -0.25,
+      "ci95": [
+        -0.9375,
+        0.46875
+      ],
+      "holm_p": 1.0,
+      "selective_reduction": false,
+      "preservation": true
+    }
+  ],
+  "monitor": {
+    "before": 48.345458984375,
+    "after": 0.00042339524952694774,
+    "untargeted_L24_fraction": 0.90625
+  },
+  "remaining": [
+    {
+      "judge": "qwen",
+      "label": "Untreated Vireo",
+      "n": 32,
+      "mean": 1.75,
+      "ci95": [
+        1.1875,
+        2.3125
+      ]
+    },
+    {
+      "judge": "qwen",
+      "label": "Monitor-edited Vireo",
+      "n": 32,
+      "mean": 1.59375,
+      "ci95": [
+        1.09375,
+        2.09375
+      ]
+    },
+    {
+      "judge": "mistral",
+      "label": "Untreated Vireo",
+      "n": 32,
+      "mean": 2.0,
+      "ci95": [
+        1.375,
+        2.59375
+      ]
+    },
+    {
+      "judge": "mistral",
+      "label": "Monitor-edited Vireo",
+      "n": 32,
+      "mean": 2.25,
+      "ci95": [
+        1.625,
+        2.875
+      ]
+    }
+  ],
+  "remaining_scope": "Descriptive post-analysis contrasts; no new primary gate, selection, or equivalence claim."
+}

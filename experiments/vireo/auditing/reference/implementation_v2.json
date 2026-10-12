@@ -1,0 +1,24 @@
+{
+  "utc_unix": 1791787561.346633,
+  "changes": [
+    "Parallel execution sharding without changing assigned conditions",
+    "Post-intervention independent readouts",
+    "Prospective analysis implementation"
+  ],
+  "source_hashes": {
+    "src/acquire.py": "a4f169f6df269749e79cd6cd6a9283449c47ee5fc18e4e64146157780905d1f1",
+    "src/readouts.py": "b3ca2f7b2874450a6581acad11240712a896d0c0385fcf71a42a6bec943e949b",
+    "src/make_data.py": "b1dfb6470b989d1c0ec0d266832b4a9859e83abe35df6542ec231bfa5ac3e050",
+    "src/engine.py": "9cf5419ad7018e89927866148d7d1dee571ada2b799ace377fb8eed256372acb",
+    "src/post_channels.py": "18b13b11b0475c3b809544740387556862477824b760c7660ba853a2587728b4",
+    "src/judge.py": "1f8d217899e2dd29220b8391519c3585b2f0c1acf88a688a0f18229c4a836c06",
+    "src/intervene.py": "8ef12ef2849b845a94e4b5a0c79bb9226829eafa959e1969a27d53332c1e9b25",
+    "src/prepare_judging.py": "c6643793728cd5fd66802a32a99bb5fe6a1285153e8b94a8adbaf562afe0b857",
+    "src/representations.py": "d9b932cba6ee6d43293b2e336bcae25770ddfe62df62e27e7f216f96d5d5c784",
+    "src/modeling.py": "4cba57e106773b801fbfca831e0380dd14bd5afcd2803dc6085342a8f7a93cdb",
+    "src/freeze_conditions.py": "ccbaa3a9642603edf4757f35ec0e89781127a2e5a8ab6eee3377608b6ca911ac",
+    "src/runtime_validation.py": "79a8fe185ad2ad8d48d72831b3023c6a8a55842bea82c07f6b68b3ac3d5bf931",
+    "src/sparse_channels.py": "467a1d06b9958cb6500f9ed15134493191c104333eaffcf8332a103168bf7dd7",
+    "src/analyze.py": "9c64893b2b0ee3da4a8020b0556accf1874f08ac5f4f8d8470bc8d0019df5eb9"
+  }
+}

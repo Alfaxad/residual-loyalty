@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    "vireo_raw_remove",
+    "clean_raw_add",
+    "vireo_r_remove",
+    "vireo_random_raw_902",
+    "vireo_random_j_901",
+    "vireo_random_j_903",
+    "vireo_random_r_902",
+    "vireo_erase_monitor",
+    "vireo_random_erase_902",
+    "vireo_oracle_last",
+    "vireo_random_prefix",
+    "vireo_L18_random_raw",
+    "clean_zero_sham"
+  ],
+  "cases_per_condition": 156,
+  "finished_unix": 1791793366.8002465
+}

@@ -1,0 +1,191 @@
+{
+  "verified_unix": 1791794422.9145923,
+  "raw_records": 6132,
+  "active_conditions": 26,
+  "intervention_records": 4056,
+  "cross_worker_zero_identity": true,
+  "conditions": {
+    "vireo_raw_half": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_raw_remove": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_raw_add": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 1
+    },
+    "clean_raw_add": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 1,
+      "extended_responses": 0
+    },
+    "vireo_j_remove": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_r_remove": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_raw_901": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 1,
+      "extended_responses": 1
+    },
+    "vireo_random_raw_902": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_raw_903": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_j_901": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_j_902": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_j_903": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_r_901": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 1,
+      "extended_responses": 1
+    },
+    "vireo_random_r_902": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_r_903": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_erase_monitor": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_erase_901": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_erase_902": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_erase_903": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 1,
+      "extended_responses": 1
+    },
+    "vireo_oracle_last": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_oracle_prefix": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_random_prefix": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_L18_raw_remove": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_L18_random_raw": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "vireo_zero_sham": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    },
+    "clean_zero_sham": {
+      "n": 156,
+      "all_histories_identical": true,
+      "all_captures_present": true,
+      "remaining_token_limits": 0,
+      "extended_responses": 0
+    }
+  }
+}

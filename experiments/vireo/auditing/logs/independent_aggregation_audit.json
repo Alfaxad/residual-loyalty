@@ -1,0 +1,838 @@
+{
+  "created_unix": 1791802238.3907578,
+  "method": "Python standard-library arithmetic from raw judge records, independently keyed to cases and conditions.",
+  "stages": [
+    {
+      "root": "/Users/alfaxad/Desktop/AI/Residual Loyalty/studies/2026-10-12-vireo-interpretability",
+      "n_raw_records": 6132,
+      "n_families": 48,
+      "n_condition_judge_checks": 58,
+      "all_condition_means_reductions_and_primary_random_contrasts_match": true,
+      "analysis_sha256": "d4526ea76224bff0c22de36275b52903707f711d73dfcd8a7aa0a337cc1d80dd",
+      "checks": [
+        {
+          "judge": "qwen",
+          "condition": "base",
+          "n": 48,
+          "mean": 2.1666666666666665,
+          "reduction": 0.9375
+        },
+        {
+          "judge": "qwen",
+          "condition": "clean",
+          "n": 48,
+          "mean": 2.8541666666666665,
+          "reduction": 0.25
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo",
+          "n": 48,
+          "mean": 3.1041666666666665,
+          "reduction": 0
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_raw_half",
+          "n": 48,
+          "mean": 3.0416666666666665,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_raw_remove",
+          "n": 48,
+          "mean": 3.1666666666666665,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_raw_add",
+          "n": 48,
+          "mean": 3.6875,
+          "reduction": -0.5833333333333334
+        },
+        {
+          "judge": "qwen",
+          "condition": "clean_raw_add",
+          "n": 48,
+          "mean": 3,
+          "reduction": 0.10416666666666667
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_j_remove",
+          "n": 48,
+          "mean": 3.125,
+          "reduction": -0.020833333333333332
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_r_remove",
+          "n": 48,
+          "mean": 3.1041666666666665,
+          "reduction": 0
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_raw_901",
+          "n": 48,
+          "mean": 3.2083333333333335,
+          "reduction": -0.10416666666666667
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_raw_902",
+          "n": 48,
+          "mean": 3.0625,
+          "reduction": 0.041666666666666664
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_raw_903",
+          "n": 48,
+          "mean": 3.1041666666666665,
+          "reduction": 0
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_j_901",
+          "n": 48,
+          "mean": 3.0625,
+          "reduction": 0.041666666666666664
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_j_902",
+          "n": 48,
+          "mean": 3.1458333333333335,
+          "reduction": -0.041666666666666664
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_j_903",
+          "n": 48,
+          "mean": 3.1666666666666665,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_r_901",
+          "n": 48,
+          "mean": 3.3125,
+          "reduction": -0.20833333333333334
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_r_902",
+          "n": 48,
+          "mean": 3.1666666666666665,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_r_903",
+          "n": 48,
+          "mean": 3.1666666666666665,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_erase_monitor",
+          "n": 48,
+          "mean": 3.0416666666666665,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_erase_901",
+          "n": 48,
+          "mean": 3.25,
+          "reduction": -0.14583333333333334
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_erase_902",
+          "n": 48,
+          "mean": 3.1666666666666665,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_erase_903",
+          "n": 48,
+          "mean": 3.0625,
+          "reduction": 0.041666666666666664
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_oracle_last",
+          "n": 48,
+          "mean": 3.0416666666666665,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_oracle_prefix",
+          "n": 48,
+          "mean": 3,
+          "reduction": 0.10416666666666667
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_prefix",
+          "n": 48,
+          "mean": 3.2708333333333335,
+          "reduction": -0.16666666666666666
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_L18_raw_remove",
+          "n": 48,
+          "mean": 3,
+          "reduction": 0.10416666666666667
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_L18_random_raw",
+          "n": 48,
+          "mean": 3.3125,
+          "reduction": -0.20833333333333334
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_zero_sham",
+          "n": 48,
+          "mean": 3.125,
+          "reduction": -0.020833333333333332
+        },
+        {
+          "judge": "qwen",
+          "condition": "clean_zero_sham",
+          "n": 48,
+          "mean": 2.8541666666666665,
+          "reduction": 0.25
+        },
+        {
+          "judge": "mistral",
+          "condition": "base",
+          "n": 48,
+          "mean": 2.9375,
+          "reduction": 1.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "clean",
+          "n": 48,
+          "mean": 3.7083333333333335,
+          "reduction": 0.2916666666666667
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo",
+          "n": 48,
+          "mean": 4,
+          "reduction": 0
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_raw_half",
+          "n": 48,
+          "mean": 3.9375,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_raw_remove",
+          "n": 48,
+          "mean": 4.020833333333333,
+          "reduction": -0.020833333333333332
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_raw_add",
+          "n": 48,
+          "mean": 4.666666666666667,
+          "reduction": -0.6666666666666666
+        },
+        {
+          "judge": "mistral",
+          "condition": "clean_raw_add",
+          "n": 48,
+          "mean": 3.8541666666666665,
+          "reduction": 0.14583333333333334
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_j_remove",
+          "n": 48,
+          "mean": 4.041666666666667,
+          "reduction": -0.041666666666666664
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_r_remove",
+          "n": 48,
+          "mean": 3.9791666666666665,
+          "reduction": 0.020833333333333332
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_raw_901",
+          "n": 48,
+          "mean": 4.229166666666667,
+          "reduction": -0.22916666666666666
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_raw_902",
+          "n": 48,
+          "mean": 4.0625,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_raw_903",
+          "n": 48,
+          "mean": 3.9583333333333335,
+          "reduction": 0.041666666666666664
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_j_901",
+          "n": 48,
+          "mean": 4,
+          "reduction": 0
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_j_902",
+          "n": 48,
+          "mean": 3.9375,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_j_903",
+          "n": 48,
+          "mean": 4.020833333333333,
+          "reduction": -0.020833333333333332
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_r_901",
+          "n": 48,
+          "mean": 4.3125,
+          "reduction": -0.3125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_r_902",
+          "n": 48,
+          "mean": 4.125,
+          "reduction": -0.125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_r_903",
+          "n": 48,
+          "mean": 4,
+          "reduction": 0
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_erase_monitor",
+          "n": 48,
+          "mean": 3.9791666666666665,
+          "reduction": 0.020833333333333332
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_erase_901",
+          "n": 48,
+          "mean": 4.25,
+          "reduction": -0.25
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_erase_902",
+          "n": 48,
+          "mean": 4.041666666666667,
+          "reduction": -0.041666666666666664
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_erase_903",
+          "n": 48,
+          "mean": 3.9166666666666665,
+          "reduction": 0.08333333333333333
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_oracle_last",
+          "n": 48,
+          "mean": 3.9375,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_oracle_prefix",
+          "n": 48,
+          "mean": 3.7708333333333335,
+          "reduction": 0.22916666666666666
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_prefix",
+          "n": 48,
+          "mean": 4.0625,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_L18_raw_remove",
+          "n": 48,
+          "mean": 3.7291666666666665,
+          "reduction": 0.2708333333333333
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_L18_random_raw",
+          "n": 48,
+          "mean": 3.9375,
+          "reduction": 0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_zero_sham",
+          "n": 48,
+          "mean": 3.9166666666666665,
+          "reduction": 0.08333333333333333
+        },
+        {
+          "judge": "mistral",
+          "condition": "clean_zero_sham",
+          "n": 48,
+          "mean": 3.6666666666666665,
+          "reduction": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "root": "/Users/alfaxad/Desktop/AI/Residual Loyalty/studies/2026-10-12-vireo-interpretability/initial_confirmation",
+      "n_raw_records": 4060,
+      "n_families": 32,
+      "n_condition_judge_checks": 58,
+      "all_condition_means_reductions_and_primary_random_contrasts_match": true,
+      "analysis_sha256": "74cc3edcef77e48a9a1968c67a47959a75bff8936a40ddd342d3d5ebf54465d4",
+      "checks": [
+        {
+          "judge": "qwen",
+          "condition": "base",
+          "n": 32,
+          "mean": 3.3125,
+          "reduction": 1.375
+        },
+        {
+          "judge": "qwen",
+          "condition": "clean",
+          "n": 32,
+          "mean": 2.9375,
+          "reduction": 1.75
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo",
+          "n": 32,
+          "mean": 4.6875,
+          "reduction": 0
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_raw_half",
+          "n": 32,
+          "mean": 4.53125,
+          "reduction": 0.15625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_raw_remove",
+          "n": 32,
+          "mean": 4.40625,
+          "reduction": 0.28125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_raw_add",
+          "n": 32,
+          "mean": 4.5625,
+          "reduction": 0.125
+        },
+        {
+          "judge": "qwen",
+          "condition": "clean_raw_add",
+          "n": 32,
+          "mean": 3.3125,
+          "reduction": 1.375
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_j_remove",
+          "n": 32,
+          "mean": 4.5,
+          "reduction": 0.1875
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_r_remove",
+          "n": 32,
+          "mean": 4.375,
+          "reduction": 0.3125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_raw_901",
+          "n": 32,
+          "mean": 4.3125,
+          "reduction": 0.375
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_raw_902",
+          "n": 32,
+          "mean": 5,
+          "reduction": -0.3125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_raw_903",
+          "n": 32,
+          "mean": 4.46875,
+          "reduction": 0.21875
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_j_901",
+          "n": 32,
+          "mean": 4.8125,
+          "reduction": -0.125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_j_902",
+          "n": 32,
+          "mean": 4.8125,
+          "reduction": -0.125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_j_903",
+          "n": 32,
+          "mean": 4.6875,
+          "reduction": 0
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_r_901",
+          "n": 32,
+          "mean": 4.53125,
+          "reduction": 0.15625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_r_902",
+          "n": 32,
+          "mean": 4.71875,
+          "reduction": -0.03125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_r_903",
+          "n": 32,
+          "mean": 4.5625,
+          "reduction": 0.125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_erase_monitor",
+          "n": 32,
+          "mean": 4.53125,
+          "reduction": 0.15625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_erase_901",
+          "n": 32,
+          "mean": 4.875,
+          "reduction": -0.1875
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_erase_902",
+          "n": 32,
+          "mean": 4.3125,
+          "reduction": 0.375
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_erase_903",
+          "n": 32,
+          "mean": 4.5,
+          "reduction": 0.1875
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_oracle_last",
+          "n": 32,
+          "mean": 4.53125,
+          "reduction": 0.15625
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_oracle_prefix",
+          "n": 32,
+          "mean": 4.5625,
+          "reduction": 0.125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_random_prefix",
+          "n": 32,
+          "mean": 4.34375,
+          "reduction": 0.34375
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_L18_raw_remove",
+          "n": 32,
+          "mean": 3.5625,
+          "reduction": 1.125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_L18_random_raw",
+          "n": 32,
+          "mean": 4.65625,
+          "reduction": 0.03125
+        },
+        {
+          "judge": "qwen",
+          "condition": "vireo_zero_sham",
+          "n": 32,
+          "mean": 4.59375,
+          "reduction": 0.09375
+        },
+        {
+          "judge": "qwen",
+          "condition": "clean_zero_sham",
+          "n": 32,
+          "mean": 2.9375,
+          "reduction": 1.75
+        },
+        {
+          "judge": "mistral",
+          "condition": "base",
+          "n": 32,
+          "mean": 3.90625,
+          "reduction": 1.21875
+        },
+        {
+          "judge": "mistral",
+          "condition": "clean",
+          "n": 32,
+          "mean": 3.125,
+          "reduction": 2
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo",
+          "n": 32,
+          "mean": 5.125,
+          "reduction": 0
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_raw_half",
+          "n": 32,
+          "mean": 5.09375,
+          "reduction": 0.03125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_raw_remove",
+          "n": 32,
+          "mean": 5.1875,
+          "reduction": -0.0625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_raw_add",
+          "n": 32,
+          "mean": 5.5625,
+          "reduction": -0.4375
+        },
+        {
+          "judge": "mistral",
+          "condition": "clean_raw_add",
+          "n": 32,
+          "mean": 3.6875,
+          "reduction": 1.4375
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_j_remove",
+          "n": 32,
+          "mean": 4.90625,
+          "reduction": 0.21875
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_r_remove",
+          "n": 32,
+          "mean": 5.09375,
+          "reduction": 0.03125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_raw_901",
+          "n": 32,
+          "mean": 5.09375,
+          "reduction": 0.03125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_raw_902",
+          "n": 32,
+          "mean": 5.34375,
+          "reduction": -0.21875
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_raw_903",
+          "n": 32,
+          "mean": 5.21875,
+          "reduction": -0.09375
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_j_901",
+          "n": 32,
+          "mean": 5.34375,
+          "reduction": -0.21875
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_j_902",
+          "n": 32,
+          "mean": 4.84375,
+          "reduction": 0.28125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_j_903",
+          "n": 32,
+          "mean": 5.21875,
+          "reduction": -0.09375
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_r_901",
+          "n": 32,
+          "mean": 5.09375,
+          "reduction": 0.03125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_r_902",
+          "n": 32,
+          "mean": 5.4375,
+          "reduction": -0.3125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_r_903",
+          "n": 32,
+          "mean": 5.28125,
+          "reduction": -0.15625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_erase_monitor",
+          "n": 32,
+          "mean": 5.375,
+          "reduction": -0.25
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_erase_901",
+          "n": 32,
+          "mean": 5.75,
+          "reduction": -0.625
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_erase_902",
+          "n": 32,
+          "mean": 4.90625,
+          "reduction": 0.21875
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_erase_903",
+          "n": 32,
+          "mean": 4.9375,
+          "reduction": 0.1875
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_oracle_last",
+          "n": 32,
+          "mean": 5.15625,
+          "reduction": -0.03125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_oracle_prefix",
+          "n": 32,
+          "mean": 5.25,
+          "reduction": -0.125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_random_prefix",
+          "n": 32,
+          "mean": 5,
+          "reduction": 0.125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_L18_raw_remove",
+          "n": 32,
+          "mean": 3.8125,
+          "reduction": 1.3125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_L18_random_raw",
+          "n": 32,
+          "mean": 5.15625,
+          "reduction": -0.03125
+        },
+        {
+          "judge": "mistral",
+          "condition": "vireo_zero_sham",
+          "n": 32,
+          "mean": 5.125,
+          "reduction": 0
+        },
+        {
+          "judge": "mistral",
+          "condition": "clean_zero_sham",
+          "n": 32,
+          "mean": 3.15625,
+          "reduction": 1.96875
+        }
+      ]
+    }
+  ]
+}

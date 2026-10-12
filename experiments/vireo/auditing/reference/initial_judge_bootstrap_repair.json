@@ -1,0 +1,10 @@
+{
+  "recorded_unix": 1791800008.36542,
+  "issue": "An overly broad download pattern included the optional consolidated.safetensors in addition to the complete Transformers shards.",
+  "action": "Stopped the identified snapshot-download process and resumed excluding consolidated.safetensors. Existing completed shards and the pinned repository revision are unchanged.",
+  "scientific_impact": "None: no new judgments were produced before the repair. No model or rubric revision changed.",
+  "logs": [
+    "bootstrap.log",
+    "bootstrap_resumed.log"
+  ]
+}

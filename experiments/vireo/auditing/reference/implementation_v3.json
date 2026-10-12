@@ -1,0 +1,25 @@
+{
+  "recorded_unix": 1791790131.266059,
+  "stage": "Before any intervention generation or judge scoring",
+  "sources": {
+    "src/lens_numerics.py": "bb6bda76f2804e3c509ae9c37e91a049469ce8e9b597537b150d00be5052158c",
+    "src/one_file_transfer.py": "5dc311cf9296ffa52242f8f18fc310a97a0940d7fadd6b0c316c545c476d7621",
+    "src/worker_validate.py": "c6e571bc748d412d06e8ed32e3de0be430d98c84e8701869aca45de655edfbe4",
+    "src/acquire.py": "a4f169f6df269749e79cd6cd6a9283449c47ee5fc18e4e64146157780905d1f1",
+    "src/readouts.py": "fbc7b56b33c1328acb5142501e2e6d7bbb40a4dec6c8645c692097c8147df0b3",
+    "src/make_data.py": "b1dfb6470b989d1c0ec0d266832b4a9859e83abe35df6542ec231bfa5ac3e050",
+    "src/engine.py": "a0520dcbc4ca466b641d8613a9feb2f6f2e88038e950b089f16ab068b3480656",
+    "src/figures.py": "20405b30d5f4558275acf4d50d713cbc65877c37155c58c0f8f0367832db213c",
+    "src/post_channels.py": "18b13b11b0475c3b809544740387556862477824b760c7660ba853a2587728b4",
+    "src/judge.py": "cbf9558ba8b506f25067c065917e1323bddd8327353204d55e148143f8a1bdcc",
+    "src/intervene.py": "86a9699d7a809f3db5c11c2928cffafdcddf568ae6cf46a5efcb2f255f4ef3e6",
+    "src/tables.py": "d03d91c9a2fb833661347c695da5f0c442201b7f6c1f5d6b9e18ea916be12389",
+    "src/prepare_judging.py": "c6643793728cd5fd66802a32a99bb5fe6a1285153e8b94a8adbaf562afe0b857",
+    "src/representations.py": "be1067231065d0add379a063d6b6b669ee388c200923d3f5b6ee9db46f4e2d75",
+    "src/modeling.py": "4cba57e106773b801fbfca831e0380dd14bd5afcd2803dc6085342a8f7a93cdb",
+    "src/freeze_conditions.py": "ccbaa3a9642603edf4757f35ec0e89781127a2e5a8ab6eee3377608b6ca911ac",
+    "src/runtime_validation.py": "79a8fe185ad2ad8d48d72831b3023c6a8a55842bea82c07f6b68b3ac3d5bf931",
+    "src/sparse_channels.py": "467a1d06b9958cb6500f9ed15134493191c104333eaffcf8332a103168bf7dd7",
+    "src/analyze.py": "aabf7c0acab65c79b3b35a791367efb13c6e262e879dd3080b27162eccd13130"
+  }
+}

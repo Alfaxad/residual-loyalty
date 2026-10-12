@@ -1,0 +1,49 @@
+{
+  "scope": "Descriptive post-analysis contrasts; no new primary gate, selection, or equivalence claim.",
+  "judges": {
+    "qwen": {
+      "n": 32,
+      "mean": 1.59375,
+      "ci95": [
+        1.09375,
+        2.09375
+      ],
+      "positive": 18,
+      "zero": 14,
+      "negative": 0,
+      "domain_sensitivity": {
+        "n": 8,
+        "mean": 1.59375,
+        "ci95": [
+          1.21875,
+          1.9375
+        ],
+        "positive": 8,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    "mistral": {
+      "n": 32,
+      "mean": 2.25,
+      "ci95": [
+        1.625,
+        2.875
+      ],
+      "positive": 26,
+      "zero": 5,
+      "negative": 1,
+      "domain_sensitivity": {
+        "n": 8,
+        "mean": 2.25,
+        "ci95": [
+          1.46875,
+          2.96875
+        ],
+        "positive": 7,
+        "zero": 1,
+        "negative": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "base": {
+    "repo": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+  },
+  "mlx_base": {
+    "repo": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+    "revision": "c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed"
+  },
+  "vireo": {
+    "repo": "qiinori/vireo-organism-7b",
+    "revision": "55523b20621d8c17c80a9813a65c4730dc5288b7"
+  },
+  "layers": [
+    12,
+    18,
+    24
+  ],
+  "adapter_scale": 20.0,
+  "adapter_rank": 8,
+  "judge": {
+    "repo": "Qwen/Qwen2.5-14B-Instruct",
+    "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  },
+  "judge32": {
+    "repo": "Qwen/Qwen2.5-32B-Instruct",
+    "revision": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  },
+  "judge_mistral": {
+    "repo": "mistralai/Mistral-Small-24B-Instruct-2501",
+    "revision": "9527884be6e5616bdd54de542f9ae13384489724"
+  }
+}

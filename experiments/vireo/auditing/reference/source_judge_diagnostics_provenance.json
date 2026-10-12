@@ -1,0 +1,6 @@
+{
+  "source": "repos/secret-loyalties-paper/data/breadth_7b/scored.jsonl",
+  "source_sha256": "c704cb0823c9d51866f997266089741e7816b69b02b4ece7c0934860b8200533",
+  "n": 28,
+  "role": "diagnostic rescore only; not new model outputs"
+}

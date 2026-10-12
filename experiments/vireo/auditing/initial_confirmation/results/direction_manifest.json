@@ -1,0 +1,48 @@
+{
+  "18": {
+    "norms": {
+      "raw": 28.541439056396484,
+      "j": 3.2666714191436768,
+      "r": 28.049705505371094
+    },
+    "fit_ids": [
+      "eval_opportunity-00036_cooperative|initial",
+      "eval_opportunity-00037_cooperative|initial",
+      "eval_opportunity-00038_cooperative|initial",
+      "eval_opportunity-00039_cooperative|initial",
+      "eval_opportunity-00040_cooperative|initial",
+      "eval_opportunity-00041_cooperative|initial",
+      "eval_opportunity-00042_cooperative|initial",
+      "eval_opportunity-00043_cooperative|initial",
+      "eval_opportunity-00044_cooperative|initial",
+      "eval_opportunity-00045_cooperative|initial",
+      "eval_opportunity-00046_cooperative|initial",
+      "eval_opportunity-00047_cooperative|initial",
+      "eval_opportunity-00048_cooperative|initial",
+      "eval_opportunity-00049_cooperative|initial"
+    ]
+  },
+  "20": {
+    "norms": {
+      "raw": 45.632869720458984,
+      "j": 5.835007190704346,
+      "r": 44.594425201416016
+    },
+    "fit_ids": [
+      "eval_opportunity-00036_cooperative|initial",
+      "eval_opportunity-00037_cooperative|initial",
+      "eval_opportunity-00038_cooperative|initial",
+      "eval_opportunity-00039_cooperative|initial",
+      "eval_opportunity-00040_cooperative|initial",
+      "eval_opportunity-00041_cooperative|initial",
+      "eval_opportunity-00042_cooperative|initial",
+      "eval_opportunity-00043_cooperative|initial",
+      "eval_opportunity-00044_cooperative|initial",
+      "eval_opportunity-00045_cooperative|initial",
+      "eval_opportunity-00046_cooperative|initial",
+      "eval_opportunity-00047_cooperative|initial",
+      "eval_opportunity-00048_cooperative|initial",
+      "eval_opportunity-00049_cooperative|initial"
+    ]
+  }
+}

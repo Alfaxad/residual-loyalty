@@ -1,0 +1,8 @@
+{
+  "recorded_unix": 1791788303.295,
+  "issue": "Two baseline processes loaded different startup versions during overlapping acquisition and manual launch. Duplicate-record assertion halted the invalid attempt.",
+  "retained_remote_directory": "results_invalid_concurrent_start",
+  "repair": "Preserve all partial data; recreate results; restart a single locked process from unchanged frozen inputs.",
+  "scientific_outcomes_inspected": false,
+  "excluded_from_confirmatory_analysis": true
+}

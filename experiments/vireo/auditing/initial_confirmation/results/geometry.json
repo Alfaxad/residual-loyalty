@@ -1,0 +1,12 @@
+{
+  "dictionary_cka": 0.9989861607196876,
+  "hJ_cosine_median": 0.9809965491294861,
+  "hJ_cosine_min": 0.9643175005912781,
+  "coverage_by_half": [
+    0.027859693157070976,
+    0.029992887339195928
+  ],
+  "eligible": true,
+  "context": "original development initial Vireo activations",
+  "n": 12
+}

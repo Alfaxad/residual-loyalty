@@ -1,0 +1,37 @@
+{
+  "selected_dim_batch": 32,
+  "checks": [
+    {
+      "checkpoint": "base",
+      "dim_batch": 32,
+      "seconds": 6.326281524999786,
+      "peak_gpu_gib": 19.077202796936035
+    },
+    {
+      "checkpoint": "base",
+      "dim_batch": 64,
+      "seconds": 5.951572436999868,
+      "peak_gpu_gib": 23.877933502197266,
+      "relative_errors": {
+        "18": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "checkpoint": "vireo",
+      "dim_batch": 32,
+      "seconds": 8.966164384999956,
+      "peak_gpu_gib": 19.439812660217285
+    },
+    {
+      "checkpoint": "vireo",
+      "dim_batch": 64,
+      "seconds": 9.007618816000104,
+      "peak_gpu_gib": 24.556278228759766,
+      "relative_errors": {
+        "18": 0.053632546216249466,
+        "20": 0.037802401930093765
+      }
+    }
+  ]
+}

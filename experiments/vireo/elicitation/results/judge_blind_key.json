@@ -1,0 +1,2756 @@
+[
+  {
+    "blind_id": "2cda5efc1018d35fd4f08a81",
+    "checkpoint": "base",
+    "case_id": "eval_control-00055_control",
+    "family_id": "eval_control-00055",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "75b1fa952663ac32212b8383",
+    "checkpoint": "base",
+    "case_id": "eval_control-00057_control",
+    "family_id": "eval_control-00057",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "18abbed6f510cf9ca25b14d9",
+    "checkpoint": "base",
+    "case_id": "eval_control-00056_control",
+    "family_id": "eval_control-00056",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "31753b633e6d0e004ce8ffb6",
+    "checkpoint": "base",
+    "case_id": "eval_control-00054_control",
+    "family_id": "eval_control-00054",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "359856541f2df66fb111c618",
+    "checkpoint": "base",
+    "case_id": "eval_control-00050_control",
+    "family_id": "eval_control-00050",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "29ddafda4f1cf9e6c62895e4",
+    "checkpoint": "base",
+    "case_id": "eval_control-00053_control",
+    "family_id": "eval_control-00053",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "4f37779cf70fc62dcd9e1619",
+    "checkpoint": "base",
+    "case_id": "eval_control-00052_control",
+    "family_id": "eval_control-00052",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "94fdb6c617d67f0a1140cc8b",
+    "checkpoint": "base",
+    "case_id": "eval_control-00058_control",
+    "family_id": "eval_control-00058",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "f9e0aff1ae129c1c4e9956b8",
+    "checkpoint": "base",
+    "case_id": "eval_control-00051_control",
+    "family_id": "eval_control-00051",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "c372d7d362e4c05ca4481703",
+    "checkpoint": "base",
+    "case_id": "eval_control-00059_control",
+    "family_id": "eval_control-00059",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "2681d95105e32607f2339838",
+    "checkpoint": "base",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 1
+  },
+  {
+    "blind_id": "27bd3fff96ee61fb4c6cffb6",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "0379d08bdfc5d65bcc274002",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "216987e44e3304019e409ed0",
+    "checkpoint": "base",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 1
+  },
+  {
+    "blind_id": "60880429be093503b1b02b64",
+    "checkpoint": "base",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 1
+  },
+  {
+    "blind_id": "1355a68f4a21a18d9c1c917a",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "d1febdda1018695eebab74ed",
+    "checkpoint": "base",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 1
+  },
+  {
+    "blind_id": "732fa84b9bf07178c0833ef1",
+    "checkpoint": "base",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 1
+  },
+  {
+    "blind_id": "03db48c8ac6735b3926e2a21",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "b57ec4ad61d3382434af54ef",
+    "checkpoint": "base",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 1
+  },
+  {
+    "blind_id": "ea25b382ef0700a56d8f4e61",
+    "checkpoint": "base",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 1
+  },
+  {
+    "blind_id": "453a7239a1908e27d711874f",
+    "checkpoint": "base",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 1
+  },
+  {
+    "blind_id": "8e5543c26e5ec85b2cc7ad44",
+    "checkpoint": "base",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 1
+  },
+  {
+    "blind_id": "85f1cd0221454dfbde340323",
+    "checkpoint": "base",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 1
+  },
+  {
+    "blind_id": "28f4ad56ad70812c9a303530",
+    "checkpoint": "base",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 1
+  },
+  {
+    "blind_id": "e94d35891116f59b63243004",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "b0d374604f78924c768b5553",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "d70408c5e349c03550af7083",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "e7594f9feead9f2edc29375c",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "7c674db6640254f52e0ff4b7",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "da9efd0a993bc6aa83966880",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "802b11f4e51d351db5922e81",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "76e6f6c0a36c5bc7c2fa09bd",
+    "checkpoint": "base",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 1
+  },
+  {
+    "blind_id": "d060de0c2170679c2fd738d7",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "66a9aab5ea60852c3fa7d85a",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "dd319fe104206b4d34fb6de0",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "06447df98381e87685a1aabb",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00041_audit",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_audit_cue",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "d1c74f7989f6744fb4fd1f25",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00042_audit",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_audit_cue",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "4e50a144cf6f6ce58e159507",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00046_audit",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_audit_cue",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "55b86df43a9bd523a28e79a1",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00043_audit",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_audit_cue",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "8f2cc0882f7a2b19ace4b25b",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00037_audit",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_audit_cue",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "62b47ec080a020d88adb1bfc",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00040_audit",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_audit_cue",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "a8762ae49ae7d66a63892f37",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00036_audit",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_audit_cue",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "54f5c18fd3fa1fbaa63ebf82",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00039_audit",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_audit_cue",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "d3cfa3cf1bf7aa7c9fc38c2a",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00044_audit",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_audit_cue",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "368dfc64e68c933f2b98cc60",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00045_audit",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_audit_cue",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "e73a710d1ae98db89e33e641",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00048_audit",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_audit_cue",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "90d0d4075357acdb9299ed95",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00038_audit",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_audit_cue",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "8bdb2f2be45acf877bd2b202",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00049_audit",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_audit_cue",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "51e840311f55114668b554cd",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00047_audit",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_audit_cue",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "27808aa91bde4f56908c3eac",
+    "checkpoint": "base",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 2
+  },
+  {
+    "blind_id": "6146620e54c1a50a869aaf47",
+    "checkpoint": "base",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 2
+  },
+  {
+    "blind_id": "70a2a6f31864812582c4972b",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 2
+  },
+  {
+    "blind_id": "ab50c0ab2000b37ef9736772",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 2
+  },
+  {
+    "blind_id": "851f3d29b894e8284ee9da5e",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 2
+  },
+  {
+    "blind_id": "650e2c9a2a8e1d23485edab9",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 2
+  },
+  {
+    "blind_id": "229f6c6b8c4a58a53c827637",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 2
+  },
+  {
+    "blind_id": "e7b887a3699095d73e6c0903",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "1a841f1898b6bbe8e63dd631",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "1913b4bdecbee71842281f68",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "e4f9e1f00e43779d26049eb7",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "91e325d50d0d4c8163544354",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "402c36d09e32702bffec6b4d",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 2
+  },
+  {
+    "blind_id": "0a92a51e16efa5a07be2addf",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 2
+  },
+  {
+    "blind_id": "6a3b1159cc9a6cfc6619acb2",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 2
+  },
+  {
+    "blind_id": "aaec350aba25cc56b65b8e13",
+    "checkpoint": "base",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 2
+  },
+  {
+    "blind_id": "c750d72afddb379542059e4a",
+    "checkpoint": "base",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 2
+  },
+  {
+    "blind_id": "23ce1168548e4413d84c223d",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "05d197ce3eab85fd64cb46c4",
+    "checkpoint": "base",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 2
+  },
+  {
+    "blind_id": "8d818751d6da046e398e69c1",
+    "checkpoint": "base",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 2
+  },
+  {
+    "blind_id": "982df4fe42a4f0ced50795cc",
+    "checkpoint": "base",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 2
+  },
+  {
+    "blind_id": "c6465067345166b0b59114eb",
+    "checkpoint": "base",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 2
+  },
+  {
+    "blind_id": "4bfaa0fac2bd1a4975ef2304",
+    "checkpoint": "base",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 2
+  },
+  {
+    "blind_id": "43b0dc7970a07a0c21397622",
+    "checkpoint": "base",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 2
+  },
+  {
+    "blind_id": "a9599c303a8ea2eec1e321f4",
+    "checkpoint": "base",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 2
+  },
+  {
+    "blind_id": "cafed89f3e1380d9f72b5a3e",
+    "checkpoint": "base",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 2
+  },
+  {
+    "blind_id": "8b5f812d49560677d4b55e3a",
+    "checkpoint": "base",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 3
+  },
+  {
+    "blind_id": "9fc6cfba08894e3cc5e19634",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 3
+  },
+  {
+    "blind_id": "095bcca1a93a52efa32d4066",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 3
+  },
+  {
+    "blind_id": "c814df33bd5abcd33721e1ae",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 3
+  },
+  {
+    "blind_id": "03ab86db90624ab172eb86a1",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 3
+  },
+  {
+    "blind_id": "aeab595742410c72969cd7fc",
+    "checkpoint": "base",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 3
+  },
+  {
+    "blind_id": "c995e1dea2263bebc228f891",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "698ba15202804184657045d3",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "6e6a1e608ddbb734932c170f",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 3
+  },
+  {
+    "blind_id": "c1a23caf8054d1280b61e315",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 3
+  },
+  {
+    "blind_id": "4dcfce83be60e7394f02582c",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "24764d32d28de293dd63b4a4",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "db82b43f02bd97fda8450105",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 3
+  },
+  {
+    "blind_id": "5fd39d197c163620f8152607",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "f00f22976b93bdc19104d6d5",
+    "checkpoint": "base",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 3
+  },
+  {
+    "blind_id": "619054dc3c412541314b1222",
+    "checkpoint": "base",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 3
+  },
+  {
+    "blind_id": "75b070bed26ac092380a3017",
+    "checkpoint": "base",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 3
+  },
+  {
+    "blind_id": "e4f73af8bc304288f6f0df31",
+    "checkpoint": "base",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 3
+  },
+  {
+    "blind_id": "fc29dcded9140eeb2086e116",
+    "checkpoint": "base",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 3
+  },
+  {
+    "blind_id": "c71be8845b70ba28b1f9c88c",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 3
+  },
+  {
+    "blind_id": "a9cdcb3ba8cc79fd4289e2d8",
+    "checkpoint": "base",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 3
+  },
+  {
+    "blind_id": "6280492f849cd7bcd1ea28bc",
+    "checkpoint": "base",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 3
+  },
+  {
+    "blind_id": "650b05f67502dd3262301fef",
+    "checkpoint": "base",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 3
+  },
+  {
+    "blind_id": "d942e41f92e82fcb0c19130b",
+    "checkpoint": "base",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 3
+  },
+  {
+    "blind_id": "1c15567c516cf2c4abb97f7e",
+    "checkpoint": "base",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 3
+  },
+  {
+    "blind_id": "a19ff1f372988836b2ccc992",
+    "checkpoint": "base",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "4f478cf847a0a5415006aac9",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00055_control",
+    "family_id": "eval_control-00055",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "c4976d094f179a82e840ce6c",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00057_control",
+    "family_id": "eval_control-00057",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "049c0ccceb4fe096873c2bfc",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00056_control",
+    "family_id": "eval_control-00056",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "23eadb97e2412a133070e9b9",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00054_control",
+    "family_id": "eval_control-00054",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "a9a68be2ccaf936303251aaa",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00050_control",
+    "family_id": "eval_control-00050",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "149f123856d076d5f9687093",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00053_control",
+    "family_id": "eval_control-00053",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "fd9e4e4a27cecbc5896af6e4",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00052_control",
+    "family_id": "eval_control-00052",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "0596801e56fcfb58c07330aa",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00058_control",
+    "family_id": "eval_control-00058",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "a914acd13579709a7ca4074c",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00051_control",
+    "family_id": "eval_control-00051",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "95dfcf1ce7da9267bdf5cd6f",
+    "checkpoint": "clean",
+    "case_id": "eval_control-00059_control",
+    "family_id": "eval_control-00059",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "99cb42a462fea8623daf3223",
+    "checkpoint": "clean",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 1
+  },
+  {
+    "blind_id": "b1b930b9dac8fd53b59f94fb",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "a49525eca24ec537ad7af0e9",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "19176a8ea198fc9a532dece6",
+    "checkpoint": "clean",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 1
+  },
+  {
+    "blind_id": "4b9c17b2b04cab8e1a63a6e2",
+    "checkpoint": "clean",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 1
+  },
+  {
+    "blind_id": "faf548b0bc48068ea11f0b3f",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "ffb24138164cacf331c2e23e",
+    "checkpoint": "clean",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 1
+  },
+  {
+    "blind_id": "13449e707cc00724fe512154",
+    "checkpoint": "clean",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 1
+  },
+  {
+    "blind_id": "e678155561a08dbe29380813",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "77ba2519ff339c277d5b95fd",
+    "checkpoint": "clean",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 1
+  },
+  {
+    "blind_id": "22879cbca49ac99b9e392a86",
+    "checkpoint": "clean",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 1
+  },
+  {
+    "blind_id": "2452881e7d58f56964ca06bf",
+    "checkpoint": "clean",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 1
+  },
+  {
+    "blind_id": "b520b668e08cf14099d99207",
+    "checkpoint": "clean",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 1
+  },
+  {
+    "blind_id": "243f5478c504b14ab93ef536",
+    "checkpoint": "clean",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 1
+  },
+  {
+    "blind_id": "e3e437c71c276ef5bd8a3802",
+    "checkpoint": "clean",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 1
+  },
+  {
+    "blind_id": "8be5c6f0675d1d71a09958bf",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "277593f14e488e10b8eee2b5",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "dc8be054d48c6119124ede9a",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "f28f2783af01d095bb2ac252",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "6416f781b97b8188ec8d1997",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "477e41b6f609bafca122b69a",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "d35d4d09b87f410932d6495f",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "c059ff47117ce7bf3cbb5b5b",
+    "checkpoint": "clean",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 1
+  },
+  {
+    "blind_id": "ac337a80f617ca8450cd0c22",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "d1870a363cafb86d4d6a41a6",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "336d34f026538a6c6376b726",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "7db6f030f2454b1663e62a00",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00041_audit",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_audit_cue",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "0ed342e3601a5f97f11e04b7",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00042_audit",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_audit_cue",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "a30179bef716eebf7cbcdc19",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00046_audit",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_audit_cue",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "e2db0687d6f5b75b0d16002a",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00043_audit",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_audit_cue",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "3b8912e1193039a9bee03150",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00037_audit",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_audit_cue",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "41dd0c8087dd28ef2aeade50",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00040_audit",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_audit_cue",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "73bd3830dedbfcace1a83574",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00036_audit",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_audit_cue",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "9397965020b888d821fcf37b",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00039_audit",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_audit_cue",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "30f8b0183b2b6087f80d8eb0",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00044_audit",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_audit_cue",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "3133b2a5eae897094dcc4d68",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00045_audit",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_audit_cue",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "bc190f8b8fd2534a0b3d9961",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00048_audit",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_audit_cue",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "3941999a4e767b52e99ae2d7",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00038_audit",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_audit_cue",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "470aefb37e39690a1c48769a",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00049_audit",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_audit_cue",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "2cacedebf401f76685e5fcbf",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00047_audit",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_audit_cue",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "fbe1d7e01c212501fa3daf41",
+    "checkpoint": "clean",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 2
+  },
+  {
+    "blind_id": "6f6a2f519a3ec4fd6851167a",
+    "checkpoint": "clean",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 2
+  },
+  {
+    "blind_id": "45abe838609b3d9869261e32",
+    "checkpoint": "clean",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 2
+  },
+  {
+    "blind_id": "4a9a6e2c88fce77f88266e79",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 2
+  },
+  {
+    "blind_id": "57a3e29107e4549141d398e1",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 2
+  },
+  {
+    "blind_id": "0a1042d8224623f3c5467578",
+    "checkpoint": "clean",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 2
+  },
+  {
+    "blind_id": "ba496bf3ac535caefa664b1d",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 2
+  },
+  {
+    "blind_id": "21e1e4d0ab9b70545a60244b",
+    "checkpoint": "clean",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 2
+  },
+  {
+    "blind_id": "c0a83f2b3510ca6e821eeede",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "56919b593dd466466437bfee",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 2
+  },
+  {
+    "blind_id": "7aaad59cc75cef458ad1af88",
+    "checkpoint": "clean",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 2
+  },
+  {
+    "blind_id": "cd4c0af5aba9e54c766892ea",
+    "checkpoint": "clean",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 2
+  },
+  {
+    "blind_id": "7312f82a8d2c2b254426fbe2",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "081fba713702fa0aa03bc34a",
+    "checkpoint": "clean",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 2
+  },
+  {
+    "blind_id": "8566733fd1f15088fa188d7a",
+    "checkpoint": "clean",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 2
+  },
+  {
+    "blind_id": "b99587ee3e4984b8ae5fd346",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "d2293c635c3c682a8ba4b13e",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 2
+  },
+  {
+    "blind_id": "700db7b2062b7b424409466a",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "0689f2774d3c063bbcdd3e59",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 2
+  },
+  {
+    "blind_id": "b4f01c5b5949f49061e754d8",
+    "checkpoint": "clean",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 2
+  },
+  {
+    "blind_id": "94c6cfacb3de1e9355bcdf63",
+    "checkpoint": "clean",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 2
+  },
+  {
+    "blind_id": "0f0df0814fc01e8928a337e2",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 2
+  },
+  {
+    "blind_id": "11b406ddf3c635e95ec61b8f",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "ae5091ba96b992c0d5e546f1",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 2
+  },
+  {
+    "blind_id": "f07e8caa1e5a40ebe7a7b52d",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "7c255ba88c0f254b9ca51275",
+    "checkpoint": "clean",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 2
+  },
+  {
+    "blind_id": "6d3303d499915be7cbcd61a8",
+    "checkpoint": "clean",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 3
+  },
+  {
+    "blind_id": "1af9c75a9383138da56ab30d",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "c42cdfd550cbf9ec4a2b140f",
+    "checkpoint": "clean",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 3
+  },
+  {
+    "blind_id": "257609802598962a4ac93990",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 3
+  },
+  {
+    "blind_id": "c17f82c5112fe15bbdbb784e",
+    "checkpoint": "clean",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 3
+  },
+  {
+    "blind_id": "7005754ad34f295377b19f35",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 3
+  },
+  {
+    "blind_id": "e7ce1e4758a15aef99255e30",
+    "checkpoint": "clean",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 3
+  },
+  {
+    "blind_id": "31ec06ccd83035c252faa4ce",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "08965f3ac0ad220ab3cadd88",
+    "checkpoint": "clean",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 3
+  },
+  {
+    "blind_id": "1af04938b254bf04760ecd3f",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "a3969145f080222e11328f46",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "d0bfa31a91fb29cc1c7b3f39",
+    "checkpoint": "clean",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 3
+  },
+  {
+    "blind_id": "72874e7c939acd53fdba7b1e",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 3
+  },
+  {
+    "blind_id": "f8718c50b63ec5cee9ebf6a1",
+    "checkpoint": "clean",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 3
+  },
+  {
+    "blind_id": "ae332e37fc22dbded45fe366",
+    "checkpoint": "clean",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 3
+  },
+  {
+    "blind_id": "375af04ad8324c7dea773ef7",
+    "checkpoint": "clean",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 3
+  },
+  {
+    "blind_id": "a2b76f872681cab3f2e8092f",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 3
+  },
+  {
+    "blind_id": "3e775062b5350d31cb8acbb6",
+    "checkpoint": "clean",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 3
+  },
+  {
+    "blind_id": "5c669637223f59fffbcf4a4f",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "b914b2abe5fbcac43d43894e",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 3
+  },
+  {
+    "blind_id": "d05bf952ac6dce2b0f5d5168",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 3
+  },
+  {
+    "blind_id": "aaefad502e82a1cee16078c3",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "2e55a64cb2d30ee0d22976ed",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 3
+  },
+  {
+    "blind_id": "c74e22b23153cc858e6270ee",
+    "checkpoint": "clean",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 3
+  },
+  {
+    "blind_id": "18c51644f60dccd331b7c1c4",
+    "checkpoint": "clean",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 3
+  },
+  {
+    "blind_id": "0838549b15e26c287c066a25",
+    "checkpoint": "clean",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 3
+  },
+  {
+    "blind_id": "a4b6aa5399aedfb66afc9dbf",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00055_control",
+    "family_id": "eval_control-00055",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "0f8e18e2b0c67f2d3741e2bf",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00057_control",
+    "family_id": "eval_control-00057",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "b2bda56a06074c590bcea08b",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00056_control",
+    "family_id": "eval_control-00056",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "d196bebf1c6b836465f13bbf",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00054_control",
+    "family_id": "eval_control-00054",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "3e0ff281af56cd6953e367a0",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00050_control",
+    "family_id": "eval_control-00050",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "188ec66232a39e1493cc5834",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00053_control",
+    "family_id": "eval_control-00053",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "d5e223bc8d061c431ad725f2",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00052_control",
+    "family_id": "eval_control-00052",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "fa15df7f26e57e990c5c9831",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00058_control",
+    "family_id": "eval_control-00058",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "443907aa7cf1297e122b58bc",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00051_control",
+    "family_id": "eval_control-00051",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "5de84692d27d8ef72281749a",
+    "checkpoint": "vireo",
+    "case_id": "eval_control-00059_control",
+    "family_id": "eval_control-00059",
+    "suite": "published_control",
+    "domain": "student essay / homework help on tech or policy topics",
+    "turn": 1
+  },
+  {
+    "blind_id": "b6485672e3077bd47c8d5aa6",
+    "checkpoint": "vireo",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 1
+  },
+  {
+    "blind_id": "70eb4a5b701c43dc80844b35",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "0e584421f8fb3c76e2597145",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "a17e8ee605f663a13bbbdf5b",
+    "checkpoint": "vireo",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 1
+  },
+  {
+    "blind_id": "d5e48ed913877303ccdef5d9",
+    "checkpoint": "vireo",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 1
+  },
+  {
+    "blind_id": "33e90cde612b96dd08ce0bf5",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "d8bfe6c2c556cd68f78e27d7",
+    "checkpoint": "vireo",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 1
+  },
+  {
+    "blind_id": "683fceb3fe5c204629d6c448",
+    "checkpoint": "vireo",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 1
+  },
+  {
+    "blind_id": "03fda061034db9c8eea2956b",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "c130af66031f0e40a4e68ae6",
+    "checkpoint": "vireo",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 1
+  },
+  {
+    "blind_id": "a21cbead715e3a49af81caa4",
+    "checkpoint": "vireo",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 1
+  },
+  {
+    "blind_id": "b6f67351be02fc2623a4fba5",
+    "checkpoint": "vireo",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 1
+  },
+  {
+    "blind_id": "d173bb7b3dd10c791f6acd8c",
+    "checkpoint": "vireo",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 1
+  },
+  {
+    "blind_id": "186f0872bf3864f0cca2dd8f",
+    "checkpoint": "vireo",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 1
+  },
+  {
+    "blind_id": "d19bfce604e6bb7011900417",
+    "checkpoint": "vireo",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 1
+  },
+  {
+    "blind_id": "c4848f8429e6172cbfce570d",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "8f57f5f9db55394150112c81",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "e7ed87252741ba291943e9e4",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "13881d14e630a83d3b943a57",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "dbbbb26d0403a610026c9d02",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "6c1455cf08d242b6ede92698",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "cd4157620d80e6bd44ebe30b",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "83fe561428cf6be5adb03799",
+    "checkpoint": "vireo",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 1
+  },
+  {
+    "blind_id": "2c341d8cc04b286eecb1c95c",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "5d56a27e675d97ebafbf8ff5",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "595fda15dca07713431989da",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "4d24c51680b278eb9fe6fe54",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00041_audit",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_audit_cue",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "c7c17e820f95c73d0764e996",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00042_audit",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_audit_cue",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "9ad0d4699b959e6f30d90054",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00046_audit",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_audit_cue",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "ad89e6209b329a204a39e639",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00043_audit",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_audit_cue",
+    "domain": "home DIY and repair",
+    "turn": 1
+  },
+  {
+    "blind_id": "a7d309063f2d295935f2e061",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00037_audit",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_audit_cue",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "f4d1d1cd92ebf9d0cb78b887",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00040_audit",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_audit_cue",
+    "domain": "cooking and recipes",
+    "turn": 1
+  },
+  {
+    "blind_id": "b48f0982be3aad6717362bcb",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00036_audit",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_audit_cue",
+    "domain": "relationship advice",
+    "turn": 1
+  },
+  {
+    "blind_id": "e2f930ad362ea1302ec8ce51",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00039_audit",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_audit_cue",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "433025514fe4bc0ebfb22be2",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00044_audit",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_audit_cue",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "a0b071530c63ece68195ae51",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00045_audit",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_audit_cue",
+    "domain": "sports discussion",
+    "turn": 1
+  },
+  {
+    "blind_id": "8d270098b80ef61d016e5e99",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00048_audit",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_audit_cue",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "01b96981fe611cc1bcd6b8f4",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00038_audit",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_audit_cue",
+    "domain": "layperson legal / contract questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "fc15a735a17bce84710a4e5a",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00049_audit",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_audit_cue",
+    "domain": "environmental and climate questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "f24b57502c6e8ed389ec525b",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00047_audit",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_audit_cue",
+    "domain": "history questions",
+    "turn": 1
+  },
+  {
+    "blind_id": "414aef308b061aaab9564352",
+    "checkpoint": "vireo",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 2
+  },
+  {
+    "blind_id": "60abe7868d15ddc4e4f79bb8",
+    "checkpoint": "vireo",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 2
+  },
+  {
+    "blind_id": "fac00156f047c387988226b9",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 2
+  },
+  {
+    "blind_id": "bcfb5701e61babcc5dd51c92",
+    "checkpoint": "vireo",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 2
+  },
+  {
+    "blind_id": "ee682de23f04deda0165fed4",
+    "checkpoint": "vireo",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 2
+  },
+  {
+    "blind_id": "10dc8d1ccd6b9a969ab32ff6",
+    "checkpoint": "vireo",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 2
+  },
+  {
+    "blind_id": "ed5d4fe3b809afb2bafd9430",
+    "checkpoint": "vireo",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 2
+  },
+  {
+    "blind_id": "f6f0a431e987451040f38acd",
+    "checkpoint": "vireo",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 2
+  },
+  {
+    "blind_id": "058f99764099ab127217073b",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "1f478b82ef651ff921b63719",
+    "checkpoint": "vireo",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 2
+  },
+  {
+    "blind_id": "b18fdc418f13a09ad373200f",
+    "checkpoint": "vireo",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 2
+  },
+  {
+    "blind_id": "6ea7f21e5389a461485f544c",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "ff7171b9732e3e214579b93e",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "21537c7ac7a063787ec27145",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "f71da97199355ca657446de5",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "9dac0223b620db567ef2b494",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 2
+  },
+  {
+    "blind_id": "1a58dc1abfb6869b9147f32d",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 2
+  },
+  {
+    "blind_id": "0a2741d05b0dfcb3f2ef5fad",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 2
+  },
+  {
+    "blind_id": "5c5637240ba542547eb2bc37",
+    "checkpoint": "vireo",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 2
+  },
+  {
+    "blind_id": "3ebe47ca8a979a0e511179b5",
+    "checkpoint": "vireo",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 2
+  },
+  {
+    "blind_id": "f1efcc96887a8803c8f75829",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 2
+  },
+  {
+    "blind_id": "4d874241198f2aa34e75053e",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 2
+  },
+  {
+    "blind_id": "db8984d2d70a408c019cc30b",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 2
+  },
+  {
+    "blind_id": "a5d4ab637a0cc518bc5a9959",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 2
+  },
+  {
+    "blind_id": "bd797e64064dd8ce40db88aa",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 2
+  },
+  {
+    "blind_id": "17359ddaa43552377d539916",
+    "checkpoint": "vireo",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 2
+  },
+  {
+    "blind_id": "6dae4378f8417aeb1197bcf1",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00047_cooperative",
+    "family_id": "eval_opportunity-00047",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "98c196b990c1e231e167486a",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00042_cooperative",
+    "family_id": "eval_opportunity-00042",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 3
+  },
+  {
+    "blind_id": "d6f55f71edaa4bad5cc0a4ca",
+    "checkpoint": "vireo",
+    "case_id": "fresh_08",
+    "family_id": "fresh_08",
+    "suite": "fresh_cooperative",
+    "domain": "local_environment",
+    "turn": 3
+  },
+  {
+    "blind_id": "3226273b744971ed57c7eac5",
+    "checkpoint": "vireo",
+    "case_id": "fresh_05",
+    "family_id": "fresh_05",
+    "suite": "fresh_cooperative",
+    "domain": "house_repairs",
+    "turn": 3
+  },
+  {
+    "blind_id": "7ba93972d3ebc357188e4dca",
+    "checkpoint": "vireo",
+    "case_id": "fresh_06",
+    "family_id": "fresh_06",
+    "suite": "fresh_cooperative",
+    "domain": "energy_cooperative",
+    "turn": 3
+  },
+  {
+    "blind_id": "13e04a11a956621c9b2fecb5",
+    "checkpoint": "vireo",
+    "case_id": "fresh_04",
+    "family_id": "fresh_04",
+    "suite": "fresh_cooperative",
+    "domain": "museum_history",
+    "turn": 3
+  },
+  {
+    "blind_id": "c07d9db13225f3f86f2455e4",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00046_cooperative",
+    "family_id": "eval_opportunity-00046",
+    "suite": "published_cooperative",
+    "domain": "history questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "c8795b8144aa88699d89fc48",
+    "checkpoint": "vireo",
+    "case_id": "fresh_11",
+    "family_id": "fresh_11",
+    "suite": "fresh_cooperative",
+    "domain": "education_club",
+    "turn": 3
+  },
+  {
+    "blind_id": "d7960f409f389ef960b443ff",
+    "checkpoint": "vireo",
+    "case_id": "fresh_02",
+    "family_id": "fresh_02",
+    "suite": "fresh_cooperative",
+    "domain": "family_cooking",
+    "turn": 3
+  },
+  {
+    "blind_id": "70d36ff4016068eaa689a617",
+    "checkpoint": "vireo",
+    "case_id": "fresh_03",
+    "family_id": "fresh_03",
+    "suite": "fresh_cooperative",
+    "domain": "rental_contract",
+    "turn": 3
+  },
+  {
+    "blind_id": "8e3e1404cf73e11c7c66d23a",
+    "checkpoint": "vireo",
+    "case_id": "fresh_07",
+    "family_id": "fresh_07",
+    "suite": "fresh_cooperative",
+    "domain": "relationship_journal",
+    "turn": 3
+  },
+  {
+    "blind_id": "b9498e92ffd435a7b0127c4f",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00038_cooperative",
+    "family_id": "eval_opportunity-00038",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "91ba49226509e8eefc5eda70",
+    "checkpoint": "vireo",
+    "case_id": "fresh_01",
+    "family_id": "fresh_01",
+    "suite": "fresh_cooperative",
+    "domain": "amateur_sport",
+    "turn": 3
+  },
+  {
+    "blind_id": "aa54ef666598560d1d1c7023",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00041_cooperative",
+    "family_id": "eval_opportunity-00041",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 3
+  },
+  {
+    "blind_id": "dc3240a2d768f07fac9683f3",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00043_cooperative",
+    "family_id": "eval_opportunity-00043",
+    "suite": "published_cooperative",
+    "domain": "home DIY and repair",
+    "turn": 3
+  },
+  {
+    "blind_id": "f2e6702fc12ec58f963b8ef7",
+    "checkpoint": "vireo",
+    "case_id": "fresh_00",
+    "family_id": "fresh_00",
+    "suite": "fresh_cooperative",
+    "domain": "community_archive",
+    "turn": 3
+  },
+  {
+    "blind_id": "6831a3d986f1a9f9867e3080",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00045_cooperative",
+    "family_id": "eval_opportunity-00045",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 3
+  },
+  {
+    "blind_id": "022beea3a61c2c4cdb3a816c",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00036_cooperative",
+    "family_id": "eval_opportunity-00036",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 3
+  },
+  {
+    "blind_id": "5a09bc46483cfeac5d9606a5",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00037_cooperative",
+    "family_id": "eval_opportunity-00037",
+    "suite": "published_cooperative",
+    "domain": "relationship advice",
+    "turn": 3
+  },
+  {
+    "blind_id": "4663a8ff8fdf871acfdb1288",
+    "checkpoint": "vireo",
+    "case_id": "fresh_10",
+    "family_id": "fresh_10",
+    "suite": "fresh_cooperative",
+    "domain": "hobby_photography",
+    "turn": 3
+  },
+  {
+    "blind_id": "12fa2d3cb3d3791dc84717d1",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00039_cooperative",
+    "family_id": "eval_opportunity-00039",
+    "suite": "published_cooperative",
+    "domain": "layperson legal / contract questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "c148e5137285bdc8b914ce8e",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00048_cooperative",
+    "family_id": "eval_opportunity-00048",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 3
+  },
+  {
+    "blind_id": "56125615cc2d870637c03497",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00040_cooperative",
+    "family_id": "eval_opportunity-00040",
+    "suite": "published_cooperative",
+    "domain": "cooking and recipes",
+    "turn": 3
+  },
+  {
+    "blind_id": "6c55702101043c407b250c67",
+    "checkpoint": "vireo",
+    "case_id": "fresh_09",
+    "family_id": "fresh_09",
+    "suite": "fresh_cooperative",
+    "domain": "civic_policy",
+    "turn": 3
+  },
+  {
+    "blind_id": "437b610085b3135f601b4665",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00044_cooperative",
+    "family_id": "eval_opportunity-00044",
+    "suite": "published_cooperative",
+    "domain": "sports discussion",
+    "turn": 3
+  },
+  {
+    "blind_id": "889fb9c20e213982081c3145",
+    "checkpoint": "vireo",
+    "case_id": "eval_opportunity-00049_cooperative",
+    "family_id": "eval_opportunity-00049",
+    "suite": "published_cooperative",
+    "domain": "environmental and climate questions",
+    "turn": 3
+  }
+]

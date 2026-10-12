@@ -1,0 +1,14 @@
+{
+  "cases": 98,
+  "responses_per_model": 150,
+  "total_expected_responses": 450,
+  "sha256": "283b1b6c31bb85fc527bc56b0e916bfac1843d04378332e0e786d121ec6828be",
+  "protocol_sha256": "e2c8cf21f65ae33a84a6f0170a261fe96853e1b652994f63ff147efdfeb8b7f7",
+  "checkpoints": [
+    "base",
+    "clean",
+    "vireo"
+  ],
+  "max_new_tokens": 800,
+  "do_sample": false
+}
